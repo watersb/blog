@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 580 580">
+<g style="fill:none;stroke-width:144;stroke-linecap:round;stroke-linejoin:round;">
+	<polyline style="stroke:#F1ECD7;stroke-width:160" points="83,84 83,496 290,290 496,496 496,84"/>
+	<line style="stroke:#F99D1C;" x1="82"  y1="496" x2="82"  y2="84" />
+	<line style="stroke:#30B4C5;" x1="496" y1="84"  x2="496" y2="496"/>
+	<line style="stroke:#D02E27;opacity:0.8;mix-blend-mode:multiply;" x1="82"  y1="496" x2="290" y2="290"/>
+	<line style="stroke:#694D9F;opacity:0.8;mix-blend-mode:multiply;" x1="290" y1="290" x2="496" y2="496"/>
+</g>
+<g style="fill:#F1ECD7;">
+	<circle cx="290" cy="290" r="32"/>
+	<circle cx="84"  cy="496" r="32"/>
+	<circle cx="84"  cy="84"  r="32"/>
+	<circle cx="496" cy="84"  r="32"/>
+	<circle cx="496" cy="496" r="32"/>
+</g>
+</svg>

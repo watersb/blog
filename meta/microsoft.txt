@@ -1,0 +1,6 @@
+<!-- This would be an HTML HEAD fallback but use browserconfig.xml instead. -->
+<!-- MSDN https://goo.gl/zAHj8B -->
+<meta name="msapplication-TileColor" content="#eeeeee">
+<meta name="msapplication-TileImage" content="img/favicons/mstile-310x310.png">
+<meta name="msapplication-square150x150logo" content="square.png"/>
+<meta name="theme-color" content="#ffffff">
