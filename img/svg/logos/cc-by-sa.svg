@@ -9,7 +9,7 @@
 </g>
 <circle cx="324" cy="58" r="9"/>
 <path d="M340 72c0-2-2-4-4-4h-24c-2 0-4 2-4 4v24h7v29h18V96h7V72zm101 6c2-15 13-23 26-23 19 0 30 14 30 32s-12 32-30 32c-13 0-24-8-26-23h15c0 8 6 11 13 11 8 0 14-8 14-20 0-13-5-19-13-19-6 0-12 2-13 10h4l-12 12-12-12h4z"/>
-<text x="58"  y="133" font-size="72">CC</text>
+<text x="59"  y="133" font-size="72">CC</text>
 <text x="291" y="214" style="fill:#FFF">BY</text>
 <text x="433" y="214" style="fill:#FFF">SA</text>
 </svg>
