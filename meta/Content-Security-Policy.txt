@@ -1,0 +1,4 @@
+Content-Security-Policy: default-src https;  object-src 'none'; 
+
+Content-Security-Policy: default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self';
+

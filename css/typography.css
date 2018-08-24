@@ -1,0 +1,31 @@
+/* 2018-08-21 21:31:04 */
+
+body {
+	font-size: 135%;
+	font-kerning: normal;
+	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+}
+
+footer {
+	font-size: 75%;
+	font-stretch: condensed;
+	color: #444;
+}
+
+
+body header, body footer {
+	font-family: "Roboto", "Fira Sans", "Corbel", sans-serif;
+	text-align: right;
+}
+
+body header h1, body footer h1 {
+	font-family: "Roboto Slab", "Fira Mono", "Consolas", monospace;
+}
+
+body footer figure {
+	margin-right: 0;
+}
+
+body header h1 + p {
+	font-weight: 256;
+}
