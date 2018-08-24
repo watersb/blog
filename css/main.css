@@ -1,287 +1,100 @@
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+html {touch-action: auto;}
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+body {
+	font-size: 3.058vw;
+	font-family: "Avenir Next", "Roboto", "Corbel", sans-serif;
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+	font-kerning: normal;
+	font-variant-ligatures: common-ligatures, contextual;
+	font-variant-numeric: oldstyle-nums, proportional-nums;
+	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+	background: url(/img/bg/vla-pano-bw.jpg) 0 0/100% auto no-repeat fixed #eee;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+nav,footer {
+	font-size: 2.25vw;
+	font-family: "Avenir Next Condensed", "Roboto Condensed", "Corbel";
+	font-stretch: condensed;
+	color: #444;
+	text-shadow: 1px 1px #eee;
 }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+
+footer img {
+	width: 72pt;
 }
 
-/*
- * A better looking default horizontal rule
- */
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+nav a {
+	display: block;
+	color: #555;
+	text-decoration: none;
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
+h1,h2,h3,h4 {
+	font-family: "American Typewriter", "Tahoma", "Roboto Slab";
 }
 
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+header {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: right;
+}
+header h1 {
+	margin-bottom: 0;
+}
+header p {
+	margin-top: -0.5em;
+}
+header > div {
+	flex-grow: 3;
+	min-width: 300px;
+	margin-right: 5vw;
+}
+header nav {
+	flex-grow: 1;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
+@media screen and (max-width: 760px) {
+	body {
+		font-size: 4vw;
+		background-color: #e0e0e0;
+		background-image: url(/img/bg/vla-pano-bw-480x160.jpg);
+	}
+	
+footer img {
+	width: 15vw;
 }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
+ nav, footer {
+		font-size: 3.3vw;
+	}
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	nav {
+   display: flex;
+	}
+	
+	nav a {
+		flex: 1 0 33%;
+		text-align: center;
+	}
+
+	header h1 {
+		margin-top: 9pt;
+	}
+
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 6vw;
+		background-image: url(/img/bg/vla-pano-bw-480x640.jpg);
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-    display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+	nav,footer {
+		font-size: 5vw;
+	}
+	
 }
