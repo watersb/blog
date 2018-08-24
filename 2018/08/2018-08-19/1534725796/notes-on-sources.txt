@@ -1,0 +1,115 @@
+Notes on sources:
+
+http://www.etforecasts.com/products/ES_cinuse.htm :
+Table 1.1 US and Worldwide Computers-in-Use Growth
+
+1980 1985 1990 1995 1999 2000 2002 2005
+
+Worldwide Computers-in-Use (#M) 5.0 35.2 105.6 237.6 459.5 543.2 721.6 1,044
+
+An estimated 835 million PCs were sold worldwide between 1981 and 2000. (Source: International Data Corp.)
+
+IDC forecasts that in 2001, 138 million PCs will be sold worldwide, which is more than:
+
+In 1980, Apple Computer Inc.?s sales totaled about $200 million, compared with Tandy Corp.?s approximately $175 million and Commodore Business Machines Inc.?s approximately $40 million. (Source: Robert Metz, I.B.M. Threat to Apple, The New York Times, Sept. 2, 1981)
+Worldwide, some 500,000 computers priced less than $5,000 were sold in 1980 at a total value of $730 million, according to Dataquest Inc. In 1985, the firm estimated that the total value would grow at least 40 percent annually, to 3.7 million units, valued at $3.9 billion.
+By August 1981, Apple had sold more than 250,000 personal computers (since 1977) and was selling 15,000 to 20,000 a month. In 1981, it had more than $300 million in sales. Sales for the quarter that ended June 30, 1981, rose to $90.7 million, a 179 percent increase from the second quarter of 1980, while net income increased 334 percent, to $11.9 million. (Source: Andrew Pollack, Next, a Computer on Every Desk,The New York Times, Aug. 23, 1981)
+
+By August 1981, Apple had sold more than 250,000 personal computers (since 1977) and was selling 15,000 to 20,000 a month. In 1981, it had more than $300 million in sales. Sales for the quarter that ended June 30, 1981, rose to $90.7 million, a 179 percent increase from the second quarter of 1980, while net income increased 334 percent, to $11.9 million. (Source: Andrew Pollack, Next, a Computer on Every Desk, The New York Times, Aug. 23, 1981)
+
+In 1980, IDC estimated that 327,000 desktop computers, ranging in price from several hundred dollars to $20,000, were sold in the United States. It projected that this total would increase to
+1.3 million by 1985.
+
+Dataquest predicted that by 1985, 3.7 million personal computers would be sold annually, worth
+$3.9 billion.
+
+http://www.pcworld.com/news/article/0,aid,102386,00.asp
+
+In 2000, the industry's best year to date, around 132 million PCs were shipped worldwide, and the industry is expecting a similar figure in 2002 as the market rebounds from a weak 2001.
+
+The $1,295 Apple II (1977) and the $2,880 IBM PC Model 5150 (1981) started the rapid growth of PC sales, but it took the market almost 15 years to cross the 50 million units per year mark (in 1995) and just another four to cross the 100 million per year mark.
+
+http://www.time.com/time/special/moy/1982.html
+
+The sales figures are awesome and will become more so. In 1980 some two dozen firms sold 724,000 personal computers for $1.8 billion. The following year 20 more companies joined the stampede, including giant IBM, and sales doubled to 1.4 million units at just under $3 billion. When the final figures are in for 1982, according to Dataquest, a California research firm, more than 100 companies will probably have sold 2.8 million units for $4.9 billion.
+
+At the moment, Dataquest estimates that Texas Instruments leads the low-price parade with a 35% share of the market in computers selling for less than $1,000. Next come Timex (26%), Commodore (15%) and Atari (13%). In the race among machines priced between $1,000 and $5,000, Apple still commands 26% followed by IBM (17% and Tandy/Radio Shack (10%). But IBM, which has dominated the mainframe computer market for decades, is coming on very strong. Apple, fighting back, will unveil its new Lisa model in January, putting great emphasis on user friendliness. The user will be able to carry out many functions simply by pointing to a picture of what he wants done rather than typing instructions. IBM is also reported to be planning to introduce new machines in 1983, as are Osborne and others.
+
+http://timeline.99er.net/article-time-hottest_selling_hardware.html
+
+Timex Sinclair 1000 ($99). This tiny toy is good for dipping one s toes into the micro revolution and not much more. It will play video games with boxy, black-and-white graphics and speaks only one language: BASIC, A buttonless membrane keyboard is well designed for learning the fundamentals of computer programming, but for written work it is a step down from the old typewriter. With 600,000 sold in 1982 alone, there is sure to be more software on the shelves soon. A more powerful model that speaks child-oriented Logo is expected out this spring.
+
+Commodore VIC 20 ($299). Skillful packaging and aggressive marketing helped make this machine the surprise bestseller of 1982: between 600,00 and 1 million sold. The VIC has the only cut-rate keyboard suitable to touch typing, and when hooked up to a $110 telephone model, it becomes an inexpensive electronic mail terminal. There have been software shortages, but more programs are being written to meet the new demand. The Commodore 64, a $595 version that packs the memory capacity of some machines three times its price, arrived late in 1982 and could be a big seller in 1983.
+
+Atari 400 and 800 ($299 and $899). With 256 colorss, four separate sound generators and built-in missile qraphics, the Ataris are the machines of choice for game players and games writers. The 800 has a keyboard suitable to touch typing, but writers would do well to look elsewhere for a first-rate word processor. Nearly 200,000 Atari 8OOs were shipped in 1982 and some 400,000 model 400s.
+
+Texas Instruments 99/4A ($450). The sleeper of the year, In 1978, when it retailed for $1,100, it was a market failure of historic proportions. The company upgraded the keyboard, hired Bill Cosby to do its commercials and drastically cut prices. Sales exploded, T.I. shipped 530,000 in 1982, and at year s end was selling nearly 150,000 a month. Software has been slow to come, but now there is a generous supply of high-quality educational programs, and, for $380 extra, owners can get a spritely version of LOGO. More will follow. With sales spurting, program writers say they are giving the machine a second look.
+
+Epson HX 20 ($795). Although this book-size portable computer arrives late in the year, it is probably the hottest new machine in its class, shipping 7,500 copies in its first month on the market. It packs into one handy 4 lb. package a full--size keyboard, a screen that displays four lines of text, a cash register type printer, a microcassette tape drive and more built in memory than any comparably priced machine. Its Japanese manufacturers say their intention was to "stand America on its ear." U.S. experts say they may have done just that.
+
+TRS-80 Model III ($999). Back in 1978 Radio Shack, Commodore and Apple had the field to themselves, and Tandy-Radio Shack, with its nationwide chain of retail outlets, had more of the field than anyone else. A sturdy word and number crunching machine, the "Trash-80", as it is affectionately known, seemed to have a lock on the corner computer market. By year s end there were 300,000 Model IIIs in place. But the company has been overtaken by less stodgy competitors, and last year Tandy s share of the mid-range market fell from 13% to 10%.
+
+$1,000 to $2,000
+
+Apple II Plus ($1,330). The hardy bestseller of the late 70s is also the hardy bestseller of the early 80s: 700,000 have been sold: 270,000 in 1982 alone. With so many cheaper and more sophisticated machines available, why does the Apple II still hold the biggest slice of the $1,000-to-$2,000 pie? Software. More programs are available for this six-year-old machine than for any other single computer-, some 16,000 in all. Also more user groups, more space in the computer magazines, more plug-in expansion units, more peripheral devices. It used to be that when something was done a microcomputer, it was done first on an Apple II. Today IBM, Commodore and Atari are changing that.
+
+iBM Personal Computer ($1,565). The top executive s Apple, this is the machine that put the stamp of corporate legitimacy on the computer revolution, and it quickly set industry standards in everything from operating systems to its no-nonsense instruction manuals. Although other machines have sold in greater quantities, the IBM is the computer of the year. Introduced in August 1981 nearly 200,000 were shipped in the past twelve months, winning it 17% of the market for mid-range machines. Already 1,000 programs are available for the PC. including games. Though IBM discourages using its machine as a toy (it charges $30 extra for color graphics), software programmers are busily translating all manner of playtime activities to the run on the IBM PC.
+
+Osborne 1 ($1,795). The first of the sewing machine-size portable computers, the Osborne 1 squeezes into a 24-lb. package a video monitor, a pair of disc drives and the two programs indispensable to businessmen: financial forecasting and word processing. Despite its eyestraining 5-in, screen, 55,000 Osborne 1 models were sold in 1982, bringing the total number shipped to nearly 100,000.
+
+Over $2,000
+
+Only growing small businesses and big corporate clients are likely to go after these computers, known in the trade as professional work stations and designed to hang at the branches of a network of similar machines. Price tags range as high as $10,000: Altos, Corvus, Control Data, Cromemco, Digital Equipment, Fortune, Hewlett- Packard, Nippon Electric, North Star, Olivetti, TeleVideo, Toshiba, Vector, Victor, Xerox and Zenith are among the biggest names in this upscale but increasingly crowded field. Even proletarian Apple is joining the crowd with its long-awaited Apple IV (code-named Lisa), due to be unveiled in mid-January. Lisa s probable price range: somewhere between $7,000 and $lO,000. The Apple V (code named Mackintosh), on the other hand, due out in mid-1983 and priced around $2,000, could be a true mass market machine.
+
+http://groups.google.com/groups?q=commodore+64+best+selling+year&hl=en&l...
+
+In one year, Commodore has sold more than 100,000 Amigas world wide, McIntyre
+says. He notes that since it was only recently launched in Europe, most
+of that figure is North American. In Canada more than 5000 units have been
+sold, he said.
+
+Far outselling the Amiga, in terms of numbers, are the Commodore 128 and
+Commodore 64, now rereleased as the Commodore 64C. McIntyre boasts that
+the C-128 is "still the fourth best selling microcomputer in the world."
+North American sales in the three-month period ending in September were
+about 50,000
+
+http://groups.google.com/groups?q=neXT+computer+sales+figures+1987&hl=en...
+
+The market share figures above do not agree with reality.
+In 1992, the Apple world-wide share was 11.8% according to Dataquest.
+Their unit laptop share last quarter was 22%. The IBM ThinkPad was 18%
+and closing. (CRN audits & Surveys)
+Sabu
+
+http://groups.google.com/groups?q=commodore+annual+report+1986&start=10&...
+
+C64 Sales:
+
+1982: 150K - 300K
+
+1983: 2M
+
+1984: 2M-3M
+
+1985: 2M -3M
+
+1986: 2M -3M
+
+1987: 1M - 2M
+
+1988: 1M - 1.5M
+
+1989: 1M - 1.5M
+
+The following figures are from Commodore annual reports:
+
+Fiscal 1990: 700K - 800K (decline begins),
+
+fiscal 1991: 800K ( non official 1M)
+
+fiscal 1992: 650K
+
+fiscal 1993: 150K - 200K
+
+1993 Annual Report: 17M total C64, 4.5M C128

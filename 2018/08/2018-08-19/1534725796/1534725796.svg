@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 777 629"
+fill="none" font-family="Avenir Next" font-size="12px" stroke-linecap="round" >
+	<defs>
+		<linearGradient id="a" x1="243.77" y1="207.09" x2="611.63" y2="329.71" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+			<stop offset="1" stop-color="#ccc" stop-opacity="0.8"/>
+		</linearGradient>
+		<linearGradient id="b" x1="285" y1="99.5" x2="525" y2="99.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fff" stop-opacity="0.5"/>
+			<stop offset="1" stop-color="#ccc" stop-opacity="0.5"/>
+		</linearGradient>
+		<linearGradient id="c" x1="26" y1="302.5" x2="288" y2="302.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+			<stop offset="1" stop-color="#ccc" stop-opacity="0.3"/>
+		</linearGradient>
+	</defs>
+	
+	<title>1975-2011 Personal Computers 2</title>
+	<rect fill="url(#a)" x="287" y="1" width="480" height="602"/>
+	<rect fill="url(#b)" x="285" y="2" width="240" height="196"/>
+	<rect fill="url(#c)" x="26" y="2" width="262" height="602"/>
+
+<path stroke="#ccc" d="M27 68h750M27 168h750M27 268h750M27 368h750M27 468h750M27 569h750M99 2v600M193 2v600M287 1v600M526 1v600"/>
+<path stroke="#000" d="M763 600v6M739 600v6M715 600v6M692 600v6M668 600v6M644 600v6M620 600v6M597 600v6M573 600v6M549 600v6M526 600v6M502 600v6M478 600v6M454 600v6M431 600v6M407 600v6M383 600v6M359 600v6M336 600v6M312 600v6M288 600v6M265 600v6M241 600v6M217 600v6M193 600v6M170 600v6M146 600v6M122 600v6M99 600v6M75 600v6M51 600v6M26 603h748M29 20h-3M29 37h-3M31 68h-6M29 72h-3M29 77h-3M29 83h-3M29 90h-3M29 98h-3M29 107h-3M29 120h-3M29 138h-3M31 168h-6M29 172h-3M29 177h-3M29 183h-3M29 190h-3M29 198h-3M29 208h-3M29 220h-3M29 238h-3M31 268h-6M29 273h-3M29 278h-3M29 284h-3M29 290h-3M29 298h-3M29 308h-3M29 320h-3M29 338h-3M31 368h-6M29 373h-3M29 378h-3M29 384h-3M29 390h-3M29 398h-3M29 408h-3M29 421h-3M29 438h-3M31 468h-6M29 473h-3M29 478h-3M29 484h-3M29 491h-3M29 499h-3M29 508h-3M29 521h-3M29 538h-3M31 569h-6M29 569h-3M29 573h-3M29 578h-3M29 584h-3M29 591h-3M29 599h-3M27 603V3"/>
+
+<g stroke-width="6px">
+	<polyline stroke="#000"    points="193 414 217 330 240 257 264 238 288 211 312 198 335 190 359 160 383 143 406 145 430 152 454 141 478 123 501 111 525 101 549 80 572 78 596 69 620 61 644 55 667 58 691 57 715 51 739 44 762 39"/>
+	<polyline stroke="#008147" points="264 311 288 338 312 310 335 294 359 272 383 264 406 256 430 235 454 228 478 216 501 210 525 206 549 215 572 226 596 219 620 209 644 209 667 217 691 219 715 219 739 213 762 200"/>
+	<polyline stroke="#f76b00" points="217 338 241 238 265 229 288 229 312 229 335 251 359 259 383 259 406 284 430 278 453 320 477 344"/>
+	<polyline stroke="#cc1c00" points="288 368 312 338 335 320 359 308 383 290 406 281 430 266 454 309 478 349 501 398 525 406"/>
+	<polyline stroke="#914900" points="288 368 312 338 335 308 359 314 383 321 406 321 430 321 454 360 478 421"/>
+	<polyline stroke="#0059c4" points="99 590 123 480 146 414 170 379 193 336 217 324 241 306 264 269 288 273 311 284 335 299 359 339 382 339 406 369 429 369 453 369 477 421"/>
+	<polyline stroke="#ab659c" points="145 368 169 338 193 320 217 290 240 298 264 338 288 368"/>
+	<polyline stroke="#8a8a8a" points="98 368 122 351 145 338 169 322 193 328 217 320 240 338 264 398 288 468"/>
+	<polyline stroke="#7fd9a6" points="98 508 122 421 145 403 169 373 193 408 217 468"/>
+	<polyline stroke="#92d4f6" points="359 461 383 461 406 461 430 448 454 468 478 499"/>
+	<polyline stroke="#debdee" points="51 499 74 491 98 468 122 508"/>
+	<polyline stroke="#ffb3c6" points="74 408 98 398 122 368 145 338 169 305 193 290 217 261 240 298 264 338"/>
+</g>
+
+<g fill="#000">
+	<text x="12" y="621">1974</text>
+	<text x="59" y="621">1976</text>
+	<text x="107" y="621">1978</text>
+	<text x="154" y="621">1980</text>
+	<text x="201" y="621">1982</text>
+	<text x="249" y="621">1984</text>
+	<text x="296" y="621">1986</text>
+	<text x="344" y="621">1988</text>
+	<text x="391" y="621">1990</text>
+	<text x="439" y="621">1992</text>
+	<text x="486" y="621">1994</text>
+	<text x="534" y="621">1996</text>
+	<text x="581" y="621">1998</text>
+	<text x="628" y="621">2000</text>
+	<text x="676" y="621">2002</text>
+	<text x="723" y="621">2004</text>
+	<text x="0" y="173">10</text>
+	<text x="0" y="274">10</text>
+	<text x="0" y="374">10</text>
+	<text x="0" y="474">10</text>
+	<text x="0" y="574">10</text>
+	<text x="0" y="73">10</text>
+	<g font-size="9px">
+		<text x="15" y="169">7</text>
+		<text x="15" y="269">6</text>
+		<text x="15" y="370">5</text>
+		<text x="15" y="470">4</text>
+		<text x="15" y="570">3</text>
+		<text x="15" y="69">8</text>
+	</g>
+	<g font-size="18px">
+		<text x="609" y="88">IBM PC &amp; Clones</text>
+		<text x="663" y="199">Macintosh</text>
+		<text x="365" y="388">Apple ][</text>
+		<text x="487" y="343">Commodore 64</text>
+		<text x="513" y="395">Amiga</text>
+		<text x="481" y="513">NeXT</text>
+		<text x="281" y="446">TRS-80</text>
+		<text x="126" y="522">Altair</text>
+		<text x="222" y="484">PET</text>
+		<text x="284" y="386">Atari</text>
+		<text x="158" y="281">Other</text>
+	</g>
+	<g font-size="14px" font-family="AvenirNext-UltraLightItalic, Avenir Next" font-style="italic">
+		<text x="238" y="23">8-bit</text>
+		<text x="472" y="23">16-bit</text>
+		<text x="719" y="23">32-bit</text>
+	</g>
+</g>
+
+</svg>
