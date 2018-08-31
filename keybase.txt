@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/watersb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://watersb.org
+  * I am watersb (https://keybase.io/watersb) on keybase.
+  * I have a public key ASAtb0TYKavU4VBYz-7ZFpIEmd-0EYP_-rTRkTtTDw_qFwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120257ba8b45c765f7a7a44dca22c626f5d752ec32a10555037a34f79aa50e819f60a",
+      "host": "keybase.io",
+      "kid": "01202d6f44d829abd4e15058cfeed916920499dfb41183fffab4d1913b530f0fea170a",
+      "uid": "3a8116a78ad6917db66685ed4e524019",
+      "username": "watersb"
+    },
+    "merkle_root": {
+      "ctime": 1534223919,
+      "hash": "119f536c6f9bfea6a4d8023fc09034f503d5daaa409e4a9f4bd7312569da53ac0bd932a07355cc346be8afe998e4772a379f7b10eef0033dcbf7023df3c7d689",
+      "hash_meta": "2be57cbbc2835b239bf320c1f83332038a9ce8bfe49f3482c1a4556ae407b928",
+      "seqno": 3452205
+    },
+    "service": {
+      "entropy": "Y6riidrSmXly9iHvDU5GEc8E",
+      "hostname": "watersb.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1534223972,
+  "expire_in": 504576000,
+  "prev": "837d0c92c5d6f411b198c7985e5d507b6166c8aa4f13e9a184be1533c7595fde",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLW9E2Cmr1OFQWM/u2RaSBJnftBGD//q00ZE7Uw8P6hcKp3BheWxvYWTESpcCH8Qgg30MksXW9BGxmMeYXl1Qe2FmyKpPE+mhhL4VM8dZX97EIPaAIjJXG0YKfo8mTEBhiW9AYRoveGdsTjR++fuJ5ywaAgHCo3NpZ8RAqezjmlebR5vuOrP58rjUBh+CHBGPeDrjPzTkdeHFuG2QZ1afS6LBWZ6csM3j0ZkT+VNQGhCZjMfGNAY14bSyD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINqTAvAgkHK3F4klfr+x1/C6qglpAKVHV0z6DD3yQF/io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/watersb
+
+==================================================================
