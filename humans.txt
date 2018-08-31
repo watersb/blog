@@ -1,15 +1,21 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
+#
+# Boyd Waters
+# 2018 August
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Boyd Waters
+     - I write the words, created the illustrations, adapted the software.
+
 
 # THANKS
 
-    <name>
+    Huge thanks to Daniel Robbins, https://funtoo.org, for hosting this web site.
+
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    See my About Page pf this web site for more information on the technology that I used to develop this web site.
+
