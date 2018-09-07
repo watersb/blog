@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 2018-08-21 21:31:41 */
 
 body {
@@ -8,26 +9,13 @@ body {
 
 @media screen and (max-width: 760px) {
 	body {
-		font-size: 4vw;
 		background-image: url("/img/bg/vla-480x160.jpg");
-	}
-	
-
-
- nav, footer {
-		font-size: 3.3vw;
 	}
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
 	body {
-		font-size: 6vw;
-		background-image: url("/img/bg/vla-480x640.jpg");
+    background-image: url("/img/bg/vla-480x640.jpg");
 	}
-
-	nav,footer {
-		font-size: 5vw;
-	}
-	
 }
