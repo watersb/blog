@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Gerado pelo Microsoft Visio 11.0, SVG Export, v1.0 Comparison_semiconductor_process_nodes X.svg Comparison of sizes of semicond -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11in" height="8.5in" viewBox="0 0 792 612"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st34">
+	<v:documentProperties v:langID="1033" v:metric="true"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#cccccc;stroke:none;stroke-linecap:butt;stroke-width:0.874286}
+		.st2 {fill:url(#grad26-13);stroke:#3333ff;stroke-linecap:butt;stroke-width:0.874286}
+		.st3 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st4 {fill:#000000;font-family:Arial;font-size:1.16572em;font-style:italic;letter-spacing:-0.0607637em}
+		.st5 {fill:#000000;font-family:Arial;font-size:1.16572em;letter-spacing:-0.0607637em}
+		.st6 {fill:#999999;stroke:none;stroke-linecap:butt;stroke-width:0.874286}
+		.st7 {fill:#000000;stroke:none;stroke-width:1}
+		.st8 {fill:none}
+		.st9 {stroke:#3333ff;stroke-linecap:butt;stroke-width:0.874286}
+		.st10 {stroke:#cc6600;stroke-linecap:butt;stroke-width:0.874286}
+		.st11 {fill:url(#grad26-72);stroke:#cc6600;stroke-linecap:butt;stroke-width:0.874286}
+		.st12 {stroke:#cc00cc;stroke-linecap:butt;stroke-width:0.874286}
+		.st13 {fill:url(#grad26-82);stroke:#cc00cc;stroke-linecap:butt;stroke-width:0.874286}
+		.st14 {stroke:#0099cc;stroke-linecap:butt;stroke-width:0.874286}
+		.st15 {fill:url(#grad26-101);stroke:#0099cc;stroke-linecap:butt;stroke-width:0.874286}
+		.st16 {stroke:#00cc00;stroke-linecap:butt;stroke-width:0.874286}
+		.st17 {fill:url(#grad40-111);stroke:#00cc00;stroke-linecap:butt;stroke-width:0.874286}
+		.st18 {fill:url(#grad40-121);stroke:#cc6600;stroke-linecap:butt;stroke-width:0.874286}
+		.st19 {stroke:#ff0000;stroke-linecap:butt;stroke-width:0.874286}
+		.st20 {fill:url(#grad40-131);stroke:#ff0000;stroke-linecap:butt;stroke-width:0.874286}
+		.st21 {fill:url(#grad40-141);stroke:#cc00cc;stroke-linecap:butt;stroke-width:0.874286}
+		.st22 {fill:url(#grad40-151);stroke:#3333ff;stroke-linecap:butt;stroke-width:0.874286}
+		.st23 {stroke:#996699;stroke-linecap:butt;stroke-width:0.874286}
+		.st24 {fill:url(#grad40-161);stroke:#996699;stroke-linecap:butt;stroke-width:0.874286}
+		.st25 {fill:url(#grad40-171);stroke:#0099cc;stroke-linecap:butt;stroke-width:0.874286}
+		.st26 {stroke:#000000;stroke-linecap:butt;stroke-opacity:0.25;stroke-width:0.874286}
+		.st27 {stroke:#000000;stroke-linecap:butt;stroke-opacity:0.12;stroke-width:0.874286}
+		.st28 {fill:none;stroke:none;stroke-width:1}
+		.st29 {stroke:#ff0000;stroke-linecap:butt;stroke-width:1.29309}
+		.st30 {stroke:#cc00ff;stroke-linecap:butt;stroke-width:0.977481}
+		.st31 {fill:#000000;stroke:#000000;stroke-linecap:butt;stroke-width:1.74857}
+		.st32 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st33 {fill:#ffffff;stroke:#000000;stroke-linecap:butt;stroke-width:1.74857}
+		.st34 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad26-13" v:fillPattern="26" v:foreground="#ffffff" v:foregroundOpacity="0.3" v:background="#3333ff"
+				v:backgroundOpacity="0.3" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#3333ff;stop-opacity:0.3"/>
+			<stop offset="0.5" style="stop-color:#ffffff;stop-opacity:0.3"/>
+			<stop offset="1" style="stop-color:#3333ff;stop-opacity:0.3"/>
+		</linearGradient>
+		<linearGradient id="grad26-72" v:fillPattern="26" v:foreground="#ffffff" v:foregroundOpacity="0.3" v:background="#cc6600"
+				v:backgroundOpacity="0.3" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#cc6600;stop-opacity:0.3"/>
+			<stop offset="0.5" style="stop-color:#ffffff;stop-opacity:0.3"/>
+			<stop offset="1" style="stop-color:#cc6600;stop-opacity:0.3"/>
+		</linearGradient>
+		<linearGradient id="grad26-82" v:fillPattern="26" v:foreground="#ffffff" v:foregroundOpacity="0.3" v:background="#cc00cc"
+				v:backgroundOpacity="0.3" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#cc00cc;stop-opacity:0.3"/>
+			<stop offset="0.5" style="stop-color:#ffffff;stop-opacity:0.3"/>
+			<stop offset="1" style="stop-color:#cc00cc;stop-opacity:0.3"/>
+		</linearGradient>
+		<linearGradient id="grad26-101" v:fillPattern="26" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#0099cc"
+				v:backgroundOpacity="0.5" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#0099cc;stop-opacity:0.5"/>
+			<stop offset="0.5" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#0099cc;stop-opacity:0.5"/>
+		</linearGradient>
+		<radialGradient id="grad40-111" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#00cc00"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#00cc00;stop-opacity:0.5"/>
+		</radialGradient>
+		<radialGradient id="grad40-121" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#cc6600"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#cc6600;stop-opacity:0.5"/>
+		</radialGradient>
+		<radialGradient id="grad40-131" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#ff0000"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#ff0000;stop-opacity:0.5"/>
+		</radialGradient>
+		<radialGradient id="grad40-141" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#cc00cc"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#cc00cc;stop-opacity:0.5"/>
+		</radialGradient>
+		<radialGradient id="grad40-151" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#3333ff"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#3333ff;stop-opacity:0.5"/>
+		</radialGradient>
+		<radialGradient id="grad40-161" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#996699"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#996699;stop-opacity:0.5"/>
+		</radialGradient>
+		<radialGradient id="grad40-171" v:fillPattern="40" v:foreground="#ffffff" v:foregroundOpacity="0.5" v:background="#0099cc"
+				v:backgroundOpacity="0.5" cx="0.5" cy="0.5" r="0.5">
+			<stop offset="0" style="stop-color:#ffffff;stop-opacity:0.5"/>
+			<stop offset="1" style="stop-color:#0099cc;stop-opacity:0.5"/>
+		</radialGradient>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs/>
+		<title>Comparison of sizes of semiconductor process nodes</title>
+		<desc>Comparison of sizes of semiconductor manufacturing process nodes with some microscopic objects and visible light wavelengths, by CMG Lee.</desc>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="19" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
+		<v:layer v:name="Conector" v:index="0"/>
+		<g id="group2-1" transform="translate(95.4004,3366)" v:mID="2" v:groupContext="group">
+			<title>Planilha.2</title>
+			<g id="shape3-2" v:mID="3" v:groupContext="shape" transform="translate(0,-3540.86)">
+				<title>Planilha.3</title>
+				<ellipse cx="131.143" cy="393.429" rx="131.143" ry="218.571" class="st1"/>
+			</g>
+			<g id="shape4-4" v:mID="4" v:groupContext="shape" transform="translate(87.4286,1.94404E-011)">
+				<title>Planilha.4</title>
+				<path d="M0 -2972.57 L43.71 612 L87.43 -2972.57 L0 -2972.57 Z" class="st1"/>
+			</g>
+		</g>
+		<g id="shape5-6" v:mID="5" v:groupContext="shape" transform="translate(261.514,2.02363E-011)">
+			<title>Planilha.5</title>
+			<path d="M166.11 -0 C332.23 -0 201.09 174.86 201.09 306 C201.09 437.14 332.23 612 166.11 612 C-0 612 131.14 437.14 131.14
+						 306 C131.14 174.86 0 -0 166.11 -0 Z" class="st1"/>
+		</g>
+		<g id="shape6-8" v:mID="6" v:groupContext="shape" transform="translate(86.6574,0.0003)">
+			<title>Planilha.6</title>
+			<ellipse cx="43.7143" cy="568.286" rx="43.7143" ry="43.7143" class="st1"/>
+		</g>
+		<g id="shape11-10" v:mID="11" v:groupContext="shape" transform="translate(169.714,288.51)">
+			<title>Planilha.9</title>
+			<ellipse cx="437.143" cy="174.857" rx="437.143" ry="437.143" class="st2"/>
+		</g>
+		<g id="group195-14" transform="translate(-40.9886,-0.1697)" v:mID="195" v:groupContext="group">
+			<title>Planilha.97</title>
+			<g id="shape196-15" v:mID="196" v:groupContext="shape" transform="translate(301.629,-594.514)">
+				<title>Planilha.98</title>
+				<desc>Red light (700 nm wavelength)</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="190.594" cy="603.607" width="381.2" height="16.7863"/>
+				<rect x="0" y="595.214" width="381.189" height="16.7863" class="st3"/>
+				<text x="216.12" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>Red light (700 nm wavelength)</text>			</g>
+			<g id="shape197-18" v:mID="197" v:groupContext="shape" transform="translate(262.286,-537.686)">
+				<title>Planilha.99</title>
+				<desc>Violet light (400 nm wavelength)</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="210.266" cy="603.607" width="420.54" height="16.7863"/>
+				<rect x="0" y="595.214" width="420.531" height="16.7863" class="st3"/>
+				<text x="248.68" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>Violet light (400 nm wavelength)</text>			</g>
+			<g id="shape198-21" v:mID="198" v:groupContext="shape" transform="translate(26.2286,-13.1143)">
+				<title>Planilha.100</title>
+				<desc>Staphylococcus</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="92.2371" cy="603.607" width="184.49" height="16.7863"/>
+				<rect x="0" y="595.214" width="184.474" height="16.7863" class="st3"/>
+				<text x="98.4" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>Staphylococcus</text>			</g>
+			<g id="shape199-24" v:mID="199" v:groupContext="shape">
+				<title>Planilha.101</title>
+				<desc>aureus bacterium</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="105.351" cy="603.607" width="210.71" height="16.7863"/>
+				<rect x="0" y="595.214" width="210.703" height="16.7863" class="st3"/>
+				<text x="116.23" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>aureus bacterium</text>			</g>
+			<g id="shape200-27" v:mID="200" v:groupContext="shape" transform="translate(183.6,-13.1143)">
+				<title>Planilha.102</title>
+				<desc>Spermatozoon</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="79.1229" cy="603.607" width="158.25" height="16.7863"/>
+				<rect x="0" y="595.214" width="158.246" height="16.7863" class="st3"/>
+				<text x="77.47" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>Spermatozoon</text>			</g>
+			<g id="shape201-30" v:mID="201" v:groupContext="shape" transform="translate(288.514,2.27374E-013)">
+				<title>Planilha.103</title>
+				<desc>head</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+				<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+				<text x="25.62" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>head</text>			</g>
+			<g id="shape202-33" v:mID="202" v:groupContext="shape" transform="translate(332.229,-13.1143)">
+				<title>Planilha.104</title>
+				<desc>Red blood cell</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="92.2371" cy="603.607" width="184.49" height="16.7863"/>
+				<rect x="0" y="595.214" width="184.474" height="16.7863" class="st3"/>
+				<text x="107.73" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>Red blood cell</text>			</g>
+			<g id="shape203-36" v:mID="203" v:groupContext="shape" transform="translate(345.343,2.27374E-013)">
+				<title>Planilha.105</title>
+				<desc>cross-section</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="85.68" cy="603.607" width="171.37" height="16.7863"/>
+				<rect x="0" y="595.214" width="171.36" height="16.7863" class="st3"/>
+				<text x="100.01" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>cross-section</text>			</g>
+			<g id="shape204-39" v:mID="204" v:groupContext="shape" transform="translate(511.457,-13.1143)">
+				<title>Planilha.106</title>
+				<desc>Human immuno-</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="85.68" cy="603.607" width="171.37" height="16.7863"/>
+				<rect x="0" y="595.214" width="171.36" height="16.7863" class="st3"/>
+				<text x="79.03" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>Human immuno-</text>			</g>
+			<g id="shape205-42" v:mID="205" v:groupContext="shape" transform="translate(393.429,2.27374E-013)">
+				<title>Planilha.107</title>
+				<desc>deficiency virus (HIV)</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="144.694" cy="603.607" width="289.4" height="16.7863"/>
+				<rect x="0" y="595.214" width="289.389" height="16.7863" class="st3"/>
+				<text x="175.94" y="607.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>deficiency virus (HIV)</text>			</g>
+		</g>
+		<g id="shape231-45" v:mID="231" v:groupContext="shape" transform="translate(418.885,-172.93)">
+			<title>Planilha.133</title>
+			<desc>45 nm (2008) e.g. Core 2 (Wolfdale)</desc>
+			<v:userDefs/>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="229.937" cy="603.607" width="459.88" height="16.7863"/>
+			<rect x="0" y="595.214" width="459.874" height="16.7863" class="st3"/>
+			<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>45 nm (2008) e.g. Core 2 (Wolfdale)</text>		</g>
+		<g id="shape257-48" v:mID="257" v:groupContext="shape" transform="translate(455.079,-118.553)">
+			<title>Planilha.157</title>
+			<desc>22 nm (2012) e.g. Core i7 (Ivy Bridge)</desc>
+			<v:userDefs/>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="282.394" cy="603.607" width="564.79" height="16.7863"/>
+			<rect x="0" y="595.214" width="564.789" height="16.7863" class="st3"/>
+			<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>22 nm (2012) e.g. Core i7 (Ivy Bridge)</text>		</g>
+		<g id="shape258-51" v:mID="258" v:groupContext="shape" transform="translate(436.371,-147.055)">
+			<title>Planilha.158</title>
+			<desc>32 nm (2010) e.g. Core i3 (Clarkdale)</desc>
+			<v:userDefs/>
+			<v:textBlock v:margins="rect(0,0,0,0)"/>
+			<v:textRect cx="243.051" cy="603.607" width="486.12" height="16.7863"/>
+			<rect x="0" y="595.214" width="486.103" height="16.7863" class="st3"/>
+			<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>32 nm (2010) e.g. Core i3 (Clarkdale)</text>		</g>
+		<g id="group259-54" transform="translate(16.2771,-29.7303)" v:mID="259" v:groupContext="group">
+			<title>Planilha.259</title>
+			<g id="shape7-55" v:mID="7" v:groupContext="shape" transform="translate(585.334,0)">
+				<title>Planilha.7</title>
+				<ellipse cx="5.24571" cy="606.754" rx="5.24571" ry="5.24571" class="st6"/>
+			</g>
+			<g id="group8-57" transform="translate(74.7513,-556.04)" v:mID="8" v:groupContext="group">
+				<title>Planilha.8</title>
+				<g id="shape9-58" v:mID="9" v:groupContext="shape">
+					<title>Planilha.9</title>
+					<path d="M0 612 L511.46 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape10-60" v:mID="10" v:groupContext="shape">
+					<title>Planilha.10</title>
+					<path d="M0 612 L511.46 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L511.46 612" class="st9"/>
+				</g>
+			</g>
+			<g id="group12-63" transform="translate(109.723,-464.59)" v:mID="12" v:groupContext="group">
+				<title>Planilha.10</title>
+				<g id="shape13-64" v:mID="13" v:groupContext="shape">
+					<title>Planilha.13</title>
+					<path d="M0 612 L476.49 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape14-66" v:mID="14" v:groupContext="shape">
+					<title>Planilha.14</title>
+					<path d="M0 612 L476.49 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L476.49 612" class="st10"/>
+				</g>
+			</g>
+			<g id="shape15-69" v:mID="15" v:groupContext="shape" transform="translate(459.437,-202.31)">
+				<title>Planilha.11</title>
+				<ellipse cx="131.143" cy="480.857" rx="131.143" ry="131.143" class="st11"/>
+			</g>
+			<g id="group16-73" transform="translate(170.923,-411.96)" v:mID="16" v:groupContext="group">
+				<title>Planilha.12</title>
+				<g id="shape17-74" v:mID="17" v:groupContext="shape">
+					<title>Planilha.17</title>
+					<path d="M0 612 L415.29 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape18-76" v:mID="18" v:groupContext="shape">
+					<title>Planilha.18</title>
+					<path d="M0 612 L415.29 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L415.29 612" class="st12"/>
+				</g>
+			</g>
+			<g id="shape19-79" v:mID="19" v:groupContext="shape" transform="translate(525.008,-280.819)">
+				<title>Planilha.13</title>
+				<ellipse cx="65.5714" cy="546.429" rx="65.5714" ry="65.5714" class="st13"/>
+			</g>
+			<g id="group20-83" transform="translate(197.151,-381.18)" v:mID="20" v:groupContext="group">
+				<title>Planilha.14</title>
+				<g id="shape21-84" v:mID="21" v:groupContext="shape">
+					<title>Planilha.21</title>
+					<path d="M0 612 L389.06 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape22-86" v:mID="22" v:groupContext="shape">
+					<title>Planilha.22</title>
+					<path d="M0 612 L389.06 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L389.06 612" class="st9"/>
+				</g>
+			</g>
+			<g id="shape23-89" v:mID="23" v:groupContext="shape" transform="translate(546.865,-293.759)">
+				<title>Planilha.15</title>
+				<ellipse cx="43.7143" cy="568.286" rx="43.7143" ry="43.7143" class="st2"/>
+			</g>
+			<g id="group24-92" transform="translate(232.123,-364.22)" v:mID="24" v:groupContext="group">
+				<title>Planilha.16</title>
+				<g id="shape25-93" v:mID="25" v:groupContext="shape">
+					<title>Planilha.25</title>
+					<path d="M0 612 L354.09 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape26-95" v:mID="26" v:groupContext="shape">
+					<title>Planilha.26</title>
+					<path d="M0 612 L354.09 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L354.09 612" class="st14"/>
+				</g>
+			</g>
+			<g id="shape27-98" v:mID="27" v:groupContext="shape" transform="translate(555.608,-294.279)">
+				<title>Planilha.17</title>
+				<ellipse cx="34.9714" cy="577.029" rx="34.9714" ry="34.9714" class="st15"/>
+			</g>
+			<g id="group28-102" transform="translate(275.837,-342.37)" v:mID="28" v:groupContext="group">
+				<title>Planilha.18</title>
+				<g id="shape29-103" v:mID="29" v:groupContext="shape">
+					<title>Planilha.29</title>
+					<path d="M0 612 L310.37 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape30-105" v:mID="30" v:groupContext="shape">
+					<title>Planilha.30</title>
+					<path d="M0 612 L310.37 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L310.37 612" class="st16"/>
+				</g>
+			</g>
+			<g id="shape31-108" v:mID="31" v:groupContext="shape" transform="translate(564.351,-289.91)">
+				<title>Planilha.19</title>
+				<ellipse cx="26.2286" cy="585.771" rx="26.2286" ry="26.2286" class="st17"/>
+			</g>
+			<g id="group32-112" transform="translate(284.58,-301.45)" v:mID="32" v:groupContext="group">
+				<title>Planilha.20</title>
+				<g id="shape33-113" v:mID="33" v:groupContext="shape">
+					<title>Planilha.33</title>
+					<path d="M0 612 L301.63 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape34-115" v:mID="34" v:groupContext="shape">
+					<title>Planilha.34</title>
+					<path d="M0 612 L301.63 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L301.63 612" class="st10"/>
+				</g>
+			</g>
+			<g id="shape35-118" v:mID="35" v:groupContext="shape" transform="translate(575.28,-270.85)">
+				<title>Planilha.21</title>
+				<ellipse cx="15.3" cy="596.7" rx="15.3" ry="15.3" class="st18"/>
+			</g>
+			<g id="group36-122" transform="translate(310.808,-275.92)" v:mID="36" v:groupContext="group">
+				<title>Planilha.22</title>
+				<g id="shape37-123" v:mID="37" v:groupContext="shape">
+					<title>Planilha.37</title>
+					<path d="M0 612 L275.4 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape38-125" v:mID="38" v:groupContext="shape">
+					<title>Planilha.38</title>
+					<path d="M0 612 L275.4 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L275.4 612" class="st19"/>
+				</g>
+			</g>
+			<g id="shape39-128" v:mID="39" v:groupContext="shape" transform="translate(579.651,-254.06)">
+				<title>Planilha.23</title>
+				<ellipse cx="10.9286" cy="601.071" rx="10.9286" ry="10.9286" class="st20"/>
+			</g>
+			<g id="group40-132" transform="translate(319.551,-250.92)" v:mID="40" v:groupContext="group">
+				<title>Planilha.24</title>
+				<g id="shape41-133" v:mID="41" v:groupContext="shape">
+					<title>Planilha.41</title>
+					<path d="M0 612 L266.66 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape42-135" v:mID="42" v:groupContext="shape">
+					<title>Planilha.42</title>
+					<path d="M0 612 L266.66 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L266.66 612" class="st12"/>
+				</g>
+			</g>
+			<g id="shape43-138" v:mID="43" v:groupContext="shape" transform="translate(582.711,-235.18)">
+				<title>Planilha.25</title>
+				<ellipse cx="7.86857" cy="604.131" rx="7.86857" ry="7.86857" class="st21"/>
+			</g>
+			<g id="group44-142" transform="translate(328.294,-226.26)" v:mID="44" v:groupContext="group">
+				<title>Planilha.26</title>
+				<g id="shape45-143" v:mID="45" v:groupContext="shape">
+					<title>Planilha.45</title>
+					<path d="M0 612 L257.91 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape46-145" v:mID="46" v:groupContext="shape">
+					<title>Planilha.46</title>
+					<path d="M0 612 L257.91 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L257.91 612" class="st9"/>
+				</g>
+			</g>
+			<g id="shape47-148" v:mID="47" v:groupContext="shape" transform="translate(584.897,-214.9)">
+				<title>Planilha.27</title>
+				<ellipse cx="5.68286" cy="606.317" rx="5.68286" ry="5.68286" class="st22"/>
+			</g>
+			<g id="group48-152" transform="translate(345.78,-198.28)" v:mID="48" v:groupContext="group">
+				<title>Planilha.28</title>
+				<g id="shape49-153" v:mID="49" v:groupContext="shape">
+					<title>Planilha.49</title>
+					<path d="M0 612 L240.43 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape50-155" v:mID="50" v:groupContext="shape">
+					<title>Planilha.50</title>
+					<path d="M0 612 L240.43 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L240.43 612" class="st23"/>
+				</g>
+			</g>
+			<g id="shape51-158" v:mID="51" v:groupContext="shape" transform="translate(586.645,-190.419)">
+				<title>Planilha.29</title>
+				<ellipse cx="3.93429" cy="608.066" rx="3.93429" ry="3.93429" class="st24"/>
+			</g>
+			<g id="group52-162" transform="translate(380.751,-173.63)" v:mID="52" v:groupContext="group">
+				<title>Planilha.30</title>
+				<g id="shape53-163" v:mID="53" v:groupContext="shape">
+					<title>Planilha.53</title>
+					<path d="M0 612 L205.46 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape54-165" v:mID="54" v:groupContext="shape">
+					<title>Planilha.54</title>
+					<path d="M0 612 L205.46 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L205.46 612" class="st14"/>
+				</g>
+			</g>
+			<g id="shape55-168" v:mID="55" v:groupContext="shape" transform="translate(587.738,-167.949)">
+				<title>Planilha.31</title>
+				<ellipse cx="2.84143" cy="609.159" rx="2.84143" ry="2.84143" class="st25"/>
+			</g>
+			<g id="group56-172" transform="translate(398.237,-145.65)" v:mID="56" v:groupContext="group">
+				<title>Planilha.32</title>
+				<g id="shape57-173" v:mID="57" v:groupContext="shape">
+					<title>Planilha.57</title>
+					<path d="M0 612 L187.97 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape58-175" v:mID="58" v:groupContext="shape">
+					<title>Planilha.58</title>
+					<path d="M0 612 L187.97 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L187.97 612" class="st16"/>
+				</g>
+			</g>
+			<g id="shape59-178" v:mID="59" v:groupContext="shape" transform="translate(588.613,-141.72)">
+				<title>Planilha.33</title>
+				<ellipse cx="1.96714" cy="610.033" rx="1.96714" ry="1.96714" class="st17"/>
+			</g>
+			<g id="group60-181" transform="translate(415.723,-119.77)" v:mID="60" v:groupContext="group">
+				<title>Planilha.34</title>
+				<g id="shape61-182" v:mID="61" v:groupContext="shape">
+					<title>Planilha.61</title>
+					<path d="M0 612 L170.49 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape62-184" v:mID="62" v:groupContext="shape">
+					<title>Planilha.62</title>
+					<path d="M0 612 L170.49 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L170.49 612" class="st10"/>
+				</g>
+			</g>
+			<g id="shape63-187" v:mID="63" v:groupContext="shape" transform="translate(589.181,-116.98)">
+				<title>Planilha.35</title>
+				<ellipse cx="1.39886" cy="610.601" rx="1.39886" ry="1.39886" class="st18"/>
+			</g>
+			<g id="group64-190" transform="translate(432.051,-91.2697)" v:mID="64" v:groupContext="group">
+				<title>Planilha.36</title>
+				<g id="shape65-191" v:mID="65" v:groupContext="shape">
+					<title>Planilha.65</title>
+					<path d="M0 612 L154.16 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape66-193" v:mID="66" v:groupContext="shape">
+					<title>Planilha.66</title>
+					<path d="M0 612 L154.16 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L154.16 612" class="st19"/>
+				</g>
+			</g>
+			<g id="shape67-196" v:mID="67" v:groupContext="shape" transform="translate(589.618,-89.35)">
+				<title>Planilha.37</title>
+				<ellipse cx="0.961714" cy="611.038" rx="0.961714" ry="0.961714" class="st20"/>
+			</g>
+			<g id="group68-199" transform="translate(451.176,-60.2697)" v:mID="68" v:groupContext="group">
+				<title>Planilha.38</title>
+				<g id="shape69-200" v:mID="69" v:groupContext="shape">
+					<title>Planilha.69</title>
+					<path d="M0 612 L135.03 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape70-202" v:mID="70" v:groupContext="shape">
+					<title>Planilha.70</title>
+					<path d="M0 612 L135.03 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L135.03 612" class="st12"/>
+				</g>
+			</g>
+			<g id="shape71-205" v:mID="71" v:groupContext="shape" transform="translate(589.277,-58.8693)">
+				<title>Planilha.39</title>
+				<ellipse cx="0.699429" cy="611.301" rx="0.699429" ry="0.699429" class="st21"/>
+			</g>
+			<g id="group72-208" transform="translate(478.723,-31.0197)" v:mID="72" v:groupContext="group">
+				<title>Planilha.40</title>
+				<g id="shape73-209" v:mID="73" v:groupContext="shape">
+					<title>Planilha.73</title>
+					<path d="M0 612 L107.49 612 L0 612 Z" class="st7"/>
+				</g>
+				<g id="shape74-211" v:mID="74" v:groupContext="shape">
+					<title>Planilha.74</title>
+					<path d="M0 612 L107.49 612 L0 612 Z" class="st8"/>
+					<path d="M0 612 L107.49 612" class="st9"/>
+				</g>
+			</g>
+			<g id="shape75-214" v:mID="75" v:groupContext="shape" transform="translate(589.551,-29.8999)">
+				<title>Planilha.41</title>
+				<ellipse cx="0.480857" cy="611.519" rx="0.480857" ry="0.480857" class="st22"/>
+			</g>
+			<g id="group77-217" transform="translate(74.7514,-31.472)" v:mID="77" v:groupContext="group">
+				<title>grid_x</title>
+				<g id="group78-218" v:mID="78" v:groupContext="group">
+					<title>Planilha.44</title>
+					<g id="shape79-219" v:mID="79" v:groupContext="shape">
+						<title>Planilha.79</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape80-221" v:mID="80" v:groupContext="shape">
+						<title>Planilha.80</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group81-224" transform="translate(34.9714,0)" v:mID="81" v:groupContext="group">
+					<title>Planilha.45</title>
+					<g id="shape82-225" v:mID="82" v:groupContext="shape">
+						<title>Planilha.82</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape83-227" v:mID="83" v:groupContext="shape">
+						<title>Planilha.83</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group84-230" transform="translate(118.466,-31.472)" v:mID="84" v:groupContext="group">
+				<title>Planilha.46</title>
+				<g id="group85-231" v:mID="85" v:groupContext="group">
+					<title>Planilha.47</title>
+					<g id="shape86-232" v:mID="86" v:groupContext="shape">
+						<title>Planilha.86</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape87-234" v:mID="87" v:groupContext="shape">
+						<title>Planilha.87</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group88-237" transform="translate(34.9714,0)" v:mID="88" v:groupContext="group">
+					<title>Planilha.48</title>
+					<g id="shape89-238" v:mID="89" v:groupContext="shape">
+						<title>Planilha.89</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape90-240" v:mID="90" v:groupContext="shape">
+						<title>Planilha.90</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group91-243" transform="translate(162.18,-31.472)" v:mID="91" v:groupContext="group">
+				<title>Planilha.49</title>
+				<g id="group92-244" v:mID="92" v:groupContext="group">
+					<title>Planilha.50</title>
+					<g id="shape93-245" v:mID="93" v:groupContext="shape">
+						<title>Planilha.93</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape94-247" v:mID="94" v:groupContext="shape">
+						<title>Planilha.94</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group95-250" transform="translate(34.9714,0)" v:mID="95" v:groupContext="group">
+					<title>Planilha.51</title>
+					<g id="shape96-251" v:mID="96" v:groupContext="shape">
+						<title>Planilha.96</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape97-253" v:mID="97" v:groupContext="shape">
+						<title>Planilha.97</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group98-256" transform="translate(205.894,-31.472)" v:mID="98" v:groupContext="group">
+				<title>Planilha.52</title>
+				<g id="group99-257" v:mID="99" v:groupContext="group">
+					<title>Planilha.53</title>
+					<g id="shape100-258" v:mID="100" v:groupContext="shape">
+						<title>Planilha.100</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape101-260" v:mID="101" v:groupContext="shape">
+						<title>Planilha.101</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group102-263" transform="translate(34.9714,0)" v:mID="102" v:groupContext="group">
+					<title>Planilha.54</title>
+					<g id="shape103-264" v:mID="103" v:groupContext="shape">
+						<title>Planilha.103</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape104-266" v:mID="104" v:groupContext="shape">
+						<title>Planilha.104</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group105-269" transform="translate(249.609,-31.472)" v:mID="105" v:groupContext="group">
+				<title>Planilha.55</title>
+				<g id="group106-270" v:mID="106" v:groupContext="group">
+					<title>Planilha.56</title>
+					<g id="shape107-271" v:mID="107" v:groupContext="shape">
+						<title>Planilha.107</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape108-273" v:mID="108" v:groupContext="shape">
+						<title>Planilha.108</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group109-276" transform="translate(34.9714,0)" v:mID="109" v:groupContext="group">
+					<title>Planilha.57</title>
+					<g id="shape110-277" v:mID="110" v:groupContext="shape">
+						<title>Planilha.110</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape111-279" v:mID="111" v:groupContext="shape">
+						<title>Planilha.111</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group112-282" transform="translate(293.323,-31.472)" v:mID="112" v:groupContext="group">
+				<title>Planilha.58</title>
+				<g id="group113-283" v:mID="113" v:groupContext="group">
+					<title>Planilha.59</title>
+					<g id="shape114-284" v:mID="114" v:groupContext="shape">
+						<title>Planilha.114</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape115-286" v:mID="115" v:groupContext="shape">
+						<title>Planilha.115</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group116-289" transform="translate(34.9714,0)" v:mID="116" v:groupContext="group">
+					<title>Planilha.60</title>
+					<g id="shape117-290" v:mID="117" v:groupContext="shape">
+						<title>Planilha.117</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape118-292" v:mID="118" v:groupContext="shape">
+						<title>Planilha.118</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group119-295" transform="translate(337.037,-31.472)" v:mID="119" v:groupContext="group">
+				<title>Planilha.61</title>
+				<g id="group120-296" v:mID="120" v:groupContext="group">
+					<title>Planilha.62</title>
+					<g id="shape121-297" v:mID="121" v:groupContext="shape">
+						<title>Planilha.121</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape122-299" v:mID="122" v:groupContext="shape">
+						<title>Planilha.122</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group123-302" transform="translate(34.9714,0)" v:mID="123" v:groupContext="group">
+					<title>Planilha.63</title>
+					<g id="shape124-303" v:mID="124" v:groupContext="shape">
+						<title>Planilha.124</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape125-305" v:mID="125" v:groupContext="shape">
+						<title>Planilha.125</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group126-308" transform="translate(380.751,-31.472)" v:mID="126" v:groupContext="group">
+				<title>Planilha.64</title>
+				<g id="group127-309" v:mID="127" v:groupContext="group">
+					<title>Planilha.65</title>
+					<g id="shape128-310" v:mID="128" v:groupContext="shape">
+						<title>Planilha.128</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape129-312" v:mID="129" v:groupContext="shape">
+						<title>Planilha.129</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group130-315" transform="translate(34.9714,0)" v:mID="130" v:groupContext="group">
+					<title>Planilha.66</title>
+					<g id="shape131-316" v:mID="131" v:groupContext="shape">
+						<title>Planilha.131</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape132-318" v:mID="132" v:groupContext="shape">
+						<title>Planilha.132</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group133-321" transform="translate(424.466,-31.472)" v:mID="133" v:groupContext="group">
+				<title>Planilha.67</title>
+				<g id="group134-322" v:mID="134" v:groupContext="group">
+					<title>Planilha.68</title>
+					<g id="shape135-323" v:mID="135" v:groupContext="shape">
+						<title>Planilha.135</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+					</g>
+					<g id="shape136-325" v:mID="136" v:groupContext="shape">
+						<title>Planilha.136</title>
+						<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+									 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+					</g>
+				</g>
+				<g id="group137-328" transform="translate(34.9714,0)" v:mID="137" v:groupContext="group">
+					<title>Planilha.69</title>
+					<g id="shape138-329" v:mID="138" v:groupContext="shape">
+						<title>Planilha.138</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st7"/>
+					</g>
+					<g id="shape139-331" v:mID="139" v:groupContext="shape">
+						<title>Planilha.139</title>
+						<path d="M0 612 L0 87.43 L0 612 Z" class="st8"/>
+						<path d="M0 612 L0 87.43" class="st27"/>
+					</g>
+				</g>
+			</g>
+			<g id="group140-334" transform="translate(66.0086,-84.104)" v:mID="140" v:groupContext="group">
+				<title>grid_y</title>
+				<g id="shape141-335" v:mID="141" v:groupContext="shape">
+					<title>Planilha.141</title>
+					<path d="M0 612 L419.46 612 L0 612 ZM0 581.23 L419.46 581.23 L0 581.23 ZM0 559.37 L419.46 559.37 L0 559.37 ZM0
+								 542.41 L419.46 542.41 L0 542.41 ZM0 528.59 L419.46 528.59 L0 528.59 ZM0 516.88 L419.46 516.88 L0
+								 516.88 ZM0 506.74 L419.46 506.74 L0 506.74 ZM0 497.82 L419.46 497.82 L0 497.82 ZM0 489.77 L419.46
+								 489.77 L0 489.77 Z" class="st7"/>
+				</g>
+				<g id="shape142-337" v:mID="142" v:groupContext="shape">
+					<title>Planilha.142</title>
+					<path d="M0 612 L419.46 612 L0 612 ZM0 581.23 L419.46 581.23 L0 581.23 ZM0 559.37 L419.46 559.37 L0 559.37 ZM0
+								 542.41 L419.46 542.41 L0 542.41 ZM0 528.59 L419.46 528.59 L0 528.59 ZM0 516.88 L419.46 516.88 L0
+								 516.88 ZM0 506.74 L419.46 506.74 L0 506.74 ZM0 497.82 L419.46 497.82 L0 497.82 ZM0 489.77 L419.46
+								 489.77 L0 489.77 Z" class="st8"/>
+					<path d="M0 612 L419.46 612M0 581.23 L419.46 581.23M0 559.37 L419.46 559.37M0 542.41 L419.46 542.41M0 528.59
+								 L419.46 528.59M0 516.88 L419.46 516.88M0 506.74 L419.46 506.74M0 497.82 L419.46 497.82M0 489.77
+								 L419.46 489.77" class="st26"/>
+				</g>
+			</g>
+			<g id="group143-340" transform="translate(66.0086,-258.961)" v:mID="143" v:groupContext="group">
+				<title>Planilha.71</title>
+				<g id="shape144-341" v:mID="144" v:groupContext="shape">
+					<title>Planilha.144</title>
+					<path d="M0 612 L419.46 612 L0 612 ZM0 581.23 L419.46 581.23 L0 581.23 ZM0 559.37 L419.46 559.37 L0 559.37 ZM0
+								 542.41 L419.46 542.41 L0 542.41 ZM0 528.59 L419.46 528.59 L0 528.59 ZM0 516.88 L419.46 516.88 L0
+								 516.88 ZM0 506.74 L419.46 506.74 L0 506.74 ZM0 497.82 L419.46 497.82 L0 497.82 ZM0 489.77 L419.46
+								 489.77 L0 489.77 Z" class="st7"/>
+				</g>
+				<g id="shape145-343" v:mID="145" v:groupContext="shape">
+					<title>Planilha.145</title>
+					<path d="M0 612 L419.46 612 L0 612 ZM0 581.23 L419.46 581.23 L0 581.23 ZM0 559.37 L419.46 559.37 L0 559.37 ZM0
+								 542.41 L419.46 542.41 L0 542.41 ZM0 528.59 L419.46 528.59 L0 528.59 ZM0 516.88 L419.46 516.88 L0
+								 516.88 ZM0 506.74 L419.46 506.74 L0 506.74 ZM0 497.82 L419.46 497.82 L0 497.82 ZM0 489.77 L419.46
+								 489.77 L0 489.77 Z" class="st8"/>
+					<path d="M0 612 L419.46 612M0 581.23 L419.46 581.23M0 559.37 L419.46 559.37M0 542.41 L419.46 542.41M0 528.59
+								 L419.46 528.59M0 516.88 L419.46 516.88M0 506.74 L419.46 506.74M0 497.82 L419.46 497.82M0 489.77
+								 L419.46 489.77" class="st26"/>
+				</g>
+			</g>
+			<g id="group146-346" transform="translate(66.0086,-433.819)" v:mID="146" v:groupContext="group">
+				<title>Planilha.72</title>
+				<g id="shape147-347" v:mID="147" v:groupContext="shape">
+					<title>Planilha.147</title>
+					<path d="M0 612 L419.46 612 L0 612 ZM0 581.23 L419.46 581.23 L0 581.23 ZM0 559.37 L419.46 559.37 L0 559.37 ZM0
+								 542.41 L419.46 542.41 L0 542.41 ZM0 528.59 L419.46 528.59 L0 528.59 ZM0 516.88 L419.46 516.88 L0
+								 516.88 ZM0 506.74 L419.46 506.74 L0 506.74 ZM0 497.82 L419.46 497.82 L0 497.82 ZM0 489.77 L419.46
+								 489.77 L0 489.77 Z" class="st7"/>
+				</g>
+				<g id="shape148-349" v:mID="148" v:groupContext="shape">
+					<title>Planilha.148</title>
+					<path d="M0 612 L419.46 612 L0 612 ZM0 581.23 L419.46 581.23 L0 581.23 ZM0 559.37 L419.46 559.37 L0 559.37 ZM0
+								 542.41 L419.46 542.41 L0 542.41 ZM0 528.59 L419.46 528.59 L0 528.59 ZM0 516.88 L419.46 516.88 L0
+								 516.88 ZM0 506.74 L419.46 506.74 L0 506.74 ZM0 497.82 L419.46 497.82 L0 497.82 ZM0 489.77 L419.46
+								 489.77 L0 489.77 Z" class="st8"/>
+					<path d="M0 612 L419.46 612M0 581.23 L419.46 581.23M0 559.37 L419.46 559.37M0 542.41 L419.46 542.41M0 528.59
+								 L419.46 528.59M0 516.88 L419.46 516.88M0 506.74 L419.46 506.74M0 497.82 L419.46 497.82M0 489.77
+								 L419.46 489.77" class="st26"/>
+				</g>
+			</g>
+			<g id="group149-352" transform="translate(66.0086,-31.472)" v:mID="149" v:groupContext="group">
+				<title>Planilha.73</title>
+				<g id="shape150-353" v:mID="150" v:groupContext="shape">
+					<title>Planilha.150</title>
+					<path d="M0 87.43 L0 612 L419.46 612 L0 87.43 Z" class="st28"/>
+				</g>
+				<g id="shape151-355" v:mID="151" v:groupContext="shape">
+					<title>Planilha.151</title>
+					<path d="M0 87.43 L0 612 L419.46 612 L0 87.43 Z" class="st8"/>
+					<path d="M0 87.43 L0 612 L419.46 612" class="st26"/>
+				</g>
+			</g>
+			<g id="group152-358" transform="translate(0,-9.78941)" v:mID="152" v:groupContext="group">
+				<title>Planilha.74</title>
+				<g id="shape153-359" v:mID="153" v:groupContext="shape" transform="translate(39.3429,0)">
+					<title>Planilha.75</title>
+					<desc>1970</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+					<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+					<text x="12.81" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1970</text>				</g>
+				<g id="shape154-362" v:mID="154" v:groupContext="shape" transform="translate(126.771,0)">
+					<title>Planilha.76</title>
+					<desc>1980</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+					<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+					<text x="12.81" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1980</text>				</g>
+				<g id="shape155-365" v:mID="155" v:groupContext="shape" transform="translate(214.2,0)">
+					<title>Planilha.77</title>
+					<desc>1990</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+					<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+					<text x="12.81" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1990</text>				</g>
+				<g id="shape156-368" v:mID="156" v:groupContext="shape" transform="translate(301.629,0)">
+					<title>Planilha.78</title>
+					<desc>2000</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+					<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+					<text x="12.81" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>2000</text>				</g>
+				<g id="shape157-371" v:mID="157" v:groupContext="shape" transform="translate(389.057,0)">
+					<title>Planilha.79</title>
+					<desc>2010</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+					<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+					<text x="12.81" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>2010</text>				</g>
+				<g id="shape158-374" v:mID="158" v:groupContext="shape" transform="translate(6.55714,-17.4857)">
+					<title>Planilha.80</title>
+					<desc>10 nm</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="33.2229" cy="603.607" width="66.46" height="16.7863"/>
+					<rect x="0" y="595.214" width="66.4457" height="16.7863" class="st3"/>
+					<text x="15.91" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>10 nm</text>				</g>
+				<g id="shape159-377" v:mID="159" v:groupContext="shape" transform="translate(8.8729E-013,-192.343)">
+					<title>Planilha.81</title>
+					<desc>100 nm</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="39.78" cy="603.607" width="79.56" height="16.7863"/>
+					<rect x="0" y="595.214" width="79.56" height="16.7863" class="st3"/>
+					<text x="19" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>100 nm</text>				</g>
+				<g id="shape160-380" v:mID="160" v:groupContext="shape" transform="translate(13.1143,-367.2)">
+					<title>Planilha.82</title>
+					<desc>1 µm</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="26.6657" cy="603.607" width="53.34" height="16.7863"/>
+					<rect x="0" y="595.214" width="53.3314" height="16.7863" class="st3"/>
+					<text x="12.68" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1 µm</text>				</g>
+				<g id="shape161-383" v:mID="161" v:groupContext="shape" transform="translate(6.55714,-542.057)">
+					<title>Planilha.83</title>
+					<desc>10 µm</desc>
+					<v:userDefs/>
+					<v:textBlock v:margins="rect(0,0,0,0)"/>
+					<v:textRect cx="33.2229" cy="603.607" width="66.46" height="16.7863"/>
+					<rect x="0" y="595.214" width="66.4457" height="16.7863" class="st3"/>
+					<text x="15.77" y="607.8" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>10 µm</text>				</g>
+			</g>
+			<g id="group162-386" transform="translate(319.551,-468.61)" v:mID="162" v:groupContext="group">
+				<title>Planilha.84</title>
+				<g id="group163-387" transform="translate(0,-56.8286)" v:mID="163" v:groupContext="group">
+					<title>wave5</title>
+					<g id="group164-388" transform="translate(244.8,0)" v:mID="164" v:groupContext="group">
+						<title>wave1</title>
+						<g id="shape165-389" v:mID="165" v:groupContext="shape">
+							<title>Planilha.165</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape166-391" v:mID="166" v:groupContext="shape">
+							<title>Planilha.166</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29" class="st29"/>
+						</g>
+					</g>
+					<g id="group167-394" transform="translate(183.6,0)" v:mID="167" v:groupContext="group">
+						<title>Planilha.87</title>
+						<g id="shape168-395" v:mID="168" v:groupContext="shape">
+							<title>Planilha.168</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape169-397" v:mID="169" v:groupContext="shape">
+							<title>Planilha.169</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29" class="st29"/>
+						</g>
+					</g>
+					<g id="group170-400" transform="translate(122.4,0)" v:mID="170" v:groupContext="group">
+						<title>Planilha.88</title>
+						<g id="shape171-401" v:mID="171" v:groupContext="shape">
+							<title>Planilha.171</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape172-403" v:mID="172" v:groupContext="shape">
+							<title>Planilha.172</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29" class="st29"/>
+						</g>
+					</g>
+					<g id="group173-406" transform="translate(61.2,0)" v:mID="173" v:groupContext="group">
+						<title>Planilha.89</title>
+						<g id="shape174-407" v:mID="174" v:groupContext="shape">
+							<title>Planilha.174</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape175-409" v:mID="175" v:groupContext="shape">
+							<title>Planilha.175</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29" class="st29"/>
+						</g>
+					</g>
+					<g id="group176-412" v:mID="176" v:groupContext="group">
+						<title>Planilha.90</title>
+						<g id="shape177-413" v:mID="177" v:groupContext="shape">
+							<title>Planilha.177</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape178-415" v:mID="178" v:groupContext="shape">
+							<title>Planilha.178</title>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C11.17 568.29 19.43 612 30.6 612 C41.77 612 50.03 568.29 61.2 568.29" class="st29"/>
+						</g>
+					</g>
+				</g>
+				<g id="group179-418" transform="translate(131.143,0)" v:mID="179" v:groupContext="group">
+					<title>Planilha.91</title>
+					<g id="group180-419" transform="translate(139.886,0)" v:mID="180" v:groupContext="group">
+						<title>wave1</title>
+						<g id="shape181-420" v:mID="181" v:groupContext="shape">
+							<title>Planilha.181</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape182-422" v:mID="182" v:groupContext="shape">
+							<title>Planilha.182</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29" class="st30"/>
+						</g>
+					</g>
+					<g id="group183-425" transform="translate(104.914,0)" v:mID="183" v:groupContext="group">
+						<title>Planilha.93</title>
+						<g id="shape184-426" v:mID="184" v:groupContext="shape">
+							<title>Planilha.184</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape185-428" v:mID="185" v:groupContext="shape">
+							<title>Planilha.185</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29" class="st30"/>
+						</g>
+					</g>
+					<g id="group186-431" transform="translate(69.9429,0)" v:mID="186" v:groupContext="group">
+						<title>Planilha.94</title>
+						<g id="shape187-432" v:mID="187" v:groupContext="shape">
+							<title>Planilha.187</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape188-434" v:mID="188" v:groupContext="shape">
+							<title>Planilha.188</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29" class="st30"/>
+						</g>
+					</g>
+					<g id="group189-437" transform="translate(34.9714,0)" v:mID="189" v:groupContext="group">
+						<title>Planilha.95</title>
+						<g id="shape190-438" v:mID="190" v:groupContext="shape">
+							<title>Planilha.190</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape191-440" v:mID="191" v:groupContext="shape">
+							<title>Planilha.191</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29" class="st30"/>
+						</g>
+					</g>
+					<g id="group192-443" v:mID="192" v:groupContext="group">
+						<title>Planilha.96</title>
+						<g id="shape193-444" v:mID="193" v:groupContext="shape">
+							<title>Planilha.193</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st28"/>
+						</g>
+						<g id="shape194-446" v:mID="194" v:groupContext="shape">
+							<title>Planilha.194</title>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29 L0 568.29 Z"
+									class="st8"/>
+							<path d="M0 568.29 C6.38 568.29 11.1 612 17.49 612 C23.87 612 28.59 568.29 34.97 568.29" class="st30"/>
+						</g>
+					</g>
+				</g>
+			</g>
+			<g id="shape206-449" v:mID="206" v:groupContext="shape" transform="translate(71.2543,-552.54)">
+				<title>marker</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape207-451" v:mID="207" v:groupContext="shape" transform="translate(79.1233,-553.589)">
+				<title>Planilha.109</title>
+				<desc>10 µm (1971) e.g. Intel 8008</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="184.037" cy="603.607" width="368.08" height="16.7863"/>
+				<rect x="0" y="595.214" width="368.074" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>10 µm (1971) e.g. Intel 8008</text>			</g>
+			<g id="shape208-454" v:mID="208" v:groupContext="shape" transform="translate(106.225,-461.09)">
+				<title>Planilha.110</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape209-456" v:mID="209" v:groupContext="shape" transform="translate(114.094,-462.139)">
+				<title>Planilha.111</title>
+				<desc>3 µm (1975) e.g. Intel 8088</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="177.48" cy="603.607" width="354.97" height="16.7863"/>
+				<rect x="0" y="595.214" width="354.96" height="16.7863" class="st3"/>
+				<text x="0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>3 µm (1975) e.g. Intel 8088</text>			</g>
+			<g id="shape210-459" v:mID="210" v:groupContext="shape" transform="translate(167.425,-408.46)">
+				<title>Planilha.112</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape211-461" v:mID="211" v:groupContext="shape" transform="translate(175.294,-409.509)">
+				<title>Planilha.113</title>
+				<desc>1.5 µm (1982) e.g. Intel 80286</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="197.151" cy="603.607" width="394.32" height="16.7863"/>
+				<rect x="0" y="595.214" width="394.303" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>1.5 µm (1982) e.g. Intel 80286</text>			</g>
+			<g id="shape212-464" v:mID="212" v:groupContext="shape" transform="translate(193.654,-377.69)">
+				<title>Planilha.114</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape213-466" v:mID="213" v:groupContext="shape" transform="translate(201.523,-378.739)">
+				<title>Planilha.115</title>
+				<desc>1 µm (1985) e.g. Intel 80386</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="184.037" cy="603.607" width="368.08" height="16.7863"/>
+				<rect x="0" y="595.214" width="368.074" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>1 µm (1985) e.g. Intel 80386</text>			</g>
+			<g id="shape214-469" v:mID="214" v:groupContext="shape" transform="translate(228.625,-360.73)">
+				<title>Planilha.116</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape215-471" v:mID="215" v:groupContext="shape" transform="translate(236.494,-361.779)">
+				<title>Planilha.117</title>
+				<desc>800 nm (1989) e.g. P5 Pentium 60 MHz</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="236.494" cy="603.607" width="473" height="16.7863"/>
+				<rect x="0" y="595.214" width="472.989" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>800 nm (1989) e.g. P5 Pentium 60 MHz</text>			</g>
+			<g id="shape216-474" v:mID="216" v:groupContext="shape" transform="translate(272.34,-338.87)">
+				<title>Planilha.118</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape217-476" v:mID="217" v:groupContext="shape" transform="translate(280.208,-339.919)">
+				<title>Planilha.119</title>
+				<desc>600 nm (1994) e.g. Motorola PowerPC 601</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="256.166" cy="603.607" width="512.35" height="16.7863"/>
+				<rect x="0" y="595.214" width="512.331" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>600 nm (1994) e.g. Motorola PowerPC 601</text>			</g>
+			<g id="shape218-479" v:mID="218" v:groupContext="shape" transform="translate(281.083,-297.95)">
+				<title>Planilha.120</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape219-481" v:mID="219" v:groupContext="shape" transform="translate(288.951,-298.999)">
+				<title>Planilha.121</title>
+				<desc>350 nm (1995) e.g. Pentium II Klamath</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="243.051" cy="603.607" width="486.12" height="16.7863"/>
+				<rect x="0" y="595.214" width="486.103" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>350 nm (1995) e.g. Pentium II Klamath</text>			</g>
+			<g id="shape220-484" v:mID="220" v:groupContext="shape" transform="translate(307.311,-272.42)">
+				<title>Planilha.122</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape221-486" v:mID="221" v:groupContext="shape" transform="translate(315.18,-273.469)">
+				<title>Planilha.123</title>
+				<desc>250 nm (1998) e.g. AMD K6-2</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="177.48" cy="603.607" width="354.97" height="16.7863"/>
+				<rect x="0" y="595.214" width="354.96" height="16.7863" class="st3"/>
+				<text x="0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>250 nm (1998) e.g. AMD K6-2</text>			</g>
+			<g id="shape222-489" v:mID="222" v:groupContext="shape" transform="translate(316.054,-247.42)">
+				<title>Planilha.124</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape223-491" v:mID="223" v:groupContext="shape" transform="translate(323.923,-248.469)">
+				<title>Planilha.125</title>
+				<desc>180 nm (1999) e.g. Coppermine E</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="203.709" cy="603.607" width="407.43" height="16.7863"/>
+				<rect x="0" y="595.214" width="407.417" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>180 nm (1999) e.g. Coppermine E</text>			</g>
+			<g id="shape224-494" v:mID="224" v:groupContext="shape" transform="translate(324.797,-222.76)">
+				<title>Planilha.126</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape225-496" v:mID="225" v:groupContext="shape" transform="translate(332.665,-223.809)">
+				<title>Planilha.127</title>
+				<desc>130 nm (2000) e.g. PowerPC 7447</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="203.709" cy="603.607" width="407.43" height="16.7863"/>
+				<rect x="0" y="595.214" width="407.417" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>130 nm (2000) e.g. PowerPC 7447</text>			</g>
+			<g id="shape226-499" v:mID="226" v:groupContext="shape" transform="translate(342.283,-194.79)">
+				<title>Planilha.128</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape227-501" v:mID="227" v:groupContext="shape" transform="translate(350.151,-195.839)">
+				<title>Planilha.129</title>
+				<desc>90 nm (2002) e.g. VIA C7</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="157.809" cy="603.607" width="315.62" height="16.7863"/>
+				<rect x="0" y="595.214" width="315.617" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>90 nm (2002) e.g. VIA C7</text>			</g>
+			<g id="shape228-504" v:mID="228" v:groupContext="shape" transform="translate(377.254,-170.13)">
+				<title>Planilha.130</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape229-506" v:mID="229" v:groupContext="shape" transform="translate(385.123,-171.179)">
+				<title>Planilha.131</title>
+				<desc>65 nm (2006) e.g. Core Duo</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="170.923" cy="603.607" width="341.86" height="16.7863"/>
+				<rect x="0" y="595.214" width="341.846" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>65 nm (2006) e.g. Core Duo</text>			</g>
+			<g id="shape230-509" v:mID="230" v:groupContext="shape" transform="translate(394.74,-142.15)">
+				<title>Planilha.132</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape232-511" v:mID="232" v:groupContext="shape" transform="translate(412.225,-116.28)">
+				<title>Planilha.134</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape233-513" v:mID="233" v:groupContext="shape" transform="translate(429.557,-87.7696)">
+				<title>Planilha.135</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape234-515" v:mID="234" v:groupContext="shape" transform="translate(447.557,-56.8946)">
+				<title>Planilha.136</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape235-517" v:mID="235" v:groupContext="shape" transform="translate(473.979,-28.5253)">
+				<title>Planilha.137</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st31"/>
+			</g>
+			<g id="shape236-519" v:mID="236" v:groupContext="shape" v:layerMember="0" transform="translate(76.0006,-467.855)">
+				<title>Conector dinâmico</title>
+				<path d="M0 527.08 L32.47 612 L0 527.08 Z" class="st8"/>
+				<path d="M0 527.08 L32.47 612" class="st32"/>
+			</g>
+			<g id="shape237-522" v:mID="237" v:groupContext="shape" v:layerMember="0" transform="translate(287.083,-278.359)">
+				<title>Conector dinâmico.139</title>
+				<path d="M21.22 612 L0 591.35 L21.22 612 Z" class="st8"/>
+				<path d="M21.22 612 L0 591.35" class="st32"/>
+			</g>
+			<g id="shape238-525" v:mID="238" v:groupContext="shape" v:layerMember="0" transform="translate(112.374,-414.241)">
+				<title>Conector dinâmico.140</title>
+				<path d="M0 563.93 L55.9 612 L0 563.93 Z" class="st8"/>
+				<path d="M0 563.93 L55.9 612" class="st32"/>
+			</g>
+			<g id="shape239-528" v:mID="239" v:groupContext="shape" v:layerMember="0" transform="translate(173.191,-383.848)">
+				<title>Conector dinâmico.141</title>
+				<path d="M0 586.55 L21.69 612 L0 586.55 Z" class="st8"/>
+				<path d="M0 586.55 L21.69 612" class="st32"/>
+			</g>
+			<g id="shape240-531" v:mID="240" v:groupContext="shape" v:layerMember="0" transform="translate(200.296,-365.754)">
+				<title>Conector dinâmico.142</title>
+				<path d="M28.68 612 L0 598.1 L28.68 612 Z" class="st8"/>
+				<path d="M28.68 612 L0 598.1" class="st32"/>
+			</g>
+			<g id="shape241-534" v:mID="241" v:groupContext="shape" v:layerMember="0" transform="translate(235.251,-343.929)">
+				<title>Conector dinâmico.143</title>
+				<path d="M0 593.27 L37.46 612 L0 593.27 Z" class="st8"/>
+				<path d="M0 593.27 L37.46 612" class="st32"/>
+			</g>
+			<g id="shape242-537" v:mID="242" v:groupContext="shape" v:layerMember="0" transform="translate(276.569,-304.866)">
+				<title>Conector dinâmico.144</title>
+				<path d="M0 577.92 L7.28 612 L0 577.92 Z" class="st8"/>
+				<path d="M0 577.92 L7.28 612" class="st32"/>
+			</g>
+			<g id="shape243-540" v:mID="243" v:groupContext="shape" v:layerMember="0" transform="translate(453.438,-34.5827)">
+				<title>Conector dinâmico.145</title>
+				<path d="M0 588.75 L21.65 612 L0 588.75 Z" class="st8"/>
+				<path d="M0 588.75 L21.65 612" class="st32"/>
+			</g>
+			<g id="shape244-543" v:mID="244" v:groupContext="shape" v:layerMember="0" transform="translate(311.96,-254.219)">
+				<title>Conector dinâmico.146</title>
+				<path d="M0 593.6 L6.44 612 L0 593.6 Z" class="st8"/>
+				<path d="M0 593.6 L6.44 612" class="st32"/>
+			</g>
+			<g id="shape245-546" v:mID="245" v:groupContext="shape" v:layerMember="0" transform="translate(320.723,-229.56)">
+				<title>Conector dinâmico.147</title>
+				<path d="M0 593.94 L6.4 612 L0 593.94 Z" class="st8"/>
+				<path d="M0 593.94 L6.4 612" class="st32"/>
+			</g>
+			<g id="shape246-549" v:mID="246" v:groupContext="shape" v:layerMember="0" transform="translate(330.147,-201.245)">
+				<title>Conector dinâmico.148</title>
+				<path d="M0 589.95 L13.78 612 L0 589.95 Z" class="st8"/>
+				<path d="M0 589.95 L13.78 612" class="st32"/>
+			</g>
+			<g id="shape247-552" v:mID="247" v:groupContext="shape" v:layerMember="0" transform="translate(348.638,-175.649)">
+				<title>Conector dinâmico.154</title>
+				<path d="M0 591.38 L29.25 612 L0 591.38 Z" class="st8"/>
+				<path d="M0 591.38 L29.25 612" class="st32"/>
+			</g>
+			<g id="shape248-555" v:mID="248" v:groupContext="shape" v:layerMember="0" transform="translate(382.604,-148.613)">
+				<title>Conector dinâmico.155</title>
+				<path d="M0 589.95 L13.78 612 L0 589.95 Z" class="st8"/>
+				<path d="M0 589.95 L13.78 612" class="st32"/>
+			</g>
+			<g id="shape249-558" v:mID="249" v:groupContext="shape" v:layerMember="0" transform="translate(400.2,-122.674)">
+				<title>Conector dinâmico.156</title>
+				<path d="M0 591.92 L13.56 612 L0 591.92 Z" class="st8"/>
+				<path d="M0 591.92 L13.56 612" class="st32"/>
+			</g>
+			<g id="shape250-561" v:mID="250" v:groupContext="shape" v:layerMember="0" transform="translate(417.539,-94.2547)">
+				<title>Conector dinâmico.157</title>
+				<path d="M0 589.47 L13.7 612 L0 589.47 Z" class="st8"/>
+				<path d="M0 589.47 L13.7 612" class="st32"/>
+			</g>
+			<g id="shape251-564" v:mID="251" v:groupContext="shape" v:layerMember="0" transform="translate(434.814,-63.4097)">
+				<title>Conector dinâmico.158</title>
+				<path d="M0 587.16 L14.48 612 L0 587.16 Z" class="st8"/>
+				<path d="M0 587.16 L14.48 612" class="st32"/>
+			</g>
+			<g id="group252-567" transform="translate(459.526,-31.0197)" v:mID="252" v:groupContext="group">
+				<title>Planilha.154</title>
+				<g id="shape253-568" v:mID="253" v:groupContext="shape">
+					<title>Planilha.253</title>
+					<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+								 612 L26.23 87.43 L26.23 612 Z" class="st7"/>
+				</g>
+				<g id="shape254-570" v:mID="254" v:groupContext="shape">
+					<title>Planilha.254</title>
+					<path d="M0 612 L0 87.43 L0 612 ZM8.74 612 L8.74 87.43 L8.74 612 ZM17.49 612 L17.49 87.43 L17.49 612 ZM26.23
+								 612 L26.23 87.43 L26.23 612 Z" class="st8"/>
+					<path d="M0 612 L0 87.43M8.74 612 L8.74 87.43M17.49 612 L17.49 87.43M26.23 612 L26.23 87.43" class="st26"/>
+				</g>
+			</g>
+			<g id="shape255-573" v:mID="255" v:groupContext="shape" transform="translate(456.223,-57.5456)">
+				<title>Planilha.155</title>
+				<desc>14 nm (2014) e.g. Core M (Broadwell)</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="131.05" cy="603.607" width="262.1" height="16.7863"/>
+				<rect x="0" y="595.214" width="262.099" height="16.7863" class="st3"/>
+				<text x="0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>14 nm (2014) e.g. Core M (Broadwell)</text>			</g>
+			<g id="shape256-576" v:mID="256" v:groupContext="shape" transform="translate(484.927,-28.7694)">
+				<title>Planilha.156</title>
+				<desc>10 nm (2017) e.g. Atom (Cannonlake)</desc>
+				<v:userDefs/>
+				<v:textBlock v:margins="rect(0,0,0,0)"/>
+				<v:textRect cx="107.148" cy="603.607" width="214.3" height="16.7863"/>
+				<rect x="0" y="595.214" width="214.296" height="16.7863" class="st3"/>
+				<text x="-0" y="607.8" class="st5" v:langID="1033"><v:paragraph/><v:tabList/>10 nm (2017)</text>			</g>
+			<g id="shape76-579" v:mID="76" v:groupContext="shape" transform="translate(474.223,-28.7697)">
+				<title>Planilha.159</title>
+				<ellipse cx="3.49714" cy="608.503" rx="3.49714" ry="3.49714" class="st33"/>
+			</g>
+		</g>
+	</g>
+</svg>
