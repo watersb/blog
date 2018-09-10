@@ -35,8 +35,6 @@ body header, body footer {
 
 body header * {
   filter: opacity(0.8) var(--glowing-link);
-  font-weight: 300;
-  font-size: 1.2rem;
   margin: 0;
 }
 
