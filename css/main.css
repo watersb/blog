@@ -1,8 +1,7 @@
 @charset "UTF-8";
-/* 2018-09-02 13:56:41 */
 
 html {
-  --fontstack-serif: "Sitka", "Iowan Old Style", "Nimbus Roman", "Georgia", serif;
+  --fontstack-serif: "Sitka", "Iowan Old Style", "Charter", "Nimbus Roman", "Georgia", serif;
   --fontstack-sans:  "Avenir Next", "Gill Sans", "Nimbus Sans",  "Calibri", sans-serif;
   --fontstack-mono:  "Consolas", "Menlo", "Courier", monospace;
 
