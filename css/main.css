@@ -34,12 +34,13 @@ body header, body footer {
 
 
 body header * {
-  filter: opacity(0.8) var(--glowing-link);
   margin: 0;
 }
 
-body header a:hover {
-  filter: opacity(1) var(--glowing-link);
+
+@media (hover :hover) {
+  body > header *       { filter: var(--glowing-link) opacity(0.75); }
+  body > header a:hover { filter: var(--glowing-link) opacity(1   ); }
 }
 
 #license {
