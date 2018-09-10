@@ -1,0 +1,25 @@
+@media (max-width: 419px) {
+  main article figure {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 420px) {
+  main article {
+    font-size: calc( 14px + .2vw);
+  }
+
+  main article figure {
+    float: right;
+    width: 20%;
+    margin-left: 2vw;
+    padding: 2vw;
+  }
+}
+
+@media (min-width: 760px) {
+  main article {
+    font-size: calc( 1rem + 3px);
+    line-height: 1.375;
+  }
+}
