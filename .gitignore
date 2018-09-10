@@ -1,3 +1,6 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
+
+# a symlink to my Drop web scrapbook
+2018/08/2018-08-25/_web/
