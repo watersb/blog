@@ -22,7 +22,6 @@ a:visited {
 }
 
 body {
-  background-color: #eee;
   font-family: var(--fontstack-sans);
   margin-left: 2vw;
 }
