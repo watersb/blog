@@ -5,7 +5,8 @@ html {
   --fontstack-serif: "Sitka", "Iowan Old Style", "Nimbus Roman", "Georgia", serif;
   --fontstack-sans:  "Avenir Next", "Gill Sans", "Nimbus Sans",  "Calibri", sans-serif;
   --fontstack-mono:  "Consolas", "Menlo", "Courier", monospace;
- font-feature-settings: "kern", "liga", "clig", "pnum";
+
+  font-feature-settings: "kern", "liga", "clig", "pnum";
 
   --glowing-link:    drop-shadow(0 0 3px #fff0f0);
 }
