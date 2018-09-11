@@ -1,7 +1,5 @@
-@media (max-width: 419px) {
-  main article figure {
-    font-size: 14px;
-  }
+main article figure {
+  font-size: 14px;
 }
 
 @media (min-width: 420px) {
