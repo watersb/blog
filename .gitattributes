@@ -110,7 +110,7 @@ TODO         text
 .editorconfig   text
 .gitattributes  text
 .gitconfig      text
-.gitignore      text
+.gitignore      binary
 .htaccess       text
 *.npmignore     text
 *.yaml          text
