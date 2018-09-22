@@ -11,3 +11,12 @@ set $CSP "${CSP}    font-src 'self' data: https://fonts.gstatic.com ; "
 set $CSP "${CSP} upgrade-insecure-requests ;"
 
 add_header Content-Security-Policy $CSP
+
+set $PKP '';
+set $PKP "${PKP} ; pin-sha256='RKUwiDV9Hbza6AhEeBXNWjkuv9CttHkVuMdiTLN0HUQ='";
+set $PKP "${PKP} ; pin-sha256='x9SZw6TwIqfmvrLZ/kz1o0Ossjmn728BnBKpUFqGNVM='";
+set $PKP "${PKP} ; pin-sha256='58qRu/uxh4gFezqAcERupSkRYBlBAvfcw7mEjGPLnNU='";
+set $PKP "${PKP} ; pin-sha256='lCppFqbkrlJ3EcVFAkeip0+44VaoJUymbnOaEUk7tEU='";
+set $PKP "${PKP} ; max-age=5184000; includeSubDomains always;'";
+
+add_header Public-Key-Pins $PKP;
