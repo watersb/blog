@@ -1,4 +1,13 @@
-Content-Security-Policy: default-src https;  object-src 'none'; 
+## 2018-09-22 01:46:39
+#
+set $CSP '';
+set $CSP "${CSP} default-src 'none' ; "
+set $CSP "${CSP}manifest-src 'self' ; "
+set $CSP "${CSP}   style-src 'self' ; "
+set $CSP "${CSP}  script-src 'self' ; "
+set $CSP "${CSP}     img-src 'self' ; "
+set $CSP "${CSP}    font-src 'self' data: https://fonts.gstatic.com ; "
 
-Content-Security-Policy: default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self';
+set $CSP "${CSP} upgrade-insecure-requests ;"
 
+add_header Content-Security-Policy $CSP
