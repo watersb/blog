@@ -2,5 +2,5 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site:id" content="@watersb">
 <meta name="twitter:title" content="a web page of boyd waters">
-<meta name="twitter:description" content="Boyd Waters writes about web deployment, security, and other computer stuff. Mostly he breaks things.">
+<meta name="twitter:description" content="Boyd Waters writes about web development, security, and other computer stuff. Mostly he breaks things.">
 <meta name="twitter:image" content="https://watersb.org/img/favicons/apple-touch-icon-180x180.png">
