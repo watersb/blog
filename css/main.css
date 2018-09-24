@@ -41,13 +41,14 @@ p {
 body {
   font-family: var(--fontstack-sans);
   margin-left: 2vw;
-  background: #ddd;
+  background: #dadada;
 }
 
 
 body>footer {
   text-align: right;
   font-stretch: condensed;
+  filter: var(--glowing-link);
 }
 
 body>header * {
@@ -76,16 +77,14 @@ body > header > a > h1 span {
   margin-right: 0;
 }
 
-body>footer {
-  color: #444;
-}
+
 
 main {
   text-align: left;
   font-family: var(--fontstack-serif);
   line-height: 1.6;
   background-color: #fffa;
-  background: linear-gradient(#fff0, #ffff 50%, #ffff 95%, #fff0);
+  background: linear-gradient(#fff0, #ffff 50%, #ffff 90%, #fff0);
   color: #222;
   counter-reset: sidenote-counter;
   overflow-wrap: break-word;
