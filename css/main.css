@@ -120,3 +120,8 @@ main>article>header>time {
   font-variant: small-caps;
   color: #444;
 }
+
+main>article>header>ul li {
+  display: inline;
+  opacity: 0.25;
+}
