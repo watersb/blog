@@ -1,0 +1,8 @@
+main>article>header>ul li {
+  display: inline-block;
+  transform: rotate(60deg);
+  transform-origin: top left;
+  font-family: var(--fontstack-sans);
+  font-weight: 300;
+  opacity: 0.25;
+
