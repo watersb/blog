@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 60">
+  <path fill="none" d="M0 0h48v48H0z" data-name="Bouding Box"/>
+  <path d="M44 19.5a11.5 11.5 0 0 0-20.89-6.63A3 3 0 0 0 21 12H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h4.8l-2.59 3a3 3 0 0 0 2.29 5h20.25a3 3 0 0 0 2.35-4.88l-3.43-4.28a11.12 11.12 0 0 0 1.83.16A11.5 11.5 0 0 0 44 19.5zM32.5 11a8.5 8.5 0 1 1-8.5 8.5 8.51 8.51 0 0 1 8.5-8.5zM8 29a1 1 0 0 1-1-1V16a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v5.18L14.35 29zm3.49 8l10.44-12.29L31.76 37z"/>
+  <text y="63" font-size="5" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
+    Created by Dmitriy Ivanov
+  </text>
+  <text y="68" font-size="5" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
+    from the Noun Project
+  </text>
+</svg>
