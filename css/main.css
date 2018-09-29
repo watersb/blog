@@ -3,13 +3,12 @@
 /* TODO: Make the font import conditional. */
 
 :root {
-	font-size: 18px;
+  font-size: 18px;
 }
 
-
 html {
-  --fontstack-serif: "Iowan Old Style", "Georgia Pro", 'Source Serif Pro',  serif;
-  --fontstack-sans: "Avenir Next","Arial Nova", 'Source Sans Pro', sans-serif;
+  --fontstack-serif: "Iowan Old Style", "Georgia Pro", 'Source Serif Pro', serif;
+  --fontstack-sans: "Avenir Next", "Arial Nova", 'Source Sans Pro', sans-serif;
   --fontstack-mono: "Menlo", 'Source Code Pro', monospace;
 
   font-feature-settings: "kern", "liga", "clig", "pnum";
@@ -33,7 +32,6 @@ a:hover {
   text-shadow: 0 0 8px rebeccapurple;
 }
 
-
 p {
   margin-bottom: 1.6em;
 }
@@ -43,7 +41,6 @@ body {
   margin-left: 2vw;
   background: #dadada;
 }
-
 
 body>footer {
   text-align: right;
@@ -56,15 +53,16 @@ body>header * {
   filter: var(--glowing-link) opacity(0.7);
   color: #000a;
 }
+
 body>header>a:hover {
   filter: opacity(1);
 }
+
 #debug {
   float: right;
 }
 
-
-body > header > a > h1 span {
+body>header>a>h1 span {
   display: inline;
   color: #0003;
   text-shadow: none;
@@ -72,12 +70,9 @@ body > header > a > h1 span {
   margin: -0.6em;
 }
 
-
 #license {
   margin-right: 0;
 }
-
-
 
 main {
   text-align: left;
@@ -117,11 +112,11 @@ main>article>header * {
 }
 
 main>article>header h1 {
-font-size: 2em;
-  margin-top: -0.4em
+  font-size: 2em;
+  margin: -0.4em 0;
 }
+
 main>article>header>time {
-	margin: -0.5em;
-	font-variant: small-caps;
-	color: #444;
+  font-variant: small-caps;
+  color: #444;
 }
