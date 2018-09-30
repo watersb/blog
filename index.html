@@ -64,6 +64,22 @@
       <p>How fast? <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Doubling every year.</a> Year after year, we
         could expect great things.</p>
 
+<pre><code>
+'use strict';
+
+const bigWidth  = "82.5vw";
+
+const toggleWidth = t => {
+    t.target.style.width =
+    t.target.style.width == bigWidth ? "" : bigWidth;
+}
+
+
+document.querySelectorAll("main > article > aside > figure > img")
+    .forEach(
+          img => img.onclick = toggleWidth
+          );
+</code></pre>
 
 
       <p>Max Roser and Hannah Ritchie (2018) - &ldquo;Technological Progress&rdquo;. <em>Published online at

@@ -39,22 +39,22 @@
     </figcaption>
     </figure>
 
-      <pre>
-    'use strict';
+<pre><code>
+'use strict';
 
-    const bigWidth  = "82.5vw";
+const bigWidth  = "82.5vw";
 
-    const toggleWidth = t => {
-        t.target.style.width =
-        t.target.style.width == bigWidth ? "" : bigWidth;
-    }
+const toggleWidth = t => {
+    t.target.style.width =
+    t.target.style.width == bigWidth ? "" : bigWidth;
+}
 
 
-    document.querySelectorAll("main > article > aside > figure > img")
-        .forEach(
-             img => img.onclick = toggleWidth
-             );
-    </pre>
+document.querySelectorAll("main > article > aside > figure > img")
+    .forEach(
+          img => img.onclick = toggleWidth
+          );
+</code></pre>
       <hr>
 
       <p>Max Roser and Hannah Ritchie (2018) - &ldquo;Technological Progress&rdquo;. <em>Published online at
