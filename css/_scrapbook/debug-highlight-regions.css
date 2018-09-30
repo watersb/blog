@@ -6,6 +6,22 @@ body>footer {
   background-color: rgba(255, 208, 196, 0.514);
 }
 
+body>main>article>header {
+  background-color: rgba(217, 143, 252, 0.452);
+}
+
+body>main>article>header>time {
+  background-color: rgba(143, 190, 252, 0.452);
+}
+
+body>main>article>header>h1 {
+  background-color: rgba(252, 143, 143, 0.452);
+}
+
+body>main>article>header>ul {
+  background-color: rgba(252, 208, 143, 0.452);
+}
+
 @media (min-width: 420px) {
   main {
     background-color: rgba(0, 255, 255, 0.185);
