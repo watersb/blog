@@ -85,6 +85,12 @@ main {
   padding: 2vw;
 }
 
+main article p, blockquote, cite {
+  hanging-punctuation: first allow-end last;
+  hyphens: auto;
+  text-overflow: ellipsis;
+}
+
 main article figure {
   margin: 1vw;
   font-family: var(--fontstack-sans);
