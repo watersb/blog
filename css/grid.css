@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body>main>article>header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "timestamp tags"
+  "title title";
+}
+
+body>main>article>header>time {
+  grid-area: timestamp;
+}
+
+body>main>article>header>h1 {
+  grid-area: title;
+}
+
+body>main>article>header>ul {
+  /* padding-right: 0.75em; */
+  padding: 0;
+  text-align: right;
+  grid-area: tags;
+}
+

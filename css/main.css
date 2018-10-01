@@ -87,8 +87,11 @@ main {
 
 main article p, blockquote, cite {
   hanging-punctuation: first allow-end last;
-  hyphens: auto;
   text-overflow: ellipsis;
+}
+main article p {
+         hyphens: auto;
+ -webkit-hyphens: auto;
 }
 
 main article figure {
@@ -111,14 +114,18 @@ main article pre {
   white-space: pre;
 }
 
+main>article>header{
+  margin-bottom: 1em;
+}
+
 main>article>header * {
-  margin-top: 0;
+  margin: 0;
   filter: var(--glowing-link);
 }
 
 main>article>header h1 {
   font-size: 2em;
-  margin: -0.4em 0;
+  margin-top: -0.6em;
 }
 
 main>article>header>time {
@@ -131,6 +138,12 @@ main>article>header>ul li {
   opacity: 0.25;
 }
 
+main article figure figcaption {
+  padding: 1vw;
+  font-size: 0.8em;
+ -webkit-hyphens: auto;
+         hyphens: auto;
+}
 
 
 main article figure {
