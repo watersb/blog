@@ -125,7 +125,7 @@ main>article>header * {
 
 main>article>header h1 {
   font-size: 2em;
-  margin-top: -0.6em;
+  margin-top: -0.4em;
 }
 
 main>article>header>time {
@@ -133,8 +133,7 @@ main>article>header>time {
   color: #444;
 }
 
-main>article>header>ul li {
-  display: inline;
+main>article>header>div {
   opacity: 0.25;
 }
 
@@ -170,5 +169,9 @@ main article figure img {
     float: right;
     width: min-content;
     margin-left: 2vw;
+  }
+
+  main article pre {
+    font-size: 0.75em;
   }
 }

@@ -21,6 +21,13 @@ body>main>article>header>h1 {
 body>main>article>header>ul {
   background-color: rgba(252, 208, 143, 0.452);
 }
+body>main>article>header>ul>li {
+  background-color: rgba(254, 234, 255, 0.932);
+  opacity: 1;
+}
+body>main>article>header>ul>li>img {
+  background-color: rgb(253, 240, 0);
+}
 
 @media (min-width: 420px) {
   main {
