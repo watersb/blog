@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+  display: grid;
+
+  grid-template-areas:
+    "head nav"
+    "main main"
+    "footer footer";
+
+  grid-template-columns: 30% 1fr;
+}
+
+body > header {
+  grid-area: head;
+  text-align: right;
+}
+
+body > main {
+  grid-area: main;
+}
+
+body > footer {
+  grid-area: footer;
+}
+
+
+article {
+  display: grid;
+
+  grid-template-areas:
+    "... title"
+    "aside words";
+
+  grid-template-columns: calc(30% - 2em) 1fr;
+}
+
+body>main>article {
+  grid-area: words;
+}
+
+body>main>article>header {
+  grid-area: title;
+  display: none;
+}
+
+/* body>main>article > figure {
+  float: unset;
+  grid-area: aside;
+} */
+
+body>main >article> figure >img {
+  max-width: 220px;
+}
+

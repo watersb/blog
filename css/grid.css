@@ -1,10 +1,10 @@
 @charset "UTF-8";
 body>main>article>header {
   display: grid;
-  grid-template-columns: 10em 1fr;
+  grid-template-columns: 2em 1fr;
   grid-template-areas:
-  "timestamp tags"
-  "title title";
+  "tags timestamp"
+  "tags title";
 }
 
 body>main>article>header>time {

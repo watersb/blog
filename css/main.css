@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url("/css/_main/google-font-adobesource.css");
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro');
+/* @import url("/css/_main/google-font-adobesource.css"); */
 /* TODO: Make the font import conditional. */
 
 :root {
@@ -33,7 +34,7 @@ a:hover {
 }
 
 p {
-  margin-bottom: 1.6em;
+  margin: 0 1.6em;
 }
 
 body {
@@ -95,7 +96,7 @@ main article p {
 }
 
 main article figure {
-  margin: 1vw;
+  margin: 0;
   font-family: var(--fontstack-sans);
   font-size: 0.85em;
   line-height: 1.2em;
@@ -166,7 +167,7 @@ main article figure img {
   }
 
   main article figure {
-    float: right;
+    /* float: right; */
     width: min-content;
     margin-left: 2vw;
   }
