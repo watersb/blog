@@ -17,6 +17,7 @@ body>main>article>header>h1 {
 
 body>main>article>header>div {
   grid-area: tags;
+  display: none;
 }
 
 body>main>article>header>div img {

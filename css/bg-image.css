@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body {
-  transition: 0.5s ease-in-out;
   background-image: url("/img/bg/vla.jpg");
   background-color: #dbdbdb;
   background-repeat: no-repeat;

@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/bg-image.css">
+  <link rel="stylesheet" href="/css/_scrapbook/typography-fluid.css">
   <link rel="stylesheet" href="/css/_scrapbook/microsoftEdge.css">
   <!-- <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css"> -->
 
@@ -27,12 +28,9 @@
 
 <body>
   <header role="banner">
-    <a href="#foot" title="watersb, a web page of Boyd Waters">
-      <h1>
-        <img id="logo" src="/img/svg/logos/watersb.svg" height="32" width="36">
-        <span>@watersb</span>
-      </h1>
-    </a>
+    <h1>
+      <img id="logo" alt="watersb, a web page of Boyd Waters" src="/img/svg/logos/watersb.svg" height="32" width="36">
+    </h1>
   </header>
 
   <main>
@@ -47,42 +45,44 @@
       </header>
 
       <figure>
-        <img width="180" src="/2018/09/2018-09-03/i-lost-my-freaking/Comparison_semiconductor_process_nodes.svg">
+        <img width="120" src="/2018/10/2018-10-05/9780262012577.jpg">
         <figcaption>
-          <p>Comparison of sizes of semiconductor manufacturing process nodes with some microscopic objects and visible
-            light wavelengths.</p>
-          <cite>
-            By <a href="https://commons.wikimedia.org/wiki/User:Cmglee">Cmglee</a> [<a href="https://creativecommons.org/licenses/by-sa/3.0">CC
-              BY-SA 3.0 </a> or <a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>], <a href="https://commons.wikimedia.org/wiki/File:Comparison_semiconductor_process_nodes.svg">from
-              Wikimedia Commons</a>
-          </cite>
+          <details>
+            <summary>Racing the Beam
+            </summary>
+            <p>A study of the relationship between platform and creative expression in the Atari VCS</p>
+            <cite>
+              A <a href="https://en.wikipedia.org/wiki/Racing_the_Beam">book by Nick Montfort and Ian Bogost.</a>
+              <a href="http://mitpress.mit.edu/books/racing-beam">MIT Press.</a>
+            </cite>
+          </details>
         </figcaption>
       </figure>
 
       <p>When I was a kid, I <em>loved</em> computers. Video games and computers were just getting started. They were
-        full of promise, and how this was going to be great. Just keep the cursor moving, <a href="https://mitpress.mit.edu/books/racing-beam">racing
-          the beam</a>, and we know we will all be some place beyond imagination. So fast!</p>
-          <img width="180" src="/2018/10/2018-10-05/9780262012577.jpg" alt="Racing the Beam:A study of the relationship between platform and creative expression in the Atari VCS">
+        full of promise, and how this was going to be great. Just keep the cursor moving,
+        <a href="https://en.wikipedia.org/wiki/Racing_the_Beam">racing the beam</a>,
+         and we know we will all be some place beyond imagination. So fast!</p>
 
       <p>How fast? <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Doubling every year.</a> Year after year, we
         could expect great things.</p>
-
-<pre><code>
-'use strict';
-
-const bigWidth  = "82.5vw";
-
-const toggleWidth = t => {
-    t.target.style.width =
-    t.target.style.width == bigWidth ? "" : bigWidth;
-}
-
-
-document.querySelectorAll("main > article > aside > figure > img")
-    .forEach(
-          img => img.onclick = toggleWidth
-          );
-</code></pre>
+      <figure>
+        <img width="120" src="/2018/09/2018-09-03/i-lost-my-freaking/Comparison_semiconductor_process_nodes.svg">
+        <figcaption>
+          <details>
+            <summary>Process Nodes
+            </summary>
+            <p>Comparison of sizes of semiconductor manufacturing process nodes with some microscopic objects and
+              visible light wavelengths.
+            </p>
+            <cite>
+              By[<a href="https://creativecommons.org/licenses/by-sa/3.0">CC
+                BY-SA 3.0 </a> or <a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>], <a href="https://commons.wikimedia.org/wiki/File:Comparison_semiconductor_process_nodes.svg">from
+                Wikimedia Commons</a> <a href="https://commons.wikimedia.org/wiki/User:Cmglee">Cmglee</a>
+            </cite>
+          </details>
+        </figcaption>
+      </figure>
 
 
       <p>Max Roser and Hannah Ritchie (2018) - &ldquo;Technological Progress&rdquo;. <em>Published online at

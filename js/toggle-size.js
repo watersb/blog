@@ -14,16 +14,19 @@ window.onload = () => {
     const img = t.target;
     const cap = img.nextElementSibling;
 
-    if (img.style.width == "") {
-      img.style.width = bigWidth;
-      fig.style.float = "none";
-      fig.style.fontSize = "1em";
-      cap.style.maxWidth = bigWidth;
-    }
-    else {
-      img.style = null;
-      fig.style = null;
-      cap.style = null;
+    try {
+      if (img.style.width == "") {
+        img.style.width = bigWidth;
+        fig.style.fontSize = "1.6em";
+        cap.style.maxWidth = bigWidth;
+      }
+      else {
+        img.style = null;
+        fig.style = null;
+        cap.style = null;
+      }
+    } catch (error) {
+      // this catch intentionally left blank
     }
   }
 
