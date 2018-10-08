@@ -148,7 +148,7 @@ main article figure {
 }
 
 main article figure img {
-    width: 85vw;
+    max-width: 85vw;
     margin: 6px;
 }
 main article figure figcaption {
@@ -160,7 +160,6 @@ main article figure figcaption {
 }
 
 figcaption details summary {
-  list-style-type: "ℹ";
   font-variant: small-caps;
 }
 details[open] summary ~ * {
@@ -176,24 +175,50 @@ details[open] summary ~ * {
   main article figure img {
     width: 25vw;
   }
+
   main article figure figcaption {
+    font-size: 0.8em;
     max-width: 25vw;
-    font-size: 0.9em;
-    text-align: right;
   }
 
   main article figure {
     float: right;
     margin-left: 2vw;
-
     width: max-content;
   }
   main article figure:nth-of-type(even) {
     float: left;
     margin-right: 2vw;
   }
+  main article figure:nth-of-type(even) figcaption {
+      text-align: right;
+  }
 
   main article pre {
     font-size: 0.75em;
   }
+}
+
+
+
+main article figure figcaption details {
+    display: none;
+}
+
+main article figure figcaption details[open],
+main article figure:hover figcaption details {
+    display: initial;
+}
+
+
+@media (any-pointer: coarse) {
+    main article figure figcaption details {
+	display: initial;
+    }
+}
+
+
+
+main article figure img.thumb {
+    width: initial;
 }

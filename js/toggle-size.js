@@ -30,7 +30,7 @@ window.onload = () => {
     }
   }
 
-  document.querySelectorAll("main > article > figure > img")
+  document.querySelectorAll("main > article > figure > img.zoom")
     .forEach(
       img => img.onclick = toggleWidth
     );
