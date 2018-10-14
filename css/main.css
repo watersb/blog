@@ -17,7 +17,7 @@ html {
   --glowing-link: drop-shadow(0 0 3px #fffe);
 }
 
-body * {
+figure {
   transition: 0.5s ease-in-out;
 }
 
