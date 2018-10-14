@@ -26,6 +26,8 @@ a {
   font-family: var(--fontstack-sans);
   color: rgb(49, 49, 128);
   text-decoration: none;
+  hyphens: none;
+  -webkit-hyphens: none;
 }
 
 a:visited {
