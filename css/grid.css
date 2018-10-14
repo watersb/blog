@@ -24,3 +24,36 @@ body>main>article>header>div img {
   height: 0.8em;
 }
 
+body {
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-template-areas:
+    "main head"
+    "foot foot";
+}
+
+body > header {
+  grid-area: head;
+}
+
+body > main {
+  grid-area: main;
+  grid-column-end: head-end;
+}
+
+body > footer {
+  grid-area: foot;
+}
+
+/* @media screen and (max-width: 480px) {
+
+  body {
+    grid-template-columns: 96vw;
+    grid-template-rows: 20px auto auto;
+
+  grid-template-areas:
+    "head"
+    "main"
+    "foot";
+}
+} */
