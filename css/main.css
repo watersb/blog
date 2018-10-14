@@ -83,7 +83,7 @@ main {
   font-family: var(--fontstack-serif);
   line-height: 1.6;
   background-color: #fffa;
-  background: linear-gradient(#fff0, #ffff 50%, #ffff 90%, #fff0);
+  background: linear-gradient(#fff0, #ffff 30%, #ffff 90%, #fff0);
   color: #222;
   counter-reset: sidenote-counter;
   padding: 2vw;
