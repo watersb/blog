@@ -1,0 +1,9 @@
+Here are some Unicode glyphs that might be useful for icons.
+NOTE: Of course, these will not be rendered in all fonts, platforms.
+TODO: Find out how robust these glyphs are on the Target platforms.
+
+ℹ		Information mark
+ⓘ		Circled Information mark
+☟		Hand pointing down
+☰		Hamburger Menu – three horizontal lines
+
