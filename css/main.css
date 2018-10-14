@@ -68,12 +68,13 @@ body>header>a:hover {
   float: right;
 }
 
-body>header>a>h1 span {
-  display: inline;
+body>header>h1>span {
   color: #0003;
   text-shadow: none;
-  font-size: 0.6em;
-  margin: -0.6em;
+font-weight: 400;
+font-size: 0.6em;
+margin-right:-1em;
+margin-bottom: -1em;
 }
 
 #license {
