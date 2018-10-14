@@ -148,7 +148,7 @@ main article figure {
 }
 
 main article figure img {
-    max-width: 85vw;
+    width: 85vw;
     margin: 6px;
 }
 main article figure figcaption {
@@ -218,7 +218,18 @@ main article figure:hover figcaption details {
 }
 
 
+main article figure.thumb {
+  width:  140px;
+}
+main article figure.thumb img {
+    width: 128px;
+}
 
-main article figure img.thumb {
-    width: initial;
+@media screen and (max-width: 360px) {
+  main article figure.thumb {
+    width:  96px;
+  }
+  main article figure.thumb img {
+    width: 80px;
+}
 }
