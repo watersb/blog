@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: sans-serif;
     background: #639;
     color: #fff
 }
@@ -77,4 +78,14 @@ nav a {
 #menu-open:checked~.menu-item:nth-child(6) {
     transition-duration: 490ms;
     transform: translate3d(-440px,0,0)
+}
+
+
+body section
+{
+  text-align: left;
+  width: 50%;
+  margin: 10em;
+  font-style: italic;
+  font-size: 0.75em;
 }
