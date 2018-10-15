@@ -1,0 +1,40 @@
+@charset "UTF-8";
+input#top-menu {
+  display: none;
+}
+
+body>header {
+display: grid;
+grid-template-areas: "nav ico";
+grid-template-rows: 64px;
+}
+body>header * {
+  user-select: none;
+}
+
+body>header>nav {
+  z-index: 2;
+  grid-area: nav;
+  margin-right: 12px;
+  margin-top: -0.5em;
+}
+body>header>nav a{
+opacity: 0;
+transition: 0.5s ease-in-out;
+pointer-events: none;
+margin-right: 6px;
+}
+
+body>header>label {
+  grid-area: ico;
+  cursor: pointer;
+}
+
+
+#top-menu:checked~nav,
+#top-menu:checked~nav a,
+#top-menu:checked+label>#logo {
+  opacity: 1;
+  pointer-events: auto;
+  filter: var(--glowing-link) opacity(0.8);
+}
