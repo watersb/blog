@@ -1,16 +1,4 @@
 @charset "UTF-8";
-body>header * {
-  color: rgba(0,0,0,127);
-  opacity: 0.7;
-}
-
-body>header>a:hover {
-  filter: opacity(1);
-}
-
-body>header>a>h1 span {
-  color: rgba(0,0,0,51);
-}
 main {
   background: linear-gradient(rgba(255,255,255,0) , rgba(255,255,255,255) 30%, rgba(255,255,255,255) 90%, rgba(255,255,255,0));
 }
