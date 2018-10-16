@@ -26,8 +26,6 @@ a {
   font-family: var(--fontstack-sans);
   color: rgb(49, 49, 128);
   text-decoration: none;
-  hyphens: none;
-  -webkit-hyphens: none;
 }
 
 a:visited {
@@ -55,9 +53,7 @@ body>footer {
 }
 
 body>header * {
-  margin: 0;
-  filter: var(--glowing-link) opacity(0.7);
-  color: #000a;
+  filter: var(--glowing-link);
 }
 
 

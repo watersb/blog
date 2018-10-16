@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Menu</title>
   <link rel="stylesheet" href="header-menu.css">
+
+
+  <style>
+
+    .menu,body {
+    text-align: center
+}
+
+body {
+  font-family: sans-serif;
+    background: #639;
+    color: #fff
+}
+
+a {
+  color: inherit;
+}
+
+
+body section
+{
+  text-align: left;
+  width: 50%;
+  margin: 10em;
+  font-style: italic;
+  font-size: 0.75em;
+}
+</style>
 </head>
+
 <body>
-    <h1>CSS Menu</h1>
-    <h3>thanks to <a href="https://codepen.io/lbebber">Lucas Bebber</a></h3>
-    <h4>a fork of his <a href="https://codepen.io/lbebber/pen/pvwZJp">version 3</a></h4>
-    <h4>See this one on <a href="https://codepen.io/watersb/pen/qJXgdo">CodePen</a></h4>
+  <h1>CSS Menu</h1>
+  <h3>thanks to <a href="https://codepen.io/lbebber">Lucas Bebber</a></h3>
+  <h4>a fork of his <a href="https://codepen.io/lbebber/pen/pvwZJp">version 3</a></h4>
+  <h4>See this one on <a href="https://codepen.io/watersb/pen/qJXgdo">CodePen</a></h4>
 
-    <nav class="menu">
-      <input id="menu-open" type="checkbox"/>
-      <label class="menu-open-button" for="menu-open">
-    ☰
-      </label>
+  <nav class="menu">
+    <input id="menu-open" type="checkbox" />
+    <label class="menu-open-button" for="menu-open">
+      ☰
+    </label>
 
-      <a href="#" class="menu-item">❖</a>
-      <a href="#" class="menu-item">◼︎</a>
-      <a href="#" class="menu-item">❤</a>
-      <a href="#" class="menu-item">⚙︎</a>
-    </nav>
+    <a href="#" class="menu-item">❖</a>
+    <a href="#" class="menu-item">◼︎</a>
+    <a href="#" class="menu-item">❤</a>
+    <a href="#" class="menu-item">⚙︎</a>
+  </nav>
 
-    <section>
-      <h4>¿why?</h4>
-      <p>
-Lucas' example has some extra bits that made it difficult for me to figure out what was
-going on. I need to break things down to the minimum in order to understand. In this case,
-I was able to get this example CSS Menu working, as you see here, with 1,679 characters of
-code (not including this paragraph). That's without any minification or compression. The original example is 6024 characters,
-plus the Font-Awesome CSS, which is 23KB. Counting characters of source code is a stupid habit,
-but it is some measure of how simple I need things to be in order to understand them.
-      </p>
-      <p>
-Super thanks to Lucas Bebber. Please take a look at his examples: note especially his
-interplay of CSS and SVG Filters, which is very cool. Font Awesome is likewise super.
-It's just more than I need for this here demo.
-      </p>
-    </section>
+  <section>
+    <h4>¿why?</h4>
+    <p>
+      Lucas' example has some extra bits that made it difficult for me to figure out what was
+      going on. I need to break things down to the minimum in order to understand. In this case,
+      I was able to get this example CSS Menu working, as you see here, with 1,679 characters of
+      code (not including this paragraph). That's without any minification or compression. The original example is 6024
+      characters,
+      plus the Font-Awesome CSS, which is 23KB. Counting characters of source code is a stupid habit,
+      but it is some measure of how simple I need things to be in order to understand them.
+    </p>
+    <p>
+      Super thanks to Lucas Bebber. Please take a look at his examples: note especially his
+      interplay of CSS and SVG Filters, which is very cool. Font Awesome is likewise super.
+      It's just more than I need for this here demo.
+    </p>
+  </section>
 </body>
+
 </html>
