@@ -1,6 +1,7 @@
 'use strict';
 
-window.onload = () => {
+window.addEventListener("load",
+() => {
 
   const bigWidth = "83vw";
 
@@ -35,3 +36,4 @@ window.onload = () => {
       img => img.onclick = toggleWidth
     );
 }
+);
