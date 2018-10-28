@@ -21,25 +21,25 @@
   <link rel="stylesheet" href="/css/bg-image.css">
   <link rel="stylesheet" href="/css/_scrapbook/typography-fluid.css">
   <link rel="stylesheet" href="/css/_scrapbook/microsoftEdge.css">
-  <link rel="stylesheet" href="/css/_main/banner-menu.css">
+  <link rel="stylesheet" href="/css/_scrapbook/header-menu.css">
   <!-- <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css"> -->
 
   <script src="/js/toggle-size.js"></script>
 </head>
 
 <body>
-  <header role="banner">
-    <input id="top-menu" type="checkbox"/>
-    <label for="top-menu">
-      <img id="logo" alt="watersb, a web page of Boyd Waters" src="/img/svg/logos/watersb.svg" height="32" width="36">
+<header>
+  <nav class="menu">
+    <input id="menu-open" type="checkbox" />
+    <label class="menu-open-button" for="menu-open">
+      <img width=52 src="/img/svg/logos/watersb.svg" alt="watersb logo">
     </label>
-    <nav>
-      <a href="about.html">about</a>
-      <a href="detail">detail</a>
-      <a href="chrono">chrono</a>
-      <a href="tags">tags</a>
-    </nav>
-  </header>
+
+    <a href="#" class="menu-item">home</a>
+    <a href="#" class="menu-item">about</a>
+    <a href="#" class="menu-item">tags</a>
+  </nav>
+</header>
 
   <main>
     <article>
@@ -132,4 +132,3 @@
 </body>
 
 </html>
-
