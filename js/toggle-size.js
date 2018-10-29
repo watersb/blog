@@ -4,6 +4,7 @@ window.addEventListener("load",
 () => {
 
   const bigWidth = "83vw";
+  const topWidth = "85vw";
 
   const toggleWidth = t => {
 
@@ -18,7 +19,8 @@ window.addEventListener("load",
     try {
       if (img.style.width == "") {
         img.style.width = bigWidth;
-        fig.style.fontSize = "1.6em";
+        fig.style.fontSize = "1.1em";
+        fig.style.maxWidth = topWidth;
         cap.style.maxWidth = bigWidth;
       }
       else {
