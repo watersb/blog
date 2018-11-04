@@ -1,0 +1,54 @@
+today=$(date +%Y/%m/%F)
+cd "${today}" && pbpaste > $(date +%s).txt
+
+
+
+
+
+A1312:me$ head facetuned-p.svg | perl -ne 's/" fill-opacity="(\.\d+)"/ sprintf "%x\"", $1 *256/e; print;'
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <path fill="#b0897a" d="M0 0h1024v1024H0z"/>
+  <path fill="#603f4fcc" d="M298-2l788 356-976 160z"/>
+  <path fill="#ffcfbe99" d="M530 238l32 560 524-144z"/>
+  <path fill="#ffeaa1e6" d="M78 434L310-62-62 14z"/>
+  <path fill="#fde5aa" d="M626-62l196 284 264-192z"/>
+  <path fill="#321a25cc" d="M870 566l216-272-292-104z"/>
+  <path fill="#ddbda9cc" d="M1086 598l-68 476-492-60z"/>
+  <path fill="#110a334c" d="M706 1086L-62 694 2 978z"/>
+  <path fill="#00000280" d="M798 618l88 252-136-52z"/>
+A1312:me$ perl -ne 's/" fill-opacity="(\.\d+)"/ sprintf "%x\"", $1 *256/e; print;' <facetuned-p.svg > facetuned-prgba.svg
+A1312:me$ ls
+1531094644.jpg           dicom90x90.jpg           facetuned-p.svg          foo-p.css
+DICOM-180x180.jp2        facetuned-128.jpg        facetuned-prgba.svg      foo.css
+DICOM-180x180.png        facetuned-1541032591.svg facetuned.jpeg           twitter.jpg
+A1312:me$ gzip *.svg
+A1312:me$ ls -l
+total 304
+-rw-r--r--@ 1 bwaters  staff   6434 Aug 19 17:45 1531094644.jpg
+-rw-r--r--@ 1 bwaters  staff   8876 Dec  1  2015 DICOM-180x180.jp2
+-rw-r--r--@ 1 bwaters  staff  20331 Sep 13 05:10 DICOM-180x180.png
+-rw-r--r--@ 1 bwaters  staff   1589 Sep 13 05:10 dicom90x90.jpg
+-rw-r--r--@ 1 bwaters  staff   1867 Sep 21 21:11 facetuned-128.jpg
+-rw-r--r--@ 1 bwaters  staff   2511 Oct 31 18:36 facetuned-1541032591.svg.gz
+-rw-r--r--@ 1 bwaters  staff   2644 Oct 31 18:23 facetuned-p.svg.gz
+-rw-r--r--@ 1 bwaters  staff   2509 Oct 31 19:52 facetuned-prgba.svg.gz
+-rw-r--r--@ 1 bwaters  staff  58074 Sep 13 05:11 facetuned.jpeg
+-rw-r--r--@ 1 bwaters  staff   4747 Oct 31 18:49 foo-p.css
+-rw-r--r--@ 1 bwaters  staff   5413 Oct 31 19:00 foo.css
+-rw-r--r--@ 1 bwaters  staff  12706 Sep 21 21:11 twitter.jpg
+A1312:me$ rm facetuned-prgba.svg.gz
+A1312:me$ gunzip *.gz
+A1312:me$ ls -l
+total 328
+-rw-r--r--@ 1 bwaters  staff   6434 Aug 19 17:45 1531094644.jpg
+-rw-r--r--@ 1 bwaters  staff   8876 Dec  1  2015 DICOM-180x180.jp2
+-rw-r--r--@ 1 bwaters  staff  20331 Sep 13 05:10 DICOM-180x180.png
+-rw-r--r--@ 1 bwaters  staff   1589 Sep 13 05:10 dicom90x90.jpg
+-rw-r--r--@ 1 bwaters  staff   1867 Sep 21 21:11 facetuned-128.jpg
+-rw-r--r--@ 1 bwaters  staff  10696 Oct 31 18:36 facetuned-1541032591.svg
+-rw-r--r--@ 1 bwaters  staff   9211 Oct 31 18:23 facetuned-p.svg
+-rw-r--r--@ 1 bwaters  staff  58074 Sep 13 05:11 facetuned.jpeg
+-rw-r--r--@ 1 bwaters  staff   4747 Oct 31 18:49 foo-p.css
+-rw-r--r--@ 1 bwaters  staff   5413 Oct 31 19:00 foo.css
+-rw-r--r--@ 1 bwaters  staff  12706 Sep 21 21:11 twitter.jpg
+A1312:me$
