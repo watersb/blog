@@ -7,7 +7,9 @@
 # TEAM
 
     Boyd Waters
-     - I write the words, created the illustrations, adapted the software.
+     - I write the words, tweak the software, create almost all of the images.
+       Stuff from elsewhere should have proper attribution. If you see something
+       that needs correction, please tell me.
 
 
 # THANKS
@@ -17,5 +19,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    See my About Page pf this web site for more information on the technology that I used to develop this web site.
+    See the About Page of this web site for more information on the technology that I used to develop this web site.
 
