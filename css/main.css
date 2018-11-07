@@ -45,7 +45,7 @@ p {
 body {
   font-family: var(--fontstack-sans);
   margin-left: 2vw;
-  background: #dadada;
+  background-color: #dadada;
 }
 
 body>footer {
