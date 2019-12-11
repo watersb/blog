@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="msapplication-config" content="/meta/browserconfig.xml">
+  <link rel="manifest" href="/meta/manifest.json">
+  <link rel="apple-touch-icon" href="/icon.png">
+  <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#000">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/favicon-96x96.png">
+
+  <meta name="theme-color" content="#dadada">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/grid.css">
+  <link rel="stylesheet" href="/css/bg-image.css">
+  <link rel="stylesheet" href="/css/_scrapbook/typography-fluid.css">
+  <link rel="stylesheet" href="/css/_scrapbook/microsoftEdge.css">
+  <link rel="stylesheet" href="/css/_scrapbook/header-menu.css">
+  <!-- <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css"> -->
+
+  <script src="/js/toggle-size.js"></script>
+</head>
+
+<body>
+<header>
+  <nav class="menu">
+    <input id="menu-open" type="checkbox" />
+    <label class="menu-open-button" for="menu-open">
+      <img width=52 src="/img/svg/logos/watersb.svg" alt="watersb logo">
+    </label>
+
+    <a href="#" class="menu-item">home</a>
+    <a href="#" class="menu-item">about</a>
+    <a href="#" class="menu-item">tags</a>
+  </nav>
+</header>
+
+  <main>
+    <article>
+      <header>
+        <time datetime="{{isoDate}}">{{slugDate}}</time>
+        <h1>{{title}}</h1>
+        <div>
+{{tags}}
+        </div>
+      </header>
+{{article-body}}
+   </article>
+  </main>
+
+  <footer id="foot">
+    <figure id="license" aria-label="License">
+      <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img width="120" src="/img/svg/logos/cc-by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 Logo" />
+      </a>
+      <figcaption>
+        This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+          Creative Commons Attribution-ShareAlike 4.0 International License.</a>
+      </figcaption>
+    </figure>
+    <time datetime="2018-11-07T04:38:26">07 November 2018</time>
+  </footer>
+
+</body>
+
+</html>
