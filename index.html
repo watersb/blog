@@ -20,9 +20,10 @@
   <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/bg-image.css">
   <link rel="stylesheet" href="/css/_scrapbook/header-menu.css">
-  <!-- <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css"> -->
+  <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css">
 
   <script src="/js/toggle-size.js"></script>
+  <script src="/js/screenfull.min.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
       <img width=52 src="/img/svg/logos/watersb.svg" alt="watersb logo">
     </label>
 
-    <a href="#" class="menu-item">home</a>
+    <a href="#" class="menu-item" onclick='screenfull.toggle()'>zoom</a>
     <a href="#" class="menu-item">about</a>
     <a href="#" class="menu-item">tags</a>
   </nav>
@@ -41,7 +42,7 @@
 
   <main>
     <article>
-      <header onclick='screenfull.request()'>
+      <header>
         <time datetime="2018-08-11">August 11, 2018</time>
         <h1>Difficult Waffles</h1>
       </header>
