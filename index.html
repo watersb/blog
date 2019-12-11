@@ -19,10 +19,8 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/bg-image.css">
-  <link rel="stylesheet" href="/css/_scrapbook/typography-fluid.css">
-  <link rel="stylesheet" href="/css/_scrapbook/microsoftEdge.css">
   <link rel="stylesheet" href="/css/_scrapbook/header-menu.css">
-  <!-- <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css"> -->
+  <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css">
 
   <script src="/js/toggle-size.js"></script>
   <script src="/js/screenfull.min.js"></script>
@@ -36,7 +34,7 @@
       <img width=52 src="/img/svg/logos/watersb.svg" alt="watersb logo">
     </label>
 
-    <a href="#" class="menu-item">home</a>
+    <a href="#" class="menu-item" onclick='screenfull.toggle()'>zoom</a>
     <a href="#" class="menu-item">about</a>
     <a href="#" class="menu-item">tags</a>
   </nav>
@@ -44,17 +42,13 @@
 
   <main>
     <article>
-      <header onclick='screenfull.request()'>
+      <header>
         <time datetime="2018-08-11">August 11, 2018</time>
         <h1>Difficult Waffles</h1>
-        <div>
-          <img height=20 src="/img/svg/nounproject/creativeStall/noun_cassette tape_332273-2.svg" alt="tech history">
-          <img height=20 src="/img/svg/nounproject/divanov/noun_placeholder_1876963-2.svg" alt="web development">
-        </div>
       </header>
 
       <figure class="thumb">
-        <img width=60 src="/2018/10/2018-10-05/9780262012577.jpg">
+        <img width=60 src="/2018/10/2018-10-05/9780262012577-lo.jpg">
         <figcaption>
             <h4>Racing the Beam</h4>
             <p>A study of the relationship between platform and creative expression in the Atari VCS</p>
@@ -95,8 +89,8 @@
 
 
       <p>Max Roser and Hannah Ritchie (2018) - &ldquo;Technological Progress&rdquo;. <em>Published online at
-          OurWorldInData.org.</em> Retrieved from: &#39;<a href="https://ourworldindata.org/technological-progress">https://ourworldindata.org/technological-progress</a>&#39;
-        [Online Resource]</p>
+        <a href="https://ourworldindata.org/technological-progress">OurWorldInData.org.</a></em>
+      </p>
 
       <p>So much work to be done, on those primitive machines, to get where we wanted to be. But it was quite
         gratifying. A small space can be frustrating, but any improvement is big progress. My small kitchen looks like

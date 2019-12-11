@@ -1,9 +1,10 @@
 @charset "UTF-8";
-@import url("/css/_main/google-font-adobesource.css");
-/* TODO: Make the font import conditional. */
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=optional");
 
 :root {
-  font-size: 18px;
+  font-size: 16px;
+
+  font-size: min(max(12px, 4vw), 16.25px);
 }
 
 html {
@@ -81,12 +82,14 @@ main article p, blockquote, cite {
 main article p {
          hyphens: auto;
  -webkit-hyphens: auto;
+ /* text-align: justify; */
+ letter-spacing: 0.0025em;
 }
 
 main article figure {
   margin: 1vw;
   font-family: var(--fontstack-sans);
-  font-size: 0.85em;
+  font-size: max(12px, 0.85em);
   line-height: 1.2em;
 }
 
@@ -138,7 +141,7 @@ main article figure img {
 }
 main article figure figcaption {
   padding: 1vw;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 300;
   -webkit-hyphens: auto;
           hyphens: auto;
@@ -162,7 +165,8 @@ details[open] summary ~ * {
   }
 
   main article figure figcaption {
-    font-size: 0.8em;
+    font-size: max(12px, 0.8em);
+    ;
   }
 
   main article figure {
@@ -180,7 +184,7 @@ details[open] summary ~ * {
   }
 
   main article pre {
-    font-size: 0.75em;
+    font-size: max(12px, 0.75em);
   }
 }
 

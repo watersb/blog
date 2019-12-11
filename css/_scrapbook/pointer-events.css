@@ -1,0 +1,9 @@
+/* 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer
+*/
+
+@media (pointer:fine) {
+    main > article > header {
+      pointer-events: none;
+    }
+  }
