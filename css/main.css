@@ -174,13 +174,6 @@ details[open] summary ~ * {
     width: max-content;
     max-width: 30vw;
   }
-  main article figure:nth-of-type(even) {
-    float: left;
-    margin-right: 2vw;
-  }
-  main article figure:nth-of-type(even) figcaption {
-      text-align: right;
-  }
 
   main article pre {
     font-size: max(12px, 0.75em);
