@@ -10,6 +10,7 @@ html {
   --fontstack-serif: "Georgia Pro", "Georgia", "Source Serif Pro", serif;
   --fontstack-sans: "Avenir Next", "Arial Nova", "Source Sans Pro", sans-serif;
   --fontstack-mono: "Menlo", "Source Code Pro", monospace;
+  --fontstack-slab: "Rockwell Nova", "Rockwell", var(--fontstack-mono);
 
   font-feature-settings: "kern", "liga", "clig", "pnum";
   text-rendering: optimizeLegibility;
@@ -111,6 +112,7 @@ main > article > header {
 main > article > header * {
   margin: 0;
   filter: var(--glowing-link);
+  font-family: var(--fontstack-slab);
 }
 
 main > article > header h1 {
