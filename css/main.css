@@ -7,7 +7,7 @@
 }
 
 html {
-  --fontstack-serif: "Iowan Old Style", "Georgia Pro", "Source Serif Pro", serif;
+  --fontstack-serif: "Georgia Pro", "Georgia", "Source Serif Pro", serif;
   --fontstack-sans: "Avenir Next", "Arial Nova", "Source Sans Pro", sans-serif;
   --fontstack-mono: "Menlo", "Source Code Pro", monospace;
 
