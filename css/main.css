@@ -1,14 +1,14 @@
 @charset "UTF-8";
-
-:root {
-  font-size: 16px;
-
-  font-size: min(max(12px, 4vw), 16.25px);
-}
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=optional");
 
 html {
-  --fontstack-serif: "Georgia Pro", "Georgia", "Source Serif Pro", serif;
-  --fontstack-sans: "Avenir Next", "Arial Nova", "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  -webkit-text-size-adjust: 104%;
+
+  font-size: min(max(12px, 4vw), 17px);
+
+  --fontstack-serif: "Georgia Pro", "Source Serif Pro", "Georgia", serif;
+  --fontstack-sans: "Avenir Next", "Source Sans Pro", sans-serif;
   --fontstack-mono: "Menlo", "Source Code Pro", monospace;
   --fontstack-slab: "Rockwell Nova", "Rockwell", var(--fontstack-mono);
 
@@ -18,6 +18,14 @@ html {
   --glowing-link: drop-shadow(0 0 3px #fffe);
 
   box-sizing: border-box;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--fontstack-mono);
+  font-size: 1em;
 }
 
 figure {
@@ -55,8 +63,26 @@ body > footer {
   filter: var(--glowing-link);
 }
 
-body>header * {
+body > header > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body > header * {
   filter: var(--glowing-link);
+}
+body > header > h1 * {
+  filter: opacity(0.3);
+}
+body > header > h1 > span {
+  display: inline;
+  color: #0003;
+  text-shadow: none;
+  margin: -0.6em;
+  font-size: 0.6em;
+}
+
+body > header > nav {
+  display: none;
 }
 
 #license {
@@ -66,10 +92,10 @@ body>header * {
 main {
   text-align: left;
   font-family: var(--fontstack-serif);
-  line-height: 1.6;
+  line-height: 1.5;
   background-color: #fffa;
   background: linear-gradient(#fff0, #ffff 30%, #ffff 90%, #fff0);
-  color: #222;
+  color: #3c3c3c;
   counter-reset: sidenote-counter;
   padding: 2vw;
 }
@@ -112,7 +138,6 @@ main > article > header {
 main > article > header * {
   margin: 0;
   filter: var(--glowing-link);
-  font-family: var(--fontstack-slab);
 }
 
 main > article > header h1 {
@@ -141,15 +166,19 @@ main article figure img {
 main article figure figcaption {
   padding: 1vw;
   font-size: 0.9em;
-  font-weight: 300;
+  /* font-weight: 300; */
   hyphens: auto;
 }
 
 figcaption details summary {
   font-variant: small-caps;
+  list-style-type: "ℹ︎";
+}
+figcaption details summary::marker {
+  content: "ℹ︎";
 }
 details[open] summary ~ * {
-  animation: sweep 0.5s ease-in-out;
+  animation: sweep 0.25s ease-in-out;
 }
 @keyframes sweep {
   0% {
@@ -181,18 +210,10 @@ details[open] summary ~ * {
   }
 }
 
-main article figure.thumb {
-  width: 300px;
-  display: grid;
-  grid-template-areas: "show tell";
-  grid-template-columns: 72px 1fr;
-}
 main article figure.thumb img {
-  width: 64px;
-  grid-area: show;
+  max-width: 64px;
 }
 main article figure figcaption {
-  grid-area: tell;
   padding-top: 0;
 }
 main article figure figcaption * {
@@ -210,8 +231,11 @@ main article figure figcaption cite a {
   font-weight: 400;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   main article figure {
     max-width: 90vw;
+  }
+  main article figure.thumb {
+    float: right;
   }
 }

@@ -15,30 +15,47 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/favicon-96x96.png">
 
   <meta name="theme-color" content="#dadada">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/grid.css">
   <link rel="stylesheet" href="/css/bg-image.css">
-  <link rel="stylesheet" href="/css/_scrapbook/header-menu.css">
-  <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css">
+  <!-- <link rel="stylesheet" href="/css/_scrapbook/header-menu.css"> -->
+  <!-- <link rel="stylesheet" href="/css/_scrapbook/debug-highlight-regions.css"> -->
 
   <script src="/js/toggle-size.js"></script>
   <script src="/js/screenfull.min.js"></script>
+
+  <script>
+    function getsize(event) {
+      var s = document.querySelector('article > p > span')
+
+      s.innerHTML =
+        "<br><pre>" +
+        "  font-size: " + window.getComputedStyle(s).fontSize + "\n" +
+        "  screen: "    + window.innerWidth +" x " + window.innerHeight +
+        "</pre>"
+      ;
+    }
+
+    window.onresize = getsize;
+    window.onload = getsize;
+  </script>
 </head>
 
 <body>
-<header>
-  <nav class="menu">
-    <input id="menu-open" type="checkbox" />
-    <label class="menu-open-button" for="menu-open">
-      <img width=52 src="/img/svg/logos/watersb.svg" alt="watersb logo">
-    </label>
+  <header>
+    <h1>
+      <img width=36 src="/img/svg/logos/watersb.svg" alt="watersb logo">
+      <span>@watersb</span>
+    </h1>
 
-    <a href="#" class="menu-item" onclick='screenfull.toggle()'>zoom</a>
-    <a href="#" class="menu-item">about</a>
-    <a href="#" class="menu-item">tags</a>
-  </nav>
-</header>
+    <nav>
+      <a onclick='screenfull.toggle()' href>zoom</a>
+      <a href="/about.html">ℹ︎</a>
+    </nav>
+  </header>
 
   <main>
     <article>
@@ -48,27 +65,32 @@
       </header>
 
       <figure class="thumb">
-        <img width=60 src="/2018/10/2018-10-05/9780262012577-lo.jpg">
+        <img src="/2018/10/2018-10-05/9780262012577-lo.jpg">
         <figcaption>
-            <h4>Racing the Beam</h4>
+          <details>
+            <summary>Racing the Beam</summary>
             <p>A study of the relationship between platform and creative expression in the Atari VCS</p>
             <cite>
               <a href="https://en.wikipedia.org/wiki/Racing_the_Beam">A book by Nick Montfort and Ian Bogost.</a>
               <time datetime="2009">2009.</time>
               <a href="http://mitpress.mit.edu/books/racing-beam">MIT Press.</a>
             </cite>
+          </details>
         </figcaption>
       </figure>
 
       <p>When I was a kid, I <em>loved</em> computers. Video games and computers were just getting started. They were
         full of promise, and how this was going to be great. Just keep the cursor moving,
         <a href="https://en.wikipedia.org/wiki/Racing_the_Beam">racing the beam</a>,
-        and we know we will all be some place beyond imagination. So fast!</p>
+        and we know we will all be some place beyond imagination. So fast!
+        <span></span>
+      </p>
 
       <p>How fast? <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Doubling every year.</a> Year after year, we
         could expect great things.</p>
       <figure>
-        <img width=120 class="zoom" src="/2018/09/2018-09-03/i-lost-my-freaking/Comparison_semiconductor_process_nodes.svg">
+        <img width=120 class="zoom"
+          src="/2018/09/2018-09-03/i-lost-my-freaking/Comparison_semiconductor_process_nodes.svg">
         <figcaption>
           <details>
             <summary>Process Nodes
@@ -89,7 +111,7 @@
 
 
       <p>Max Roser and Hannah Ritchie (2018) - &ldquo;Technological Progress&rdquo;. <em>Published online at
-        <a href="https://ourworldindata.org/technological-progress">OurWorldInData.org.</a></em>
+          <a href="https://ourworldindata.org/technological-progress">OurWorldInData.org.</a></em>
       </p>
 
       <p>So much work to be done, on those primitive machines, to get where we wanted to be. But it was quite
@@ -99,7 +121,8 @@
       </p>
 
       <p>So they got better.
-	<a href="https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/">https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/</a>
+        <a
+          href="https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/">https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/</a>
       </p>
 
       <p><a href="https://archive.org/details/byte-magazine-1981-08">The Smalltalk issue.</a> Oh my God. That was
