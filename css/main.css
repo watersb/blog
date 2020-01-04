@@ -146,6 +146,7 @@ main > article > header h1 {
 
 main > article > header > time {
   font-variant: small-caps;
+  font-weight: 100;
   color: #444;
 }
 
