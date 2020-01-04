@@ -59,7 +59,7 @@ p {
 }
 
 body {
-  font-family: var(--fontstack-sans);
+  font-family: var(--fontstack-serif);
   margin-left: 2vw;
   background-color: #dadada;
 }
@@ -98,7 +98,6 @@ body > header > nav {
 
 main {
   text-align: left;
-  font-family: var(--fontstack-serif);
   line-height: 1.5;
   background-color: #fffa;
   background: linear-gradient(#fff0, #ffff 30%, #ffff 90%, #fff0);
