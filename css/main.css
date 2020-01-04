@@ -121,8 +121,7 @@ main article p {
 main article figure {
   font-family: var(--fontstack-fig);
   margin: 1vw;
-  font-family: var(--fontstack-sans);
-  font-size: max(12px, 0.85em);
+  font-size: max(11px, 0.85em);
   line-height: 1.2em;
 }
 
