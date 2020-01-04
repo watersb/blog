@@ -105,12 +105,6 @@ main {
   padding: 2vw;
 }
 
-main article p,
-blockquote,
-cite {
-  hanging-punctuation: first allow-end last;
-  text-overflow: ellipsis;
-}
 main article p {
   hyphens: auto;
   letter-spacing: 0.0025em;
