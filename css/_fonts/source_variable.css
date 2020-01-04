@@ -3,7 +3,7 @@
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    font-display: optional;
+    font-display: swap;
     src: url('./WOFF2/VAR/SourceCodeVariable-Roman.ttf.woff2') format('woff2'),
          url('./WOFF/VAR/SourceCodeVariable-Roman.ttf.woff') format('woff'),
          url('./VAR/SourceCodeVariable-Roman.ttf') format('truetype');
@@ -14,7 +14,7 @@
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
-    font-display: optional;
+    font-display: swap;
     src: url('./WOFF2/VAR/SourceCodeVariable-Italic.ttf.woff2') format('woff2'),
          url('./WOFF/VAR/SourceCodeVariable-Italic.ttf.woff') format('woff'),
          url('./VAR/SourceCodeVariable-Italic.ttf') format('truetype');
@@ -25,7 +25,7 @@
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    font-display: optional;
+    font-display: swap;
     src: url('WOFF2/VAR/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
          url('WOFF/VAR/SourceSansVariable-Roman.ttf.woff') format('woff'),
          url('VAR/SourceSansVariable-Roman.ttf') format('truetype');
@@ -36,7 +36,7 @@
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
-    font-display: optional;
+    font-display: swap;
     src: url('WOFF2/VAR/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
          url('WOFF/VAR/SourceSansVariable-Italic.ttf.woff') format('woff'),
          url('VAR/SourceSansVariable-Italic.ttf') format('truetype');
@@ -47,7 +47,7 @@
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
-    font-display: optional;
+    font-display: swap;
     src: url('./WOFF2/VAR/SourceSerifVariable-Roman.ttf.woff2') format('woff2'),
          url('./WOFF/VAR/SourceSerifVariable-Roman.ttf.woff') format('woff'),
          url('./VAR/SourceSerifVariable-Roman.ttf') format('truetype');
@@ -58,7 +58,7 @@
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
-    font-display: optional;
+    font-display: swap;
     src: url('./WOFF2/VAR/SourceSerifVariable-Italic.ttf.woff2') format('woff2'),
          url('./WOFF/VAR/SourceSerifVariable-Italic.ttf.woff') format('woff'),
          url('./VAR/SourceSerifVariable-Italic.ttf') format('truetype');
