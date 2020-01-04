@@ -15,6 +15,8 @@ html {
   font-feature-settings: "kern", "liga", "clig", "pnum";
   text-rendering: optimizeLegibility;
 
+  --default-link: rgb(49, 49, 128);
+  --visited-link: rgb(72, 51, 112);
   --glowing-link: drop-shadow(0 0 3px #fffe);
 
   box-sizing: border-box;
@@ -35,12 +37,15 @@ figure {
 a {
   font-weight: 500;
   font-family: var(--fontstack-sans);
-  color: rgb(49, 49, 128);
-  text-decoration: none;
+  color: var(--default-link);
+  text-decoration-style: dotted;
+  text-decoration-color: #ccc;
 }
 
 a:visited {
-  color: rgb(72, 51, 112);
+  color: var(--visited-link);
+  text-decoration-color: #ccc;
+
 }
 
 a:hover {
