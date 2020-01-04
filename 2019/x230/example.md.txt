@@ -1,0 +1,183 @@
+2019-12-28T00:10:15
+An example of progressive enhancement
+
+Lots of hacks, but as the standards started to gain traction, we hade the
+benefit of
+	- book: Designing with Web Standards
+to encourage us. One of the key themes of @Zeldman's book is the design
+practice of
+	- Progressive Enhancement
+(PE). Start with simple HTML, and adopt web features through a series
+of rounds of _enhancement_, which leverage the various technologies to
+provide a richer experience for the audience of the work.
+
+For all that this has become standard practice in commercial web design,
+it strikes me that there are no doubt many ways to develop the skill of
+thinking in terms of creating a work through Progressive Enhancement.
+
+The rich media and linked data aspects of the web have informed our
+expectations of good design, of effective authorship. The immediacy of
+publication that the web affords us leads to some pretty impulsive words,
+and yet this very property has also changed our assumptions of creative
+process: no work is ever done. Everything has bugs. Always something to be
+made better.
+
+ which leverage the various technologies to
+provide a richer experience for the audience of the work.
+
+For all that this has become standard practice in commercial web design,
+it strikes me that there are no doubt many ways to develop the skill of
+thinking in terms of creating a work through Progressive Enhancement.
+
+The rich media and linked data aspects of the web have informed our
+expectations of good design, of effective authorship. The immediacy of
+publication that the web affords us leads to some pretty impulsive words,
+and yet this very property has also changed our assumptions of creative
+process: no work is ever done. Everything has bugs. Always something to be
+made better.
+
+
+I have been working on the design of this web log for a span of time that
+has often struck me as absurd; I first began in 1999. The evolution of the
+work may give me plenty to write about for the next few years.
+
+
+Throw the first one away.
+
+Now that I see this design emerging, I can articulate the process that may
+exemplify Progressive Enhancement. By no means do I suppose that my approach
+is one to be emulated, but I cannot shake my habit of "going meta" and
+observing my process even as I attempt to get something actually written on
+the page. This habit of self-reflection is by now impossible for me to shake,
+so I might was well go with it, and see what emerges. As always.
+
+
+## Start with Words
+
+Whether I give a talk, teach a class, or write this blog, the words are my
+starting point.
+	- Of course I am lying; often the easiest way for me to break
+writer's block is to draw a picture and then talk about it.
+So that's where we begin: with (almost) free verse, almost plain text.
+	- AFT
+
+
+Stanford Professor Donald Knuth was once asked what he considered to be the
+signature skill of Computer Science. He replied that any practitioner of
+computer science must develop the ability to think and to operate in multiple
+levels of abstraction at the same time.
+	- Knuth Abstraction
+
+I find that my ability to work at these multiple levels often destroys what
+any right-minded person might characterize as productivity, for my love of
+layers has endowed me with the attention span of a hyperactive toddler.
+(My first metaphor just now was "the mind of a starving walrus", which has
+a striking verssimilitude to recommend it, but (as always) on second- and
+third-thought, it occured to me that hunger has a way of clearing up any other
+demands for attention, such that most any moderately-peckish walrus you are
+likely to encounter would indeed have a far more focused approach than what
+you may be signing up for if you continue to witness my work.)
+	- starving walrus
+
+----
+
+Ok. I start with text. Plain text. Over the years, I gave "word processors"
+a go, but I quickly realized that it was almost impossible to manage an
+envolution of thought from simple to enriched. I could add all of the links,
+and some basic ideas such as sections and their sub-titles, but my walrus
+gets too wrapped up in shiny if there are formatting knobs to tweak, and any
+default format applied by the word processor distract me when I need to focus.
+So I am writing this on a tiny laptop, with no active network connection, in
+a command-line text editor, in a basic installation of Linux.
+
+we used to assume that the means of distribution was to be paper, and
+our workflows revolved around the demands of page layout and talking to
+printers. Of course these days the primary means of distribution is the
+web. Indeed the primary purpose of a computer is to search and examine
+web pages.
+
+A computer without an Internet connection is no computer at all.
+	- Sun Microsysterms: "The network is the computer"
+
+I first encountered the "World Wide Web" in the first half of 1994, and realized
+almost immediately that everything else about the computer would soon cease to
+matter.
+
+The industry of the computer, the trade, had been having a conversation
+with itself about the best way to construct documents in such as a way to best
+interact with complex information. We knew that a single document could have
+text with formatting to convey the nature of the words, the structure of a
+narrative, signposts to assist a reader. There would be ways of expressing dense
+information: diagrams and charts and tables, photographs. We realized that a
+computer could be of vast help in the management of footnotes, references to
+source documentation, bibliographies, indexes and tables of contents. A copmuter
+of sufficient power could provide an interactive environment of augmented
+authorship. Documents could be viewed as pages or as outlines that could be
+rearranged at various levels of detail. Search and replace -- to say nothing
+of the backspace key -- would transform the task of editing and refining the
+work. Spell checkers were of great benefit to (at least) the poor sods pecking
+away in the English language, which enjoys a pathological relationship to any
+notion of orthography.
+
+The "office" software of the day is of substantial benefit for all of these
+aspects of authorship, but no such cybernetics have emerged to prevent the whole
+assemblage from descending into drivel.
+	- Clippy tried to save us.
+
+Right. Excuse me. Let's get back to something that isn't a waste of your time...
+
+My point is that, for all of the richness of these programs, only a very few
+have attempted to help with a different aspect of writing, which is the
+management of links, asides, embellishments, and illustrative examples. It
+takes a lot of work to express all of this stuff at the level of precision
+required to direct a reader to the specific bit of material. I find this somewhat
+remarkable, as the signature characteristic of the web -- links and multiple
+modes of presentation -- remains so difficult to get right.
+
+This stuff is hard to write.
+
+
+----
+
+
+So:
+
+1. Start with plain text
+1. Add formatting, graphics that help illustrate the point
+1. don't bother much with text formatting
+1. add metadata: place, time, topic tags that provide context for the work
+1. add links to source material, asides, footnotes, as a layer on the text
+1. add formats that enable computer-aided data management
+	- microformats, semantics
+	- recognize that "machine learning" is leading to trust automated
+	  understanding, rather than "semantic web"
+	- still, basics that are characterized as
+	  "SEO" (Search Engine Optimization) remain worthwhile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
