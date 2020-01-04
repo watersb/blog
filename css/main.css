@@ -100,7 +100,7 @@ main {
   line-height: 1.5;
   background-color: #fffa;
   background: linear-gradient(#fff0, #ffff 30%, #ffff 90%, #fff0);
-  color: #3c3c3c;
+  color: #000a;
   counter-reset: sidenote-counter;
   padding: 2vw;
 }
