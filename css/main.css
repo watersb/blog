@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=optional");
 
 html {
-  font-size: 16px;
-  -webkit-text-size-adjust: 104%;
+  font-size: 17px;
+  -webkit-text-size-adjust: 110%;
+  font-size: calc(0.5em + 1.25vw);
+  font-size: min(max(14px, (0.5em + 1.25vw)), 18px);
 
   font-size: min(max(12px, 4vw), 17px);
 
