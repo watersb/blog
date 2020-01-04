@@ -169,10 +169,6 @@ main article figure figcaption {
 
 figcaption details summary {
   font-variant: small-caps;
-  list-style-type: "ℹ︎";
-}
-figcaption details summary::marker {
-  content: "ℹ︎";
 }
 details[open] summary ~ * {
   animation: sweep 0.25s ease-in-out;
