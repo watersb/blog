@@ -119,6 +119,7 @@ main article p {
 }
 
 main article figure {
+  font-family: var(--fontstack-fig);
   margin: 1vw;
   font-family: var(--fontstack-sans);
   font-size: max(12px, 0.85em);
@@ -172,8 +173,6 @@ main article figure img {
 }
 main article figure figcaption {
   padding: 1vw;
-  font-size: 0.9em;
-  /* font-weight: 300; */
   hyphens: auto;
 }
 
@@ -199,10 +198,6 @@ details[open] summary ~ * {
 @media (min-width: 480px) {
   main article figure img {
     width: 25vw;
-  }
-
-  main article figure figcaption {
-    font-size: max(12px, 0.8em);
   }
 
   main article figure {
