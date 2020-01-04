@@ -11,6 +11,8 @@ html {
   --fontstack-sans:   "PT Sans", sans-serif;
   --fontstack-mono:   "PT Mono", monospace;
   --fontstack-slab: "Rockwell Nova", "Rockwell", var(--fontstack-mono);
+  --fontstack-fig: system-ui, var(--fontstack-sans);
+  --fontstack-sys: system-ui, sans-serif;
 
   font-feature-settings: "kern", "liga", "clig", "pnum";
   text-rendering: optimizeLegibility;
