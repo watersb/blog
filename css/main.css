@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=optional");
 
 html {
   font-size: 17px;
@@ -6,9 +7,9 @@ html {
   font-size: calc(0.5em + 1.25vw);
   font-size: min(max(14px, (0.5em + 1.25vw)), 18px);
 
-  --fontstack-serif:  "PT Serif", serif;
-  --fontstack-sans:   "PT Sans", sans-serif;
-  --fontstack-mono:   "PT Mono", monospace;
+  --fontstack-serif:  "Source Serif Variable", serif;
+  --fontstack-sans:   "Source Sans Variable", sans-serif;
+  --fontstack-mono:   "Source Code Variable", monospace;
   --fontstack-slab: "Rockwell Nova", "Rockwell", var(--fontstack-mono);
   --fontstack-fig: system-ui, var(--fontstack-sans);
   --fontstack-sys: system-ui, sans-serif;
