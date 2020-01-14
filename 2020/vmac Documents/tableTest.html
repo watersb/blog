@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Blog Design Test</title>
+	<link rel="icon"       href="favicon.png" type="image/png" />
+	<link rel="apple-touch-icon" href="http://www.gravatar.com/avatar/7c900ef1f3db8588ed1197ea6c2e004b?size=57" />
+	<link rel="stylesheet" href="css/_blogTest.css" />
+
+	<meta name="format-detection" content="telephone=no" />
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 9]>
+	<style type="text/css">
+	 #sidebar, article header, article a.continued, h1, h2, h3, h4, h5 {
+		text-shadow: 0 0 1px rgba(0,0,0,0.3);
+	}
+	</style>
+	<![endif]-->
+
+	<script type="text/javascript">
+		window.onload = function () {
+			var taglines = [
+				'this is harder than it looks...',
+				'I suck at web design',
+				'my God, it\'s full of semicolons!',
+				'<a href="http://en.wikipedia.org/wiki/HyperCard">I don\'t think we\'re in HyperCard anymore...</a>',
+				'<a href="http://en.wikipedia.org/wiki/Zippy_the_Pinhead#Appearances_elsewhere" title="because no computer product is complete without an AI psychologist analyzing an AI wacko.">YOW! Are we CONSING yet!??!</a>'
+			];
+
+			document.getElementById("tagline").innerHTML = taglines[Math.floor(Math.random() * taglines.length)];
+			document.getElementById("tagline").style.opacity = 1;
+
+			var offspring = (Math.random() > 0.5) ? "daughter" : "son";
+
+			document.getElementById("vcardphoto").setAttribute("src","images/boydn"+offspring+"-grey.png");
+			document.getElementById("vcardphoto").setAttribute("alt","Boyd and a child, probably his "+offspring);
+		}
+	</script>
+</head>
+<body>
+	<h1 id="bodyTitle">a blog</h1>
+<table>
+	<tbody>
+		<tr>
+			<td id="sidebar" style="vertical-align: top;">
+			<address id="vcard" class="vcard" title="Contact information">
+				<a class="url fn" href="http://boyd.megaz.org" title="canonical link to this blog">Boyd Waters</a><br />
+				<abbr class="tel" title="telephone number +1 727 386 8846"><a href="tel:17273868846">+1 727 386 8846</a></abbr>
+				<br />
+				<a class="url uid" href="http://gravatar.com/boydwaters" title="social network profile">http://gravatar.com/boydwaters</a>
+						<br />
+				<a href="http://maps.google.com/?q=27.9074861,-82.8003194" class="geo">
+					<abbr class="latitude"  title="latitude   27.9074861 North" >27.9074861</abbr>,
+					<abbr class="longitude" title="longitude  82.8003194 West">-82.8003194</abbr>
+				</a>
+				<br />
+				<span class="timestamp">
+					<span class="label">contact info last updated</span>
+					<time datetime="2010-10-19T16:21:23-05:00" class="rev">October 19, 2010</time>
+				</span>
+				<br />
+				<img src="" alt="" class="photo" height="88" width="131" id="vcardphoto" />
+				<br />
+				<a class="profile" rel="profile" href="http://microformats.org/profile/hcard">hCard</a> 1.0
+				<img src="images/boydwaters.qr.png" alt="QR Code for my Gravatar profile" class="qrcode" />
+			</address>
+
+			<canvas id="categories" width="200" height="200" title="a table of colors that highlight various categories"></canvas>
+
+			<div id="license" title="usage license for this blog's content">
+				<p>
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+						<img height="31" width="88" alt="Creative Commons License" src="images/cc-sa-88x31.png" />
+					</a>
+					<br />This work is licensed under a
+					<br /><a rel="license cc-license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>.
+				</p>
+			</div>
+
+			<p id="tagline">&nbsp;</p>
+			</td>
+
+			<td id="articles">
+			<article>
+				<header>
+					<time datetime="2010-10-18T12:31:31-05:00">October 18 2010 12:31:31-05:00</time>
+					<h2>A Lesson in Parsimony</h2>
+				</header>
+				<p>
+					Last night, I saw a reference to fonts installed on the original Macintosh, the 1984-era system software, that only a small handful of fonts were available. Given today's rich desktop environments, with hundreds of fonts, rich Unicode support, and advanced typography, I had a hard time accepting the statement. Six fonts? Really?
+				</p>
+				<p>Difficult waffles</p>
+				<img src="images/1287404491-1.png" alt="MacWrite 1.0 Screen Shot" width="172" height="116"/>
+				<p><a href="#" class="continued">Read More</a></p>
+			</article>
+
+			<article>
+			<header>
+				<time datetime="2010-10-16T22:12:51-05:00">October 16, 2010 22:12:51-05:00</time>
+				<h2>The Second blog post</h2>
+				<a id="permalink-1287281571" href="1287281571.html">permalink</a>
+				<span class="X-ID">99ACF8B8-8045-446D-98EF-6108AE773160</span>
+			</header>
+			<p>Next steps for me are to create the blogging platform</p>
+
+			<p>I am in the process of generating simple markup by extending Markdown to support CamelCase and TimeStamp wiki links, as well as #hashtags and @contacts and TODO stamps and maybe +flags. Also something like PurpleNumbers, versioning, and [[uuid links]]. Let&#8217;s take these one at a time:</p>
+
+			<h3 id="contentmarkup">Content Markup</h3>
+
+			<p>This is the markup that comes in the &#8220;body&#8221; of the document.</p>
+
+			<h4 id="todostamps">TODO stamps</h4>
+
+			<p>I can&#8217;t remember what I had in mind for TODOs. A long time ago, when I was working on +jots for ArticleMan, I had this idea about four-letter protocol tags, sort of like the thing that you would use in an URL. So they were four letters followed by the colon <code>:</code> character. Things like http: or todo: would be marked up, if they appeared first on a line:</p>
+
+			<p>todo: finalize the first-round spec for the markup extensions.
+			59830DD1-8399-46C4-A923-80B1AF73A51D</p>
+
+			<h4 id="hashtags">#hashtags</h4>
+
+			<p>These come from Twitter.</p>
+
+			<h3 id="longer-term">Longer-Term</h3>
+
+			<p>Alternative FrontEnds might be of interest. I know that when I get into long-form articles, like this one has turned into, that I start adding structure to the document, an outline form. It might be possible to continue with this text editor and some macros to support the structure, or it might be of interest to use a different front-end like OmniOutliner or MicrosoftWord.</p>
+
+			<p>I&#8217;ve gone down this road over and over again, and I&#8217;m put off by a lack of control over the resulting output format. But maybe I don&#8217;t care, as long as I have a way to go from the format required by the front-end (probably an XML schema of some sort) and properly-formatted text. Hmm. Seems like a lot of work, but I do consider the notion of learning more about my design by listening to sophisticated front-ends.</p>
+
+			<p>Because frankly re-ordering an outline hierarchy is a lousy task to try with a non-trivial document &#8212; getting all of the section&#8217;s children in there properly is easy to miss with a straight text editor. I note that for TextEdit, an appropriate language grammar that supports folding would probably do just fine; note that computer source code is an example of a very non-trivial structured text document.</p>
+			</article>
+
+			<article>
+			<header>
+				<time datetime="2009-09-20T23:53:16-05:00">September 20, 2009 23:53:16-05:00</time>
+				<h2>1253505196</h2>
+				<a id="permalink-1253505196" href="1253505196.html">permalink</a>
+				<span class="X-ID">B98622B5-E009-40B1-9C4F-FDE62E6E6C7B</span>
+			</header>
+			<p>Would you like to hear my tale of woe regarding Windows installation? No? Then go elsewhere; I&#8217;m going to rant a bit.</p>
+
+			<p>Over the past four days, I&#8217;ve tried to install Windows on a couple of old computers. I&#8217;ve been volunteering to putter around with cast-off equipment, to refurbish it enough to make it worthy of donation to a person or charity. Since I&#8217;ve become disabled, this sort of thing is something that I can do with little or no external pressure, and it helps me get through the days when I need something to take my mind off of physical discomfort.</p>
+
+			<p>So I suppose that when I&#8217;m working with Windows, I&#8217;m not in the best of mental and physical states, anyway.</p>
+
+			<p>But about old stuff: I cannot get old versions of Windows to install. It&#8217;s quite remarkable, actually. Microsoft does an amazing job in supporting their developers and customers - old programs will generally run fine on new versions of Windows. But for a home-hobbyist like me, it&#8217;s practically impossible to re-install the operating system on an old computer. Which renders these things worthless.</p>
+
+			<p>Windows is hard to maintain, and most people who use it are not computer professionals. The typical issue is a machine that&#8217;s bogged down with so much crapware that it spends all of its time swapping, like swimmers who can&#8217;t catch their breaths. Simply adding more RAM is a great way to extend the life of an old computer.</p>
+
+			<p>But the best thing for old computers is a wipe, a re-install of the operating system, and a simplification of the user workflow. They either need a newer computer, or they need to keep things simple. Windows doesn&#8217;t scale very well past a certain point, not on older hardware. I&#8217;m talking about more than five years old here. Time for a new machine.</p>
+
+			<p>But it is galling that a wonderful computer from just a while ago is thrown away &#8212; it doesn&#8217;t take much to host a web browser or children&#8217;s educational software. Or it shouldn&#8217;t&#8230;</p>
+
+			<p>In any event, all this Microsoft Genuine Advantage stuff prevents me from installing the dozen or so disks of Windows OS that I&#8217;ve managed to accrete. It may be tied to a vendor, a particular computer, or obsolete.</p>
+
+			<p>And don&#8217;t get me going on &#8220;upgrade&#8221; versions. I&#8217;d love to accommodate this, but it doesn&#8217;t work. I can install Windows 98 and then try to run the XP updater, no luck. It&#8217;s all Windows, but they don&#8217;t talk to one another.</p>
+
+			<p>With Linux, which is open-source and free, there are compatibility issues, sure, but Linux doesn&#8217;t ask you for an activation key. Neither does Mac OS X, as Apple is interested in all Macs running the same (or nearly the same) version of the OS, in order to drive workstation sales. Apple makes money off the hardware, not the software. Duh.</p>
+
+			<p>Microsoft can&#8217;t do that, can&#8217;t afford to give it away for free, must (by accounting rules, never mind the business proposition) charge something for their software. They make it available for low prices to students and researchers. But there&#8217;s still all the hoops of upgrades, activation, and product keys. Locked out.</p>
+
+			<p>Let me clarify something: I&#8217;m ranting about this because I&#8217;d like to clean up computers that have valid Windows COA stickers on them, or I&#8217;d like to be able to install the version of Windows that I personally own onto a VMWare machine. These are two different scenarios, but they are both blocked (or made prohibitively difficult) by the product key hurdles.</p>
+
+			</article>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

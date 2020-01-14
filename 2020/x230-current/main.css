@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@import url("tufte.css");
+/* @import url("narrow.css"); */
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i|IBM+Plex+Serif:200,400,700&display=swap');
+
+
+:root {
+  line-height: calc(1.5em + .2vw);
+
+  font-size: calc(0.45rem + 1.25vw);
+  font-size: min(max(14px, 1em), 20px);
+
+}
+
+html {
+  --mono:  'IBM Plex Mono',  'Source Code Variable',  'Menlo', 'Noto Sans Mono CJK JP', monospace;
+  --sans:  'IBM Plex Sans',  'Source Sans Variable',  'Avenir Next', Arial, 'Noto Sans CJK JP', sans-serif;
+  --serif: 'IBM Plex Serif', 'Source Serif Variable', 'Charter', 'Georgia', 'Noto Serif CJK JP', serif;
+
+  --default-link: rgb(49, 49, 128);
+  --visited-link: rgba(114, 94, 143, 0.712);
+  --glowing-link: drop-shadow(0 0 3px #fffe);
+}
+
+
+body {
+  background-color: #ddd;
+  
+  font-family: var(--serif);
+  
+  margin: 0;
+}
+
+body > footer,
+body > header,
+a,
+figcaption {
+    font-family: var(--sans);
+}
+body > footer {
+  font-stretch: condensed;
+  text-align: right;
+}
+
+nav {display: none}
+h1  {margin-top: -0.2rem}
+
+a {
+  font-weight: 550;
+  opacity: 1;
+  color: var(--default-link);
+  text-decoration-style: dotted;
+  text-decoration-color: #ccc;
+}
+
+a:visited {
+  color: var(--visited-link);
+}
+
+a:hover {
+  text-shadow: 0 0 3px rebeccapurple;
+}
+
+
+body > header > h1 {
+  margin-left: -0.4rem;
+  opacity: 30%;
+}
+body > header > h1 span {
+  margin-left: -1rem;
+  opacity: 20%;
+}
+body > header, body > main {
+  margin: 8px;
+}
+
+main {
+  background-color: #fffa;
+  background: linear-gradient(#fff0, #ffff 30%, #ffff 90%, #fff0);
+  counter-reset: sidenote-counter;
+  padding: 2vw;
+}
+main article figure img {
+  background: #fffd;
+  box-shadow: #999 4px 4px 6px;
+}
+main article pre {
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 0.3em;
+  overflow: auto;
+  white-space: pre;
+}
+
+article {
+  color: #444;
+}
+
+article > header time {
+  font-weight: 200;
+  font-variant: all-small-caps;
+}
+
+article	h1	{
+  color: #555;
+  font-size:	1.8em;
+}
+
+p:has(#a1) {
+  display: flex;
+  background-color: grey;
+}
+
+figure.thumb > img { width: 13vw; }
+
+figcaption * {
+  margin: 0;
+  font-weight: 300;
+  line-height: initial;
+  font-size: 0.95em;
+}
+
+figcaption summary {
+  font-variant: all-small-caps;
+  list-style-type: none;
+  list-style-position: outside;
+  color: #999;
+}
+figcaption summary::marker {
+  color: #0006;
+  font-size: 3.3mm;
+  content: "#";
+}

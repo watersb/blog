@@ -1,0 +1,170 @@
+@import url(fonts/TeX-Gyre-Heros-fontfacekit/stylesheet.css);
+
+header, footer, aside, nav, article {
+	display: block;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #d9d6cf; /* beige */
+	background-color: #808690; /* grey blue */
+	background-color: #f7f4ec;
+	background-color: #e3d0d9;
+	background-color: #e7e5e0;
+	font: normal 0.95em/1.6em Cambria, Georgia, "Nimbus Roman No9", serif;
+	text-rendering: optimizeLegibility;
+
+	display: -webkit-box;
+	display:    -moz-box;
+	display:         box;
+	-webkit-box-orient: horizontal;
+	   -moz-box-orient: horizontal;
+	        box-orient: horizontal;
+	-webkit-box-pack: center;
+	   -moz-box-pack: center;
+	        box-pack: center;
+}
+
+#sidebar, article header, article a.continued, h1, h2, h3, h4, h5 {
+	font-family: "Nimbus Sans L", "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif;
+}
+
+p
+{
+	line-height: 1.5em;
+	margin-bottom: 6pt;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+article {
+	min-width: 300px;
+	margin-bottom: 5em;
+}
+article > header * {
+	padding: 0;
+	margin:  0;
+}
+article > header > h2 {
+	font-size: 22pt;
+	color: #600;
+}
+article > header > a {
+	font-size: 10pt;
+	font-style: italic;
+	color: #666;
+}
+article > header time {
+	text-transform: uppercase;
+	font-size: 80%;
+}
+article > header > span.X-ID {
+	font-size: x-small;
+	color: purple;
+}
+article img {
+	margin: 1em;
+	-webkit-box-shadow: 3px 3px 5px #888;
+	        box-shadow: 3px 3px 5px #888;
+}
+article:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+article a.continued {
+	text-transform: uppercase;
+	color: #666;
+}
+
+code {
+	font-family: monospace;
+}
+
+#articles {
+	min-width: 300px;
+	max-width: 640px;
+	padding: 2em;
+	padding-left: 3em;
+	background-color: #fafafa;
+	color: #333;
+	        border-radius: 8px;
+	   -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-webkit-box-shadow: 0 0 10px #888;
+	        box-shadow: 0 0 10px #888;
+}
+
+#sidebar {
+	max-width: 220px;
+	font-size: 80%;
+	padding: 2em;
+	text-align: right;
+	        border-radius: 8px;
+	   -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #eee;
+	color: #555;
+}
+#sidebar * {
+	margin-top: 1em;
+}
+#sidebar a {
+	color: #555;
+	font-weight: bold;
+}
+#tagline {
+	font-size: x-small;
+	color: #666;
+}
+#tagline a {
+	color: #666;
+}
+address.vcard {
+	font-style: normal;
+	min-width: 200px;
+	max-width: 360px;
+	background: #ddd;
+	font-weight: bold;
+	padding: 1.25em;
+	        border-radius: 8px;
+	   -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+address.vcard a[class="url fn"] {
+	font-size: 18pt;
+}
+address.vcard a[class="profile"] {
+	font-size: x-small;
+}
+address.vcard img {
+	border: 2pt solid #ccc;
+}
+address.vcard span[class="timestamp"] {
+	font-size: x-small;
+	font-weight: normal;
+	font-style:  italic;
+}
+
+#bodyTitle {
+	color: white;
+	opacity: 0.5;
+	position: absolute;
+	z-index: -1;
+	top: 32px;
+	left: 8px;
+	font-size: 96pt;
+	width: 6em;	
+}
+

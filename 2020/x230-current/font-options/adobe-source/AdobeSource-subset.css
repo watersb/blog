@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('SourceCodeVariable-Roman.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('SourceCodeVariable-Italic.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('SourceSansVariable-Roman.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('SourceSansVariable-Italic.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Source Serif Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('SourceSerifVariable-Roman.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Source Serif Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('SourceSerifVariable-Italic.woff2') format('woff2');
+}
