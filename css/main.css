@@ -1,35 +1,45 @@
 @charset "UTF-8";
-@import url("./_fonts/source_variable.css");
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i|IBM+Plex+Serif:200,400,700&display=swap');
 
 html {
-  font-size: 17px;
-  -webkit-text-size-adjust: 110%;
-  font-size: calc(0.5em + 1.25vw);
-  font-size: min(max(14px, (0.5em + 1.25vw)), 18px);
+  --text-minimum: 15px;
+}
 
-  --fontstack-serif:  "Source Serif Variable", serif;
-  --fontstack-sans:   "Source Sans Variable", sans-serif;
-  --fontstack-mono:   "Source Code Variable", monospace;
-  --fontstack-slab: "Rockwell Nova", "Rockwell", var(--fontstack-mono);
-  --fontstack-fig: system-ui, var(--fontstack-sans);
-  --fontstack-sys: system-ui, sans-serif;
+@media (pointer: coarse) {
+  html {
+    --text-minimum: 4.5mm;
+  }
+}
 
+html {
+  font-size: 1rem;
+  font-size: calc(0.5em + 1.2vw);
+  font-size: min(max(var(--text-minimum), calc(0.5em + 1.2vw)), 19px);
+  --fontstack-serif: "IBM Plex Serif", "Iowan Old Style", charter, "georgia pro", georgia, serif;
+  --fontstack-sans:  "IBM Plex Sans", "arial nova", "helvetica neue", sans-serif;
+  --fontstack-mono:  consolas, monaco, monospace;
+  
   font-feature-settings: "kern", "liga", "clig", "pnum";
   text-rendering: optimizeLegibility;
 
   --default-link: rgb(49, 49, 128);
-  --visited-link: rgb(72, 51, 112);
+  --visited-link: rgba(114, 94, 143, 0.712);
   --glowing-link: drop-shadow(0 0 3px #fffe);
-
   box-sizing: border-box;
 }
+
+hr {
+  display: none;
+}
+
 
 pre,
 code,
 kbd,
 samp {
   font-family: var(--fontstack-mono);
-  font-size: 1em;
+  font-size: 0.88em;
 }
 
 figure {
@@ -37,7 +47,8 @@ figure {
 }
 
 a {
-  font-weight: 500;
+  font-weight: 580;
+  opacity: 1;
   font-family: var(--fontstack-sans);
   color: var(--default-link);
   text-decoration-style: dotted;
@@ -47,7 +58,6 @@ a {
 a:visited {
   color: var(--visited-link);
   text-decoration-color: #ccc;
-
 }
 
 a:hover {
@@ -65,8 +75,9 @@ body {
 }
 
 body > footer {
+  font-family: var(--fontstack-sans);
   text-align: right;
-  font-stretch: condensed;
+  /* font-stretch: condensed; */
   filter: var(--glowing-link);
 }
 
@@ -75,6 +86,7 @@ body > header > h1 {
   margin-bottom: 0;
 }
 body > header * {
+  font-family: var(--fontstack-sans);
   filter: var(--glowing-link);
 }
 body > header > h1 * {
@@ -82,7 +94,7 @@ body > header > h1 * {
 }
 body > header > h1 > span {
   display: inline;
-  color: #0003;
+  color: #000;
   text-shadow: none;
   margin: -0.6em;
   font-size: 0.6em;
@@ -104,6 +116,7 @@ main {
   color: #000a;
   counter-reset: sidenote-counter;
   padding: 2vw;
+  text-overflow: ellipsis;
 }
 
 main article p {
@@ -112,10 +125,10 @@ main article p {
 }
 
 main article figure {
-  font-family: var(--fontstack-fig);
+  font-family: var(--fontstack-sans);
   margin: 1vw;
-  font-size: max(11px, 0.85em);
-  line-height: 1.2em;
+  font-size: 0.8em;
+  line-height: 1.2;
 }
 
 main article figure img {
@@ -147,7 +160,7 @@ main > article > header h1 {
 
 main > article > header > time {
   font-variant: small-caps;
-  font-weight: 100;
+  font-weight: 200;
   color: #444;
 }
 
@@ -170,7 +183,13 @@ main article figure figcaption {
 }
 
 figcaption details summary {
-  font-variant: small-caps;
+  font-variant-caps: all-small-caps;
+  font-size: 1.1rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+details summary::-webkit-details-marker {
+  display: none;
 }
 details[open] summary ~ * {
   animation: sweep 0.25s ease-in-out;
@@ -185,6 +204,9 @@ details[open] summary ~ * {
 }
 
 @media (min-width: 480px) {
+  html {
+    -webkit-text-size-adjust: none;
+  }
   main article figure img {
     width: 25vw;
   }
@@ -194,10 +216,6 @@ details[open] summary ~ * {
     margin-left: 2vw;
     width: max-content;
     max-width: 30vw;
-  }
-
-  main article pre {
-    font-size: max(12px, 0.75em);
   }
 }
 
@@ -211,15 +229,8 @@ main article figure figcaption * {
   margin: 2px 0;
 }
 main article figure figcaption h4 {
-  font-weight: 400;
+  font-size: 1rem;
   font-variant: small-caps;
-}
-main article figure figcaption cite {
-  font-style: normal;
-  font-variant: small-caps;
-}
-main article figure figcaption cite a {
-  font-weight: 400;
 }
 
 @media screen and (max-width: 400px) {
