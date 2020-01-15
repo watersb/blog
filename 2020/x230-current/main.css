@@ -3,8 +3,7 @@
 @import url("tufte.css");
 /* @import url("narrow.css"); */
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i|IBM+Plex+Serif:200,400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600|IBM+Plex+Sans:300,400,400i,500,500i,600|IBM+Plex+Serif:300,300i,400,400i,500,500i,700&display=swap');
 
 :root {
   line-height: calc(1.5em + .2vw);
@@ -48,7 +47,7 @@ nav {display: none}
 h1  {margin-top: -0.2rem}
 
 a {
-  font-weight: 550;
+  font-weight: 400;
   opacity: 1;
   color: var(--default-link);
   text-decoration-style: dotted;
@@ -113,9 +112,10 @@ p:has(#a1) {
   background-color: grey;
 }
 
+main figure img {width: 100%;}
 figure.thumb > img { width: 13vw; }
 
-figcaption * {
+main figcaption * {
   margin: 0;
   font-weight: 300;
   line-height: initial;
@@ -123,6 +123,7 @@ figcaption * {
 }
 
 figcaption summary {
+  font-weight: 400;
   font-variant: all-small-caps;
   list-style-type: none;
   list-style-position: outside;
