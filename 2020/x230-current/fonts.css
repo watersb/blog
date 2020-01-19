@@ -1,5 +1,3 @@
-@import url("font-options/adobe-source/AdobeSource-subset.css");
-
 :root {
 
     --serif: 'Source Serif Variable',
@@ -22,6 +20,7 @@
 
   --ms-serif:
     "Georgia Pro",
+    "Sitka Text",
     "Georgia";
 
   --ms-sans:
