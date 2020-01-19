@@ -5,7 +5,7 @@
 
 :root {
     font-size: 18px;
-    font-size: calc(0.7em + 0.60vw);
+    font-size: calc(0.8em + 0.60vw);
 
   line-height: calc(1.5em + 0.20vw);
 }
@@ -25,6 +25,10 @@ body {
   margin: 0;
 }
 
+body > header {
+  display: none;
+}
+
 body > footer,
 body > header,
 a,
@@ -40,7 +44,7 @@ nav {display: none}
 h1  {margin-top: -0.2rem}
 
 a {
-  font-weight: 440;
+  font-weight: 470;
   opacity: 1;
   color: var(--default-link);
   text-decoration-style: dotted;
@@ -102,13 +106,14 @@ article {
 }
 
 article > header time {
-  font-weight: 200;
+  font-size: 1.4em;
+  font-weight: 300;
   font-variant: all-small-caps;
 }
 
 article	h1	{
-  color: #555;
-  font-size:	1.8em;
+  color: #777;
+  font-size:	2.8em;
 }
 
 p:has(#a1) {
@@ -121,10 +126,6 @@ figure.thumb > img { width: 13vw; }
 
 main figcaption p {
   margin: 0;
-/* font-weight: 300;
-  line-height: initial;
-  font-size: 0.95em;
-*/
 }
 
 figcaption summary {
