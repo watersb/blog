@@ -1,16 +1,18 @@
+@import url("font-options/adobe-source/AdobeSource-subset.css");
+
 :root {
 
-    --serif:
+    --serif: 'Source Serif Variable',
         var(--apple-serif),
         var(   --ms-serif),
         var( --free-serif), serif;
 
-    --mono: 
+    --mono: 'Source Code Variable',
         var(--apple-mono), 
         var(   --ms-mono), 
         var( --free-mono),  monospace;
 
-    --sans: 
+    --sans: 'Source Sans Variable',
         var(--apple-sans), 
         var(   --ms-sans), 
         var( --free-sans),  sans-serif;
