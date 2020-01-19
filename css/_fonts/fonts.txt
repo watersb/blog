@@ -1,0 +1,23 @@
+2020-01-16 01:00:25
+Notes on Fonts and other typography
+
+## Font Stacks
+
+Windows:
+     mono:  consolas, monospace;
+    serif:  "Georgia Pro", "Georgia", serif;
+     sans:  "Bahnschrift", "Arial Nova", "Arial", sans-serif;
+
+
+Variable:
+     sans:  Bahnschrift";
+    serif:  "Sitka FV";
+     mono:  ;
+
+https://docs.microsoft.com/en-us/typography/font-list/bahnschrift
+
+https://www.myfonts.com/newsletters/cc/201310.html
+
+"Sitka" is a good choice, but as it was commissioned for use in Edge Reader Mode, Edge browser won't use it!
+
+

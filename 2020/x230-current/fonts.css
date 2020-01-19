@@ -1,0 +1,82 @@
+:root {
+
+    --serif:
+		var(--apple-serif),
+		var(   --ms-serif),
+        var( --free-serif), serif;
+
+    --mono: 
+		var(--apple-mono), 
+		var(   --ms-mono), 
+        var( --free-mono),  monospace;
+
+    --sans: 
+		var(--apple-sans), 
+		var(   --ms-sans), 
+		var( --free-sans),  sans-serif;
+  
+   
+
+
+  --ms-serif:
+	"Georgia Pro",
+	"Georgia";
+
+  --ms-sans:
+	"Bahnscrift",
+	"Arial Nova",
+	"Arial";
+
+  --ms-mono:
+	"Cascadia Code",
+	"Consolas";
+
+  /** Apple macOS and iOS **/
+
+  --apple-serif:
+	"Iowan Old Style",
+	"Charter";
+
+  --apple-sans:
+	"Avenir Next";
+
+  --apple-mono:
+	"Menlo";
+
+  /** Noto and Droid,
+	in their many incarnations
+    https://www.google.com/get/noto/
+
+    "Currently,
+	the Latin characters in the CJK fonts
+     are from Adobe’s Source Sans Pro."
+  **/
+
+  --free-serif:
+	"Open Serif",
+	"Noto Serif",
+	"Noto Serif CJK JP",
+	"Droid Serif",
+	"Roboto Slab",
+	"Caladea",
+	"Tinos";
+
+  
+  --free-sans:
+	"Open Sans",
+	"Noto Sans",
+	"Noto Sans CJK JP",
+	"Source Sans Pro",
+    "Droid Sans",
+	"Roboto",
+	"Carlito",
+	"Arimo";
+
+  --free-mono:
+	"Noto Sans Mono",
+	"Noto Sans Mono CJK JP",
+	"Droid Sans Mono",
+    "Roboto Mono",
+	"Cousine";
+
+}

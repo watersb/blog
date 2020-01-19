@@ -29,12 +29,14 @@
 
   <script>
     function getsize(event) {
-      var s = document.querySelector('article > p > span')
+      var p = document.querySelector('article > p > span');
+      var s = window.getComputedStyle(p);
 
-      s.innerHTML =
+      p.innerHTML =
         "<br><pre>" +
-        "  font-size: " + window.getComputedStyle(s).fontSize + "\n" +
-        "  screen: "    + window.innerWidth +" x " + window.innerHeight +
+        "  font-size:   " + s.fontSize   + "\n" +
+        "  font-family: " + s.fontFamily + "\n" +
+        "  screen:      " + window.innerWidth +" x " + window.innerHeight +
         "</pre>"
       ;
     }
@@ -156,3 +158,4 @@
 </body>
 
 </html>
+
