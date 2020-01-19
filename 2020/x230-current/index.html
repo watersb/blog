@@ -160,9 +160,11 @@ whatever) in a margin note inside a <code>p</code> tag, as seen to the
 right of this paragraph.</p>
 
 <p>If you need a full-width figure, give it the <code>fullwidth</code> class. Make sure that’s inside an <code>article</code>, and it will take up (almost) the full width of the screen. This approach is demonstrated below using Edward Tufte’s English translation of the Napoleon’s March data visualization. From <em>Beautiful Evidence</em>, page 122-124.</p>
-  <figure class="fullwidth">
+<a href="Minards_Map.svg">
+<figure class="fullwidth">
     <img src="napoleons-march.jpg" alt="Figurative map of the successive losses of the French Army in the Russian campaign, 1812-1813">
   </figure>
+</a>
 <p>One obstacle to creating elegant figures on the web is the difficulty of handling different screen sizes, especially on the fly. Embedded <code>iframe</code> elements are particularly troublesome. For these instances we provide a helper class, <code>iframe-wrapper</code>, the most common use for which is probably YouTube videos...</p>
 <p>You can use this class on a <code>div</code> instead of
 a <code>figure</code>, with slightly different results but the same
