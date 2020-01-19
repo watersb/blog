@@ -2,6 +2,7 @@
 
 @import url("fonts.css");
 @import url("tufte.css");
+@import url("/css/bg-image.css");
 
 :root {
     font-size: 18px;
@@ -25,12 +26,7 @@ body {
   margin: 0;
 }
 
-body > header {
-  display: none;
-}
-
 body > footer,
-body > header,
 a,
 figcaption {
     font-family: var(--sans);
@@ -40,7 +36,6 @@ body > footer {
   text-align: right;
 }
 
-nav {display: none}
 h1  {margin-top: -0.2rem}
 
 a {
@@ -57,28 +52,6 @@ a:visited {
 
 a:hover {
   text-shadow: 0 0 3px rebeccapurple;
-}
-
-
-body>header * {
-  margin: 0;
-  filter: var(--glowing-link) opacity(0.7);
-  color: #000a;
-}
-body>header>a:hover {
-  filter: opacity(1);
-}
-#debug {
-  float: right;
-}
-
-
-body > header > a > h1 span {
-  display: inline;
-  color: #0003;
-  text-shadow: none;
-  font-size: 0.6em;
-  margin: -0.6em;
 }
 
 
