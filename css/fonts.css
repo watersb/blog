@@ -1,16 +1,16 @@
 :root {
 
-    --serif: 'Source Serif Variable',
+    --serif:
         var(--apple-serif),
         var(   --ms-serif),
         var( --free-serif), serif;
 
-    --mono: 'Source Code Variable',
+    --mono:
         var(--apple-mono), 
         var(   --ms-mono), 
         var( --free-mono),  monospace;
 
-    --sans: 'Source Sans Variable',
+    --sans:
         var(--apple-sans), 
         var(   --ms-sans), 
         var( --free-sans),  sans-serif;
