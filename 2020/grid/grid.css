@@ -60,7 +60,5 @@ figure figcaption {
     grid-row: 1;
 }
 figure details:not([open]) {
-    grid-row: 2;
-    grid-column: 1;
     color: red;
 }
