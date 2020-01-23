@@ -52,13 +52,47 @@
         short while to clean up again. Small is often beautiful.
       </p>
 
+      <figure id="process_nodes" class="fig-large">
+        <img src="/2018/09/2018-09-03/i-lost-my-freaking/Comparison_semiconductor_process_nodes.svg">
+        <figcaption>
+          <details open>
+            <summary>Process Nodes
+            </summary>
+            <p>Comparison of sizes of semiconductor manufacturing process nodes with some microscopic objects and
+              visible light wavelengths.
+            </p>
+            <cite>
+              By[<a href="https://creativecommons.org/licenses/by-sa/3.0">CC
+                BY-SA 3.0 </a> or <a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>],
+              <br> from
+              <a href="https://commons.wikimedia.org/wiki/File:Comparison_semiconductor_process_nodes.svg">
+                Wikimedia Commons</a> <a href="https://commons.wikimedia.org/wiki/User:Cmglee">Cmglee</a>
+            </cite>
+          </details>
+        </figcaption>
+      </figure>
+
+
       <p>
         Tufte emphasizes tight integration of graphics with text. Data, graphs,
-        and figures are kept with the text that discusses them. In print, this
+        and figures are kept with the text that discusses them.
+        <label for="mn-demo" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+        <span class="marginnote">
+          This is a margin note. There are at least two ways to implement the toggle nature
+          of margin notes: hidden-checkbox and summary-detail. Hidden-checkbox uses an HTML
+          form element, <code>checkbox</code>, and then hides the checkbox with CSS. As long 
+          as I remember to also set appropriate ARIA attributes, I guess it works, but it is 
+          something of a hack. So I prefer <code>summary</code> and <code>detail</code> markup,
+          which also has a toggle (two-phase) state, but more closely models the semantics of
+          the desired result.
+        </span>
+        In print, this
         means they are not relegated to a separate page. On the web, that means
         readability of graphics and their accompanying text without extra
         clicks, tab-switching, or scrolling.
       </p>
+
     </main>
   </body>
 </html>
