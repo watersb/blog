@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 @import url("/css/fonts.css");
@@ -94,5 +95,40 @@ main > figure.fig-large {
 
 .fig-large img {
   width: 62vw;
+=======
+body {
+    background-color: black;
+    color: silver;
+}
+
+a {
+    color: steelblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 30ch;
+
+}
+
+main > p {
+    grid-column: 1;
+    background-color: #333;
+    border-radius: 6px;
+}
+
+
+main > figure {
+    grid-column: 2;
+    grid-row: span 4;
+}
+
+main > figure > img {
+    max-width: 20vw;
+}
+figure details summary {
+    list-style-type: "°";
+    list-style-position: outside;
+>>>>>>> 411b26291bc349429499c4b5d9d451493a95b331
 }
 
