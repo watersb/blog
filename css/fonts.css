@@ -19,8 +19,8 @@
 
 
   --ms-serif:
-    "Georgia Pro",
-    "Sitka Text",
+  "Georgia Pro",
+  "Sitka Text",
     "Georgia";
 
   --ms-sans:
@@ -39,6 +39,7 @@
     "Charter";
 
   --apple-sans:
+    "Helvetica Neue",
     "Avenir Next";
 
   --apple-mono:
