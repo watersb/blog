@@ -21,3 +21,23 @@ https://www.myfonts.com/newsletters/cc/201310.html
 "Sitka" is a good choice, but as it was commissioned for use in Edge Reader Mode, Edge browser won't use it!
 
 
+# date: "2020-01-25 01:59:22"
+Exhaustive OpenType Features Inspection Tool
+https://wakamaifondue.com
+
+c2sc, tnum, zero, size, smcp
+
+small caps:
+"c2sc", "smcp"
+
+slashed zero:
+"zero"
+
+optical sizing:
+"size"
+
+tabular numbers:
+"tnum"
+
+font-feature-settings: "size", "tnum", "zero";
+
