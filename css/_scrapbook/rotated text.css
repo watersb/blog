@@ -1,8 +1,5 @@
-main>article>header>ul li {
+main > figure details:not([open]) {
   display: inline-block;
-  transform: rotate(60deg);
+  transform: rotate(90deg);
   transform-origin: top left;
-  font-family: var(--fontstack-sans);
-  font-weight: 300;
-  opacity: 0.25;
 }
