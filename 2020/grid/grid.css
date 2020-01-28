@@ -24,7 +24,6 @@ a {
   color: rgb(49, 49, 128);
 }
 
-
 main > p {
   grid-column: 1;
   background-color: #eee8;
@@ -40,7 +39,7 @@ main > figure {
 }
 
 summary::-webkit-details-marker {
-	display: none;
+  display: none;
 }
 main > figure details summary {
   font-size: 1.1em;
@@ -61,7 +60,7 @@ main > figure img {
   padding-top: 0.4em;
 }
 main > figure > figcaption {
-	padding: 0 0.6em;
+  padding: 0 0.6em;
 }
 
 @media (min-width: 640px) {
@@ -77,11 +76,11 @@ main > figure > figcaption {
     grid-template-columns: 65vw 1fr;
   }
   main > figure {
-  align-items: start;
-  	grid-row: span 2;
+    align-items: start;
+    grid-row: span 2;
     column-gap: 1ch;
     display: grid;
-    grid-template-columns: 1fr 16ch ;
+    grid-template-columns: 1fr 16ch;
   }
 }
 
@@ -95,4 +94,3 @@ main > figure.fig-large {
 .fig-large img {
   width: 62vw;
 }
-

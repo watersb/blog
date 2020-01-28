@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fit Text to a Box with SVG</title>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+      :root {
+        font-family: "Iowan Old Style", "Sitka Display", serif;
+        /* font-weight: bold; */
+        font-size: 24px;
+      }
 
-        article>header>svg>text {
-            font-family: 'Iowan Old Style', 'Source Serif Pro', serif;
-            font-weight: bold;
-            font-size: 24px;
-        }
-
-        article>header>svg {
-            width: 100%;
-        }
+      svg {
+        width: 100%;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <svg viewBox="0 0 200 32">
-        <text x="0" y="22">
-            Difficulty Waffles
-        </text>
+  <body>
+    <svg viewBox="0 0 180 32">
+      <text x="0" y="22">
+        Difficulty Waffles
+      </text>
     </svg>
-</body>
-
+  </body>
 </html>
