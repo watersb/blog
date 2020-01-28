@@ -1,81 +1,35 @@
-/* Sidenotes, margin notes, figures, captions */
-html body main article {
-  margin-right: 30vw;
-}
-
-img {
-  max-width: 92%;
-}
-.thumb,
+/* grid */
 .sidenote,
 .marginnote {
-  float: right;
-  clear: right;
-  margin-right: -40%;
-  width: 40%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: var(--sans);
-  font-size: 0.9em;
-  line-height: 1.2;
-  font-weight: 300;
-  vertical-align: baseline;
-  position: relative;
+  grid-column: 2;
+  grid-row: span 2;
 }
 
-.sidenote-number {
-  counter-increment: sidenote-counter;
+article {
+  display: grid;
+  grid-template-columns: 65vw 1fr;
 }
 
-.sidenote-number:after,
-.sidenote:before {
-  font-family: var(--sans), sans-serif;
-  font-weight: 500;
-  position: relative;
-  vertical-align: baseline;
+article figure {
+  align-items: start;
+  column-gap: 1ch;
+  display: grid;
+  grid-template-columns: 1fr 16ch;
 }
 
-.sidenote-number:after {
-  content: counter(sidenote-counter);
-  font-size: 0.8em;
-  font-weight: 500;
-  top: -0.5em;
-  left: 0.1em;
+article figure.fig-large,
+article figure.fullwidth {
+  grid-template-columns: 65vw 1fr;
+  grid-column: 1;
+  grid-column-end: span 2;
+  width: 92vw;
 }
 
-.sidenote:before {
-  content: counter(sidenote-counter) " ";
-  font-size: 0.8em;
-  top: -0.5em;
+article p {
+  grid-column: 1;
 }
 
-blockquote .sidenote,
-blockquote .marginnote {
-  margin-right: -82%;
-  min-width: 59%;
-  text-align: left;
-}
-
-div.fullwidth,
-table.fullwidth {
-  width: 100%;
-}
-
-div.table-wrapper {
-  overflow-x: auto;
-  font-family: var(--sans), sans-serif;
-}
-
-.fullwidth {
-  max-width: 90%;
-  clear: both;
-}
-
-span.newthought {
-  font-variant: all-small-caps;
-  font-size: 1.2em;
-}
-
+/* toggle cleverness */
 input.margin-toggle {
   display: none;
 }
@@ -84,6 +38,65 @@ label.sidenote-number {
   display: inline;
 }
 
-label.margin-toggle:not(.sidenote-number) {
+@media (max-width: 439px) {
+  .sidenote,
+  .marginnote {
+    display: none;
+  }
+}
+
+.margin-toggle:checked+.sidenote,
+.margin-toggle:checked+.marginnote {
+  display: inherit;
+}
+
+
+/* general formatting */
+img {
+  max-width: 95%;
+}
+
+article p {
+  margin-top: 6px;
+}
+
+article figure {
+  font-size: 0.8em;
+  font-weight: 340;
+  margin: 6px;
+  padding: 4px;
+}
+
+article figure>figcaption {
+  padding: 0 0.6em;
+}
+
+article figure * {
+  line-height: 1.2;
+}
+
+article figure details p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+article figure details summary {
+  font-size: 1.1em;
+  list-style-type: none;
+  list-style-position: outside;
+  font-variant: all-small-caps;
+  font-weight: 480;
+}
+
+article figure details summary::-webkit-details-marker {
   display: none;
+}
+
+article figure>img {
+  padding-top: 0.4em;
+}
+
+span.newthought {
+  font-variant: all-small-caps;
+  font-size: 1.2em;
 }
