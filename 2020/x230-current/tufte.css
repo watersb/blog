@@ -17,19 +17,14 @@ article figure {
   grid-template-columns: 1fr 16ch;
 }
 
-article figure.fig-large,
 article figure.fullwidth {
   grid-template-columns: 90vw;
   grid-column: 1;
 }
 
-article p {
+article > p,
+article > section {
   grid-column: 1;
-}
-
-/* toggle cleverness */
-input.margin-toggle {
-  display: none;
 }
 
 label.sidenote-number {
@@ -37,15 +32,9 @@ label.sidenote-number {
 }
 
 @media (max-width: 439px) {
-  .sidenote,
-  .marginnote {
-    display: none;
-  }
-}
-
-.margin-toggle:checked+.sidenote,
-.margin-toggle:checked+.marginnote {
-  display: inherit;
+  article {
+    display: initial;
+ }
 }
 
 
