@@ -11,3 +11,5 @@ macOS Dropbox maps the perms ok.
 But bogus fileflags could get checked into the git repo.
 
 THIS WAY LIES MADNESS
+
+https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes
