@@ -1,3 +1,16 @@
+body {
+  font-family: var(--sans), sans-serif;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--mono),monospace;
+  font-size: 1em;
+}
+
+
 :root {
     font-size: 16px;
     font-size: calc(0.8em + 0.60vw);
@@ -32,7 +45,6 @@
     "Arial";
 
   --ms-mono:
-    "Cascadia Code",
     "Consolas";
 
   /** Apple macOS and iOS **/
