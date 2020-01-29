@@ -4,12 +4,6 @@
 @import url("tufte.css");
 @import url("/css/bg-image.css");
 
-:root {
-    font-size: 18px;
-    font-size: calc(0.8em + 0.60vw);
-
-  line-height: calc(1.5em + 0.20vw);
-}
 
 html {
   --default-link: rgb(49, 49, 128);
