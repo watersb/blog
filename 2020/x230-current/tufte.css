@@ -13,7 +13,7 @@ article {
 article figure {
   align-items: start;
   column-gap: 1ch;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 16ch;
 }
 
