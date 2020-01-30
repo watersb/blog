@@ -1,89 +1,22 @@
-/* grid */
-.sidenote,
-.marginnote {
-  grid-column: 2;
-  grid-row: span 2;
+article>* {
+  box-sizing: border-box;
 }
 
-article {
-  display: grid;
-  grid-template-columns: 65vw 1fr;
-}
+@media (min-width: 440px) {
+  article>p {
+    width: 60vw;
+  }
 
-article figure {
-  align-items: start;
-  column-gap: 1ch;
-  /* display: grid; */
-  grid-template-columns: 1fr 16ch;
-}
+  article>figure {
+    width: 25vw;
+    float: right;
+  }
 
-article figure.fullwidth {
-  grid-template-columns: 90vw;
-  grid-column: 1;
-}
+  article>figure.fullwidth {
+    width: 88vw;
+  }
 
-article > p,
-article > section {
-  grid-column: 1;
-}
-
-label.sidenote-number {
-  display: inline;
-}
-
-@media (max-width: 439px) {
-  article {
-    display: initial;
- }
-}
-
-
-/* general formatting */
-img {
-  max-width: 95%;
-}
-
-article p {
-  margin-top: 6px;
-}
-
-article figure {
-  font-size: 0.8em;
-  font-weight: 340;
-  margin: 6px;
-  padding: 4px;
-}
-
-article figure>figcaption {
-  padding: 0 0.6em;
-}
-
-article figure * {
-  line-height: 1.2;
-}
-
-article figure details p {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-article figure details summary {
-  font-size: 1.1em;
-  list-style-type: none;
-  list-style-position: outside;
-  font-variant: all-small-caps;
-  font-weight: 480;
-}
-
-article figure details summary::-webkit-details-marker {
-  display: none;
-}
-
-article figure>img {
-  padding-top: 0.4em;
-}
-
-span.newthought {
-  font-variant: all-small-caps;
-  font-size: 1.2em;
+  label.sidenote-number {
+    display: inline;
+  }
 }
