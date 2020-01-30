@@ -1,7 +1,3 @@
-article>* {
-  box-sizing: border-box;
-}
-
 @media (min-width: 440px) {
   article>p {
     width: 60vw;
@@ -14,9 +10,5 @@ article>* {
 
   article>figure.fullwidth {
     width: 88vw;
-  }
-
-  label.sidenote-number {
-    display: inline;
   }
 }

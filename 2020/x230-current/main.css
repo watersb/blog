@@ -29,15 +29,6 @@ main {
   padding: 2vw;
 }
 
-main article code,
-main article pre {
-  background-color: #ccc4;
-  border-radius: 6px;
-  padding: 0.3em;
-  overflow: auto;
-  white-space: pre;
-}
-
 a,
 body>footer,
 figcaption {
@@ -64,6 +55,10 @@ article {
   color: #444;
 }
 
+article > * {
+  box-sizing: border-box;
+}
+
 article h1 {
   color: #777;
   font-size: 2.8em;
@@ -77,6 +72,15 @@ article>header time {
   font-size: 1.4em;
   font-weight: 300;
   font-variant: all-small-caps;
+}
+
+article code,
+article pre {
+  background-color: #ccc4;
+  border-radius: 6px;
+  padding: 0.3em;
+  overflow: auto;
+  white-space: pre;
 }
 
 
@@ -117,7 +121,7 @@ figcaption summary::marker {
 }
 
 figcaption summary {
-  font-weight: 440;
+  font-weight: 470;
   font-variant: all-small-caps;
   list-style-type: none;
   list-style-position: outside;
@@ -127,4 +131,8 @@ figcaption summary {
 span.newthought {
   font-variant: all-small-caps;
   font-size: 1.2em;
+}
+
+label.sidenote-number {
+  display: inline;
 }
