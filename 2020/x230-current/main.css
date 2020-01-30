@@ -6,13 +6,13 @@
 html {
   --default-link: rgb(49, 49, 128);
   --visited-link: rgb(42, 17, 78);
-  --glowing-link: drop-shadow(0 0 3px #fffe)
+  --glowing-link: drop-shadow(0 0 3px #fffe);
 }
 
 body {
   background-color: #ddd;
   font-family: var(--serif);
-  margin: 0
+  margin: 0;
 }
 
 body>footer {
@@ -26,7 +26,7 @@ main {
   background: linear-gradient(#fff0, #ffff 10%, #ffff 90%, #fff0);
   counter-reset: sidenote-counter;
   margin: 0.8em;
-  padding: 2vw
+  padding: 2vw;
 }
 
 main article code,
@@ -35,21 +35,21 @@ main article pre {
   border-radius: 6px;
   padding: 0.3em;
   overflow: auto;
-  white-space: pre
+  white-space: pre;
 }
 
 a,
 body>footer,
 figcaption {
-  font-family: var(--sans)
+  font-family: var(--sans);
 }
 
 a:hover {
-  text-shadow: 0 0 3px #663399
+  text-shadow: 0 0 3px #663399;
 }
 
 a:visited {
-  color: var(--visited-link)
+  color: var(--visited-link);
 }
 
 a {
@@ -57,63 +57,63 @@ a {
   opacity: 1;
   color: var(--default-link);
   text-decoration-style: dotted;
-  text-decoration-color: #ccc
+  text-decoration-color: #ccc;
 }
 
 article {
-  color: #444
+  color: #444;
 }
 
 article h1 {
   color: #777;
-  font-size: 2.8em
+  font-size: 2.8em;
 }
 
 article p {
-  margin-top: 6px
+  margin-top: 6px;
 }
 
 article>header time {
   font-size: 1.4em;
   font-weight: 300;
-  font-variant: all-small-caps
+  font-variant: all-small-caps;
 }
 
 
 figure {
   font-size: 0.8em;
   margin: 6px;
-  padding: 4px
+  padding: 4px;
 }
 
 figure * {
-  line-height: 1.2
+  line-height: 1.2;
 }
 
 figure details p {
   margin-top: 4px;
-  margin-bottom: 4px
+  margin-bottom: 4px;
 }
 
 figure img {
   width: 100%;
   padding-top: 0.4em;
-  box-shadow: #999 4px 4px 6px
+  box-shadow: #999 4px 4px 6px;
 }
 
 figure.thumb>img {
-  width: 13vw
+  width: 13vw;
 }
 
 figcaption {
   font-weight: 340;
-  padding: 0 .6em
+  padding: 0 .6em;
 }
 
 figcaption summary::marker {
   color: #777;
   font-size: 3.3mm;
-  content: "#"
+  content: "#";
 }
 
 figcaption summary {
@@ -121,10 +121,10 @@ figcaption summary {
   font-variant: all-small-caps;
   list-style-type: none;
   list-style-position: outside;
-  color: #999
+  color: #999;
 }
 
 span.newthought {
   font-variant: all-small-caps;
-  font-size: 1.2em
+  font-size: 1.2em;
 }
