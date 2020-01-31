@@ -6,4 +6,16 @@ TODO: Find out how robust these glyphs are on the Target platforms.
 ⓘ		Circled Information mark
 ☟		Hand pointing down
 ☰		Hamburger Menu – three horizontal lines
+#		Simply a hash (shift-3) character
 
+¶   pilcrow
+°   degree
+¬   NOT
+§   section
+¡   inverted exclaimation point
+⊕  circle plus mathematical operator
+⋆   star mathematical operator
+●   circle
+❧  floral bullet
+⌐   inverted NOT
+•   bullet
