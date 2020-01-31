@@ -125,7 +125,7 @@ figcaption summary {
   font-variant: all-small-caps;
   list-style-type: none;
   list-style-position: outside;
-  color: #999;
+  color: #737373;
   cursor: pointer;
 }
 details[open] summary ~ * {
