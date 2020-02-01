@@ -6,30 +6,30 @@ code,
 pre,
 kbd,
 samp {
-  font-family: var(--mono),monospace;
+  font-family: var(--mono), monospace;
   font-size: 1em;
 }
 
 
 :root {
-    font-size: 16px;
-    font-size: calc(0.8em + 0.60vw);
-  line-height: 1.5;
+  font-size: 18px;
+  font-size: calc(0.8em + 0.60vw);
+  line-height: 1.575;
 
-    --serif:
-        var(--apple-serif),
-        var(   --ms-serif),
-        var( --free-serif), serif;
+  --serif:
+    var(--apple-serif),
+    var(--ms-serif),
+    var(--free-serif), serif;
 
-    --mono:
-        var(--apple-mono), 
-        var(   --ms-mono), 
-        var( --free-mono),  monospace;
+  --mono:
+    var(--apple-mono),
+    var(--ms-mono),
+    var(--free-mono), monospace;
 
-    --sans:
-        var(--apple-sans), 
-        var(   --ms-sans), 
-        var( --free-sans),  sans-serif;
+  --sans:
+    var(--apple-sans),
+    var(--ms-sans),
+    var(--free-sans), sans-serif;
 
 
 
@@ -96,4 +96,18 @@ samp {
     "Roboto Mono",
     "Cousine";
 
+}
+
+/*
+ * On Safari iOS, if it sees a font-size spec it
+ * can't handle, it throws out all of the font-size
+ * declarations of that rule. It doesn't keep the
+ * fallback value.
+ *
+ * So I have to tweak it, here.
+ */
+@media screen and (max-width: 640px) {
+  :root {
+    -webkit-text-size-adjust: 115%;
+  }
 }
