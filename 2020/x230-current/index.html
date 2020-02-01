@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>watersb - origin</title>
-  <meta name="description" content="An introduction to a series of articles regarding the past and future of computer technology and its global social impact.">
-  <meta name="author" content="watersb">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>thumb detail</title>
 
   <link rel="stylesheet" href="main.css" />
-
 </head>
-<body>
 
+<!-- - - - - - - - -->
+
+<body>
+  <h1>widget states</h1>
   <main>
     <article>
-      <header>
-        <time datetime="2018-08-11">August 11, 2018</time>
-        <h1>Difficult Waffles</h1>
-      </header>
 
-      <section>
-      <figure class="thumb">
-        <img src="/2018/10/2018-10-05/9780262012577-lo.jpg"
-       alt="Book Cover for Racing the Beam">
+      <p>
+        When I was a kid, I loved computers. Video games and computers were
+        just getting started. They were full of promise, it was going to be
+        insanely great. Just keep the cursor moving,
+        <a href="#rtb">racing the beam,</a>
+        and we know we will all be some place beyond imagination. So fast!
+      </p>
+      <figure id="rtb" class="margin thumb">
+        <img src="/2018/10/2018-10-05/9780262012577-lo.jpg" alt="Book Cover for Racing the Beam.
+                Stylized, glowing blocks, representing the pixels
+                of a cathode ray tube television display." aria-describedby="rtb_cap" />
         <figcaption>
-          <details>
+          <details id="rtb_cap" open>
             <summary>Racing the Beam</summary>
-            <p>A study of the relationship between platform and creative expression in the Atari VCS.</p>
+            <p>
+              A study of the relationship between platform and creative
+              expression in the Atari VCS.
+            </p>
             <cite>
               <a href="https://en.wikipedia.org/wiki/Racing_the_Beam">A book by Nick Montfort and Ian Bogost.</a>
               <time datetime="2009">2009.</time>
@@ -37,158 +44,104 @@
       </figure>
 
 
+      <h2 id="figures">Figures</h2>
       <p>
-When I was a kid, I <em>loved</em> computers.  Video games and
-computers were just getting started.  They were full of promise, it
-was going to be insanely great.  Just keep the cursor moving, and we
-know we will all be some place beyond imagination.  So fast!
-<span></span>
-</p>
+        Tufte emphasizes tight integration of graphics with text. Data,
+        graphs, and figures are kept with the text that discusses them. In
+        print, this means they are not relegated to a separate page. On the
+        web, that means readability of graphics and their accompanying text
+        without extra clicks, tab-switching, or scrolling.
+      </p>
 
-One of the most distinctive features of Tufte’s style is his extensive
-      use of sidenotes.
-      <label for="sn-extensive-use-of-sidenotes"
-       class="margin-toggle sidenote-number"></label>
-      <input type="checkbox" id="sn-extensive-use-of-sidenotes"
-       class="margin-toggle">
-      <span class="sidenote">This is a
-  sidenote.</span>
-      Sidenotes are like footnotes, except they don’t force
-the reader to jump their eye to the bottom of the page, but instead
-display off to the side in the margin. Perhaps you have noticed their
-use in this document already. You are very astute.
-
-
-<p>
-How fast?
-<a href="https://en.wikipedia.org/wiki/Moore%27s_law">Doubling every year</a>.
-Year after year,
-we could expect great things.
-</p>
-
-
-<figure>
-<img src="/2018/09/2018-09-03/i-lost-my-freaking/Comparison_semiconductor_process_nodes.svg">
-<figcaption class="marginnote">
-  <details open>
-    <summary>Process Nodes</summary>
-    <p>Comparison of sizes of semiconductor manufacturing process nodes with some microscopic objects and visible light wavelengths.
-    </p>
-    <cite>
-<div class="creator">
-<a href="https://commons.wikimedia.org/wiki/User:Cmglee">cmglee</a>
-</div>
-via
-<a href="https://commons.wikimedia.org/wiki/File:Comparison_semiconductor_process_nodes.svg">
-Wikimedia Commons
-</a>.
-<div class="license">
-<a href="https://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA 3.0</a>
-or
-<a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>
-</div>
-    </cite>
+      <p>
+        Figures should try to use the <code>figure</code> element, which by
+        default are constrained to the main column. Don’t wrap figures in a
+        paragraph tag. Any label or margin note goes in a regular margin
+        note inside the figure. For example, most of the time one should
+        introduce a figure directly into the main flow of discussion, like
+        so:
+      </p>
+      <figure>
+        <img src="rhino.jpg" alt="Image of a Rhinoceros">
+        <figcaption>
+          <details open>
+            <summary>Albrecht Dürer’s Rhinoceros</summary>
+            F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zooological Literature,”
+            <cite>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical
+              Practice</cite>
+            (London, 1953), ed. E. Ashworth Underwood,
+            337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.
           </details>
         </figcaption>
       </figure>
 
-      <p>So much work to be done, on those primitive machines, to get
-        where we wanted to be. But it was quite gratifying. A small
-        space can be frustrating, but any improvement is big
-        progress. My small kitchen looks like the picture of despair
-        when it gets messy, but it takes only a short while to clean
-        up again.  Small is often beautiful.
+      <p>
+        But tight integration of graphics with text is central to Tufte’s
+        work even when those graphics are ancillary to the main body of a
+        text. In many of those cases, a margin figure may be most appropriate.
+        To place figures in the margin, just use the <code>marginfigure</code>
+        tag, as seen to the right of this paragraph.
       </p>
+      <figure class="margin">
+        <img src="marginfigure.jpg" alt="an example graph of scatterplot from R Studio" />
+        <figcaption class="">
+          <details>
+            <summary>This is a Margin Figure</summary>
+            <p>
+              The R package provides two custom hooks for figure placement.
+              The first is marginfigure. Set
+              <code>marginfigure = TRUE</code> in a chunk option to place a
+              figure in the right margin. Optionally, specify the figure
+              size and include a caption. Captions are passed as strings
+              through <code>fig.cap</code> in the chunk options.
+            </p>
+          </details>
+        </figcaption>
+      </figure>
 
-      <p>Max Roser and Hannah Ritchie (2018) - &ldquo;Technological
-      Progress&rdquo;. <em>Published online at
-          <a href="https://ourworldindata.org/technological-progress">OurWorldInData.org.</a></em>
+
+      <p>
+        If you need a full-width figure, give it the
+        <code>fullwidth</code> class. Make sure that’s inside an
+        <code>article</code>, and it will take up (almost) the full width of
+        the screen. This approach is demonstrated below using Edward Tufte’s
+        English translation of the Napoleon’s March data visualization. From
+        <em>Beautiful Evidence</em>, page 122-124.
       </p>
-      <p>So they got better.
-        <a href="https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/">https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/</a>
+      <figure class="fullwidth">
+        <a href="Minards_Map.svg">
+          <img src="napoleons-march.jpg"
+            alt="Figurative map of the successive losses of the French Army in the Russian campaign, 1812-1813" />
+        </a>
+      </figure>
+      <p>
+        One obstacle to creating elegant figures on the web is the
+        difficulty of handling different screen sizes, especially on the
+        fly. Embedded <code>iframe</code> elements are particularly
+        troublesome. For these instances we provide a helper class,
+        <code>iframe-wrapper</code>, the most common use for which is
+        probably YouTube videos...
       </p>
-
-      <p><a href="https://archive.org/details/byte-magazine-1981-08">The
-        Smalltalk issue.</a> Oh my God. That was mind-blowing.  Larry
-        Tesler, Bruce Horn, Alan Kay, Susan Kare, Bill
-        Atkinson&hellip; Seriously, these names. I didn&#39;t have a
-        rock band poster on my wall. I had
-        <a href="https://archive.org/stream/byte-magazine-1984-02/1984_02_BYTE_09-02_Benchmarks#page/n59">the
-          Macintosh Design Team.</a></p>
-</section>
-
-
-
-<section>
-<h2 id="figures">Figures</h2>
-<p>Tufte emphasizes tight integration of graphics with text. Data,
-graphs, and figures are kept with the text that discusses them. In
-print, this means they are not relegated to a separate page. On the
-web, that means readability of graphics and their accompanying text
-without extra clicks, tab-switching, or scrolling.</p>
-
-<p>Figures should try to use the <code>figure</code> element, which by
-default are constrained to the main column. Don’t wrap figures in a
-paragraph tag. Any label or margin note goes in a regular margin note
-inside the figure. For example, most of the time one should introduce
-a figure directly into the main flow of discussion, like so:</p>
-
-<figure class="marginnote">
-    <img src="marginfigure.png"
-   alt="an example graph of scatterplot from R Studio">
-    <figcaption>
-      <details open>
-  <summary>This is a Margin Note</summary>
-  <p>
-    The R package provides two custom hooks for figure
-    placement. The first is marginfigure. Set <code>marginfigure
-    = TRUE</code> in a chunk option to place a figure in the
-    right margin. Optionally, specify the figure size and
-    include a caption. Captions are passed as strings
-    through <code>fig.cap</code> in the chunk options.
-    </p>
-</figure>
-
-<p>But tight integration of graphics with text is central to Tufte’s
-work even when those graphics are ancillary to the main body of a
-  text.
-  <label for="mn-process-nodes" class="margin-toggle">•</label>
-  <input type="checkbox" id="mn-process-nodess" class="margin-toggle">
- In many of those cases, a margin figure may be most
-appropriate. To place figures in the margin, just wrap an image (or
-whatever) in a margin note inside a <code>p</code> tag, as seen to the
-right of this paragraph.</p>
-
-<p>If you need a full-width figure, give it the <code>fullwidth</code> class. Make sure that’s inside an <code>article</code>, and it will take up (almost) the full width of the screen. This approach is demonstrated below using Edward Tufte’s English translation of the Napoleon’s March data visualization. From <em>Beautiful Evidence</em>, page 122-124.</p>
-<a href="Minards_Map.svg">
-<figure class="fullwidth">
-    <img src="napoleons-march.jpg" alt="Figurative map of the successive losses of the French Army in the Russian campaign, 1812-1813">
-  </figure>
-</a>
-<p>One obstacle to creating elegant figures on the web is the difficulty of handling different screen sizes, especially on the fly. Embedded <code>iframe</code> elements are particularly troublesome. For these instances we provide a helper class, <code>iframe-wrapper</code>, the most common use for which is probably YouTube videos...</p>
-<p>You can use this class on a <code>div</code> instead of
-a <code>figure</code>, with slightly different results but the same
-general effect. Experiment and choose depending on your
-application.</p>
-</section>
-
-
+      <p>
+        You can use this class on a <code>div</code> instead of a
+        <code>figure</code>, with slightly different results but the same
+        general effect. Experiment and choose depending on your application.
+      </p>
     </article>
   </main>
 
   <footer>
-    <figure id="license" aria-label="License">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <img width="120" src="/img/svg/logos/cc-by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 Logo" />
+    </a>
+    <p>
+      This work is licensed under the
       <a href="http://creativecommons.org/licenses/by-sa/4.0/">
-        <img width="120" src="/img/svg/logos/cc-by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 Logo" />
-      </a>
-      <figcaption>
-        This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">
-          Creative Commons Attribution-ShareAlike 4.0 International License.</a>
-      </figcaption>
-    </figure>
+        Creative Commons Attribution-ShareAlike 4.0 International
+        License.</a>
+    </p>
     <time datetime="2018-10-10 20:47:11">10 October 2018</time>
   </footer>
-
-
 </body>
+
 </html>

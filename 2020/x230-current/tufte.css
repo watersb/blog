@@ -1,22 +1,27 @@
-article>* {
-  box-sizing: border-box;
-}
-
-@media (min-width: 440px) {
+@media (min-width:440px) {
   article>p {
     width: 60vw;
   }
 
-  article>figure {
+  .margin {
     width: 25vw;
     float: right;
+    margin-top: -14em;
   }
 
-  article>figure.fullwidth {
+  figure.fullwidth {
     width: 88vw;
   }
 
-  label.sidenote-number {
-    display: inline;
+  figure:not(.margin) figcaption {
+    margin: 0 2ch;
+    max-width: 30%;
+  }
+
+  figure:not(.margin) {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin: 3em 0;
   }
 }

@@ -4,7 +4,7 @@
 
   main {
     display: grid;
-    grid-template-columns: 40ch 1fr: 
+    grid-template-columns: 40ch 1fr;
   }
   article {
     grid-column: 1;
