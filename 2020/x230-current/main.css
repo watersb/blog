@@ -25,7 +25,7 @@ main {
   background-color: #fffa;
   background: linear-gradient(#fff0, #ffff 10%, #ffff 90%, #fff0);
   counter-reset: sidenote-counter;
-  margin: 0.8em;
+  margin: 6px;
   padding: 2vw;
 }
 
