@@ -13,7 +13,7 @@ samp {
 
 :root {
   font-size: 18px;
-  font-size: calc(0.8em + 0.60vw);
+  font-size: calc(0.5em + 1.2vw);
   line-height: 1.575;
 
   --serif:
@@ -41,8 +41,8 @@ samp {
 
   --ms-sans:
     "Bahnschrift",
-    "Arial Nova",
-    "Arial";
+    "Verdana Pro",
+    "Arial Nova";
 
   --ms-mono:
     "Consolas";
