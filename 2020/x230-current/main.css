@@ -20,10 +20,13 @@ body>footer {
   text-align: right;
   padding: 0.8rem;
 }
+body>footer p {
+  margin-top: 0;
+}
 
 main {
   background-color: #fffa;
-  background: linear-gradient(#fff0, #ffff 10%, #ffff 90%, #fff0);
+  background: linear-gradient(#fff0, #ffff 100px, #ffff 90%, #fff0);
   counter-reset: sidenote-counter;
   margin: 6px;
   padding: 2vw;
@@ -33,10 +36,6 @@ a,
 body>footer,
 figcaption {
   font-family: var(--sans);
-}
-
-a:hover {
-  text-shadow: 0 0 3px #663399;
 }
 
 a:visited {
@@ -85,7 +84,7 @@ article pre {
 
 
 figure {
-  font-size: 0.8em;
+  font-size: 0.845em;
   margin: 6px;
   padding: 4px;
 }
@@ -102,7 +101,7 @@ figure details p {
 figure img {
   width: 100%;
   padding-top: 0.4em;
-  box-shadow: #999 4px 4px 6px;
+  box-shadow: #999 4px 4px 9px;
 }
 
 figure.thumb>img {
@@ -114,19 +113,24 @@ figcaption {
   padding: 0 .6em;
 }
 
-figcaption summary::marker {
-  color: #777;
+/* details summary::marker {
+  color: red;
   font-size: 3.3mm;
-  content: "# ";
-}
+  content: "•";
+} */
 
 figcaption summary {
   font-weight: 470;
   font-variant: all-small-caps;
   list-style-type: none;
   list-style-position: outside;
-  color: #737373;
+  color: #666;
   cursor: pointer;
+  margin-bottom: .25em;
+  text-decoration: grey dotted underline;
+}
+details[open] summary {
+  text-decoration: none;
 }
 details[open] summary ~ * {
   animation: sweep 0.5s ease-in-out;

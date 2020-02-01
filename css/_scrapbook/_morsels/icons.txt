@@ -1,21 +1,41 @@
+2020-02-01 01:54:14
+interesting icon-like characters
+
 Here are some Unicode glyphs that might be useful for icons.
 NOTE: Of course, these will not be rendered in all fonts, platforms.
 TODO: Find out how robust these glyphs are on the Target platforms.
 
-ℹ		Information mark
-ⓘ		Circled Information mark
-☟		Hand pointing down
-☰		Hamburger Menu – three horizontal lines
-#		Simply a hash (shift-3) character
+thanks to ndp's character database, which has features to help
+web designers
+http://www.amp-what.com
 
-¶   pilcrow
-°   degree
-¬   NOT
-§   section
-¡   inverted exclaimation point
+
+#		Simply a hash (shift-3) character, just ONE byte
+
+
+These are two-byte pairs in UTF-8:
+
+¡   inverted exclaimation point   2
+§   section   2
+¶   pilcrow   2
+°   degree    2
+¬   NOT       2
+
+
+The rest of the bunch each require 3 bytes in UTF-8:
+
+•   bullet
 ⊕  circle plus mathematical operator
 ⋆   star mathematical operator
-●   circle
-❧  floral bullet
+…   ellipsis &hellip; (horizontal)
+⋮   vertical ellipsis &vellip;
+⋰   up right ellipsis &utdot;
+⋱   down right ellipsis &dtdot;
 ⌐   inverted NOT
-•   bullet
+●   circle
+☟		Hand pointing down
+❧  floral bullet
+☰		Hamburger Menu – three horizontal lines
+ⓘ		Circled Information mark
+ℹ		Information mark
+
