@@ -11,10 +11,17 @@ samp {
 }
 
 
+@media screen and (max-width: 420px) {
+  :root {
+	  font-size: 16px;
+  }
+}
+
 :root {
   font-size: 18px;
-  font-size: calc(0.5em + 1.2vw);
+  font-size: calc(3mm + 0.6vw);
   line-height: 1.575;
+  -webkit-text-size-adjust: 115%;
 
   --serif:
     var(--apple-serif),
@@ -96,18 +103,4 @@ samp {
     "Roboto Mono",
     "Cousine";
 
-}
-
-/*
- * On Safari iOS, if it sees a font-size spec it
- * can't handle, it throws out all of the font-size
- * declarations of that rule. It doesn't keep the
- * fallback value.
- *
- * So I have to tweak it, here.
- */
-@media screen and (max-width: 640px) {
-  :root {
-    -webkit-text-size-adjust: 115%;
-  }
 }
