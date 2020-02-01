@@ -1,4 +1,4 @@
-@media (min-width: 440px) {
+@media (min-width:440px) {
   article>p {
     width: 60vw;
   }
@@ -6,54 +6,22 @@
   .margin {
     width: 25vw;
     float: right;
+    margin-top: -14em;
   }
 
-  article>figure.fullwidth {
+  figure.fullwidth {
     width: 88vw;
   }
-}
 
-/*
-TODO:
-  figure caption placement
-  - default
-  - to the side   ==> for thumb, narrow imgs in all layouts
-  - in the margin ==> in wider tufte layouts
-*/
-
-/*
- * now say it with CSS Grid columns
- */
-@media (min-width: 640px) {
-
-  article {
-    display: grid;
-    grid-template-columns: 62vw 1fr;
+  figure:not(.margin) figcaption {
+    margin: 0 2ch;
+    max-width: 30%;
   }
 
-  article>* {
-    grid-column-start: 1;
-  }
-
-  .margin {
-    grid-column-start: 2;
-    grid-row-end: span 2;
+  figure:not(.margin) {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin: 3em 0;
   }
 }
-
-
-/* NOTES
-
-  grid-auto-flow: column;
-       changes the priority of the
-       placement; with auto-flow column,
-       figure items flow into the next (first)
-       available row in the second column.
-       They stack tightly.
-       For sparse layout - gaps in the rows -
-       just leave the auto-flow as default.
-
-       Thanks to
-       https://gedd.ski/post/grid-item-placement/
-
-*/
