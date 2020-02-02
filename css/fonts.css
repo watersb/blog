@@ -18,7 +18,6 @@ samp {
 }
 
 :root {
-  font-size: 18px;
   font-size: calc(3mm + 0.6vw);
   line-height: 1.575;
   -webkit-text-size-adjust: 115%;
