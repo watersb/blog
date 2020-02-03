@@ -1,5 +1,6 @@
 @media (min-width:440px) {
-  article>p {
+  article>p,
+  article img {
     width: 60vw;
   }
 
@@ -7,21 +8,20 @@
     width: 28vw;
     float: right;
     margin-top: -14em;
+    margin-right: 1em;
+    display: initial;
   }
-
-  figure.fullwidth {
-    width: 88vw;
-  }
-
-  figure:not(.margin) figcaption {
-    margin: 0 2ch;
-    max-width: 30%;
-  }
-
-  figure:not(.margin) {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    margin: 3em 0;
+  figcaption {
+    max-width: 28vw;
   }
 }
+  figcaption {
+    margin: 0 1vw;
+    max-width: 60vw;
+  }
+
+  figure {
+    display: flex;
+    align-items: flex-start;
+    margin: 3em 0;
+  }
