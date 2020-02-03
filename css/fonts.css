@@ -20,7 +20,7 @@ samp {
 :root {
   font-size: calc(3mm + 0.6vw);
   line-height: 1.575;
-  -webkit-text-size-adjust: 115%;
+  -webkit-text-size-adjust: 125%;
 
   --serif:
     var(--apple-serif),

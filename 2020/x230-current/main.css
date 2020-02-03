@@ -98,8 +98,7 @@ figure details p {
 }
 
 figure img {
-  margin: 1ch;
-  max-width: 100%;
+  width: 100%;
   box-shadow: #999 4px 4px 9px;
 }
 
@@ -109,24 +108,21 @@ figure.thumb > img {
 
 figcaption {
   font-weight: 340;
-  padding: 0 0.6em;
+  padding: 0 .6em;
+  line-height: 1.33;
 }
 
-/* details summary::marker {
-  color: red;
-  font-size: 3.3mm;
-  content: "•";
-} */
-
+summary::-webkit-details-marker {
+  display: none;
+}
 figcaption summary {
-  font-weight: 470;
+  font-size: 0.92rem;
+  font-weight: 480;
   font-variant: all-small-caps;
-  list-style-type: none;
-  list-style-position: outside;
-  color: #666;
+  color: #555;
   cursor: pointer;
   margin-bottom: 0.25em;
-  text-decoration: grey dotted underline;
+  text-decoration: #444 dotted underline;
 }
 details[open] summary {
   text-decoration: none;
