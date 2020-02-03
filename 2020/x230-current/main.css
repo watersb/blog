@@ -15,12 +15,12 @@ body {
   margin: 0;
 }
 
-body>footer {
+body > footer {
   font-stretch: condensed;
   text-align: right;
   padding: 0.8rem;
 }
-body>footer p {
+body > footer p {
   margin-top: 0;
 }
 
@@ -33,7 +33,7 @@ main {
 }
 
 a,
-body>footer,
+body > footer,
 figcaption {
   font-family: var(--sans);
 }
@@ -67,7 +67,7 @@ article p {
   margin-top: 6px;
 }
 
-article>header time {
+article > header time {
   font-size: 1.4em;
   font-weight: 300;
   font-variant: all-small-caps;
@@ -81,7 +81,6 @@ article pre {
   overflow: auto;
   white-space: pre;
 }
-
 
 figure {
   font-size: 0.845em;
@@ -104,13 +103,13 @@ figure img {
   box-shadow: #999 4px 4px 9px;
 }
 
-figure.thumb>img {
+figure.thumb > img {
   width: 13vw;
 }
 
 figcaption {
   font-weight: 340;
-  padding: 0 .6em;
+  padding: 0 0.6em;
 }
 
 /* details summary::marker {
@@ -126,7 +125,7 @@ figcaption summary {
   list-style-position: outside;
   color: #666;
   cursor: pointer;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
   text-decoration: grey dotted underline;
 }
 details[open] summary {

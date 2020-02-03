@@ -1,5 +1,5 @@
-@media (min-width:440px) {
-  article>p,
+@media (min-width: 440px) {
+  article > p,
   article img {
     width: 60vw;
   }
@@ -15,13 +15,13 @@
     max-width: 28vw;
   }
 }
-  figcaption {
-    margin: 0 1vw;
-    max-width: 60vw;
-  }
+figcaption {
+  margin: 0 1vw;
+  max-width: 60vw;
+}
 
-  figure {
-    display: flex;
-    align-items: flex-start;
-    margin: 3em 0;
-  }
+figure {
+  display: flex;
+  align-items: flex-start;
+  margin: 3em 0;
+}
