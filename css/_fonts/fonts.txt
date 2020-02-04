@@ -3,13 +3,14 @@ Notes on Fonts and other typography
 
 ## Font Stacks
 
-Windows:
+### Windows
      mono:  consolas, monospace;
     serif:  "Georgia Pro", "Georgia", serif;
      sans:  "Bahnschrift", "Arial Nova", "Arial", sans-serif;
 
 
-Variable:
+Variable Font options might be:
+
      sans:  Bahnschrift";
     serif:  "Sitka FV";
      mono:  ;
@@ -18,7 +19,68 @@ https://docs.microsoft.com/en-us/typography/font-list/bahnschrift
 
 https://www.myfonts.com/newsletters/cc/201310.html
 
-"Sitka" is a good choice, but as it was commissioned for use in Edge Reader Mode, Edge browser won't use it!
+"Sitka" is a good choice, the most built-in options
+of an of the fonts shipped with Windows 10 consumer
+builds (as of 2020-02-03). But *note* that, unlike
+Variable Font demo web font, the "pack-in" version
+ships as a separate font-family for each of the
+optical sized variants. The "superfamily" name
+`Sitka`
+is *not* sufficient. Instead, as it ships with the
+current Windows 10, use
+`Sitka Text`.
+
+aside: a nice project would be to come up with a style
+sheet that uses each of the Sitka font variants as
+appropriate for that size. `Sitka Display` etc.
+
+The only other font with so many optical sizes to which
+I have access at the moment is `Warnock Pro`, an Adobe
+TrueType font developed to honor Adobe founder
+John Warnock, and inspired by Mr. Warnock's handwriting.
+
+
+## Android
+
+     Noto
+     Roboto
+     Droid
+
+## Linux
+
+By far, the most widely used Linux desktop distribution
+must certianly be Google's ChromeOS. Google commissioned
+a number of fonts to provide metric compatability with
+Microsoft Office and webfonts.
+
+     Tinos
+     Carlito
+     Arimo
+     Cousine
+
+Next would probably be Ubuntu in non- "enterprise" usage.
+
+I imagine that some variant of RedHat would be the most
+likely candidate for IT managed desktops. Which one probably
+depends upon the support contract.
+
+### GNOME basic fonts, LibreOffice
+
+I have no idea. I see DejaVu, Nimbus, Liberation, in addition
+to the fonts chosen for non-Latin scripts.
+
+`DejaVu Serif, DejaVu Sans, DejaVu Sans Mono`
+
+A very nice superfamily with a large x-height. Notable
+for the harmony across the serif, sans, and monospace fonts.
+
+The `Nimbus` and `Liberation` families have font metrics more
+in line with Postscript Office setups like Times, Courier.
+They work well, but at the moment they would require an
+additional boosted x-height (ems) setting of 125%, so a
+20px base design size rather than 16. Not in line with the
+screen font choices on the other platforms.
+
 
 
 # date: "2020-01-25 01:59:22"
