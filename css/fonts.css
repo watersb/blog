@@ -78,30 +78,28 @@ samp {
   **/
 
   --free-serif:
-    "Open Serif",
     "Noto Serif",
-    "Noto Serif CJK JP",
     "Droid Serif",
     "Roboto Slab",
+    "DejaVu Serif",
     "Caladea",
     "Tinos";
 
 
   --free-sans:
-    "Open Sans",
     "Noto Sans",
-    "Noto Sans CJK JP",
     "Source Sans Pro",
     "Droid Sans",
     "Roboto",
+    "DejaVu Sans",
     "Carlito",
     "Arimo";
 
   --free-mono:
     "Noto Sans Mono",
-    "Noto Sans Mono CJK JP",
     "Droid Sans Mono",
     "Roboto Mono",
+    "DejaVu Sans Mono",
     "Cousine";
 
 }
