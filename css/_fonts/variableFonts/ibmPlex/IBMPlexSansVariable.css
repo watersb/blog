@@ -1,12 +1,12 @@
 @font-face {
-	src: url('IBMPlexSansVar-Roman.subset.woff2') format('woff2');
+	src: url('IBMPlexSansVar-Roman.woff2') format('woff2');
 	font-family:'IBM Plex Sans';
 	font-style: normal;
 	font-weight: 200 700;
 	font-display: swap;
 }
 @font-face {
-	src: url('IBMPlexSansVar-Italic.subset.woff2') format('woff2');
+	src: url('IBMPlexSansVar-Italic.woff2') format('woff2');
 	font-family:'IBM Plex Sans';
 	font-style: italic;
 	font-weight: 200 700;

@@ -1,3 +1,11 @@
+@charset "UTF-8";
+:root {
+    --mono: 'Source Code Variable';
+    --sans: 'Source Sans Variable';
+   --serif: 'Source Serif Variable';
+}
+
+
 @font-face{
     font-family: 'Source Code Variable';
     font-weight: 200 900;
