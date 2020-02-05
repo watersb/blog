@@ -3,18 +3,49 @@
 @import url("tufte.css");
 @import url("/css/bg-image.css");
 
-@import url("font-options/ibm-plex.css");
 
 html {
   --default-link: rgb(49, 49, 128);
   --visited-link: rgb(42, 17, 78);
   --glowing-link: drop-shadow(0 0 3px #fffe);
 }
+#logo {
+  background-image: url("/img/svg/logos/watersb.svg");
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
 
 body {
   background-color: #ddd;
   font-family: var(--serif);
   margin: 0;
+}
+body > header * {
+  font-family: var(--sans);
+  filter: var(--glowing-link);
+}
+body > header > nav {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+
+ font-size: 12px;
+}
+
+body > header > h1 {
+  font-size: 16vw;
+  position: fixed;
+  left:6px;
+  top: -1em;
+  z-index: -4;
+  color: #fff2;
 }
 
 body > footer {
