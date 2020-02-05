@@ -18,6 +18,12 @@ samp {
   }
 }
 
+@supports not ( -webkit-text-size-adjust: 115% ) {
+  body {
+    font-size: 1.15rem;
+  }
+}
+
 :root {
   font-size: calc(3mm + 0.6vw);
   line-height: 1.575;
