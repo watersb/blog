@@ -1,6 +1,32 @@
 2020-01-16 01:00:25
 Notes on Fonts and other typography
 
+
+## TLDR
+
+Good serif fonts are very rare. Fonts that do well across
+ a wide variety of scree sizes, resolutions  densities.
+
+Free web font superfamilies with great serif faces, comes
+down to Adobe Source, IBM Plex, Noto and perhaps some variants
+of Merriweather.
+
+In my tests, the 180 - 500KB font streams aren't super better
+than the native font stacks chosen here. In particular, I
+find that default font values on Android Chrome are very
+good, and right there is half your audience. Other platforms
+seem required to stick with defaults from PostScript printer
+legacy, yet native choices still ship on iOS. Both macOS and
+Windows 10 have some good font options and superb rendering
+engines. The story on Linux desktop is equivocal...
+
+Web fonts are better than ever. [Google Fonts] has commissioned
+and embarrassment of riches.
+
+Google Fonts: (https://fonts.google.com
+
+
+
 ## Font Stacks
 
 ### Windows
