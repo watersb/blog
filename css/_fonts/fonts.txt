@@ -129,3 +129,87 @@ tabular numbers:
 
 font-feature-settings: "size", "tnum", "zero";
 
+
+----
+## date 2019-12-25
+notes on metric equivalents
+
+
+C059	Century Schoolbook URW
+
+
+DejaVu	Sans Serif Mono 	Condensed	Bold Italic
+	* slab serif
+
+
+
+Droid Sans Fallback
+
+FreeMono	slab
+FreeSans
+FreeSerif
+
+Liberation Mono Sans Serif
+
+Montserrat	geometric sans
+	Black
+	extrabold
+	bold
+	semibold
+	medium
+	light
+	extralight
+	thin
+
+
+Nimbus Mono PS	slab
+Nimbus Roman
+Nimbus Sans
+Nimbus Sans Narrow
+
+
+Noto Sans CJK	JP,TC,SC,HK,KR
+	black
+	bold
+	medium
+	demilight
+	light
+	thin
+
+Noto Sans Mono CJK
+	-
+	bold
+
+
+ 
+Noto Serif CJK   JP,TC,SC,HK,KR
+	black
+	bold
+	semibold
+	medium
+	-
+	light
+	extralight
+
+
+P052	Palatino, TeX Gyre Pagella
+
+
+PT Sans	bold italic narrow
+
+Source Code Pro
+	Black
+	bold
+	semibold
+	-
+	medium
+	light
+	extralight
+
+STIX
+
+URW Bookman	Avant Garde	
+URW Gothic
+
+Z003	Chancery
+
