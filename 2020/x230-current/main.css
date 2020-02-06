@@ -32,12 +32,20 @@ body > header * {
   font-family: var(--sans);
   filter: var(--glowing-link);
 }
-body > header > nav {
+body > header  details {
   position: absolute;
   top: 6px;
   right: 6px;
-
- font-size: 12px;
+  font-size: 1rem;
+  text-align: right;
+}
+body > header details > summary::marker {
+  cursor: pointer;
+  content: "ℹ ☰";
+}
+body > header  nav > a {
+  display: list-item;
+  color: var(--contra-color);
 }
 
 body > header > h1 {
