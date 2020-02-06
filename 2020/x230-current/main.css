@@ -5,9 +5,10 @@
 
 
 html {
-  --default-link: rgb(49, 49, 128);
-  --visited-link: rgb(42, 17, 78);
+  --default-link: #337;
+  --visited-link: #204;
   --glowing-link: drop-shadow(0 0 3px #fffe);
+  --contra-color: #622;
 }
 #logo {
   background-image: url("/img/svg/logos/watersb.svg");
