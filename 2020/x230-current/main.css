@@ -10,6 +10,7 @@ html {
   --glowing-link: drop-shadow(0 0 3px #fffe);
   --contra-color: #622;
 }
+
 #logo {
   background-image: url("/img/svg/logos/watersb.svg");
   background-blend-mode: lighten;
@@ -28,41 +29,75 @@ body {
   font-family: var(--serif);
   margin: 0;
 }
-body > header * {
+
+body>header * {
   font-family: var(--sans);
   filter: var(--glowing-link);
 }
-body > header  details {
+
+body>header details {
   position: absolute;
   top: 6px;
   right: 6px;
   font-size: 1rem;
   text-align: right;
 }
-body > header details > summary::marker {
+
+body>header details>summary {
   cursor: pointer;
-  content: "ℹ ☰";
 }
-body > header  nav > a {
+
+body>header details>summary::marker {
+  display: none;
+  content: "";
+}
+
+body>header nav>a {
   display: list-item;
   color: var(--contra-color);
 }
 
-body > header > h1 {
+@media (pointer: coarse) {
+  body>header details,
+  body>header details summary {
+    background-color: green;
+    font-size: 1.8rem;
+
+    /*
+     firefox gives a false positive here
+     and I have yet to understand how to
+     structure the media query to work
+     around that.
+     
+     and yet firefox *also* applies
+     CSS Transforms to elements that are
+     not positioned by the CSS Box Model.
+     Which is also counter to the spec.
+
+     so maybe we can use that to correct
+     the weirdness. except that there is a
+     firefox mobile app. crikey...
+    */
+    /* scale: 0.55555; */
+  }
+}
+
+body>header>h1 {
   font-size: 16vw;
   position: fixed;
-  left:6px;
+  left: 6px;
   top: -1em;
   z-index: -4;
   color: #fff2;
 }
 
-body > footer {
+body>footer {
   font-stretch: condensed;
   text-align: right;
   padding: 0.8rem;
 }
-body > footer p {
+
+body>footer p {
   margin-top: 0;
 }
 
@@ -75,7 +110,7 @@ main {
 }
 
 a,
-body > footer,
+body>footer,
 figcaption {
   font-family: var(--sans);
 }
@@ -96,7 +131,7 @@ article {
   color: #444;
 }
 
-article > * {
+article>* {
   box-sizing: border-box;
 }
 
@@ -109,7 +144,7 @@ article p {
   margin-top: 6px;
 }
 
-article > header time {
+article>header time {
   font-size: 1.4em;
   font-weight: 300;
   font-variant: all-small-caps;
@@ -144,7 +179,7 @@ figure img {
   box-shadow: #999 4px 4px 9px;
 }
 
-figure.thumb > img {
+figure.thumb>img {
   width: 13vw;
 }
 
@@ -157,6 +192,7 @@ figcaption {
 summary::-webkit-details-marker {
   display: none;
 }
+
 figcaption summary {
   font-size: 0.92rem;
   font-weight: 480;
@@ -166,16 +202,20 @@ figcaption summary {
   margin-bottom: 0.25em;
   text-decoration: #444 dotted underline;
 }
+
 details[open] summary {
   text-decoration: none;
 }
-details[open] summary ~ * {
+
+details[open] summary~* {
   animation: sweep 0.5s ease-in-out;
 }
+
 @keyframes sweep {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
