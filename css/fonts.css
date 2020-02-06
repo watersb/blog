@@ -11,18 +11,10 @@ samp {
 }
 
 
-@media screen and (max-width: 420px) {
-  :root {
-    font-size: 14px;
-    -webkit-text-size-adjust: auto;
-  }
-}
-
 
 :root {
-  font-size: calc(3mm + 0.6vw);
+  font-size: calc(9.8px + 1vw);
   line-height: 1.575;
-  -webkit-text-size-adjust: 115%;
 
   --serif:
     var(--apple-serif),
