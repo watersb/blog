@@ -7,7 +7,7 @@
 html {
   --default-link: #337;
   --visited-link: #204;
-  --glowing-link: drop-shadow(0 0 3px #fffe);
+  --glowing-link: drop-shadow(0 0 3px white);
   --contra-color: #622;
 }
 
@@ -88,7 +88,8 @@ body>header>h1 {
   left: 6px;
   top: -1em;
   z-index: -4;
-  color: #fff2;
+  color: #fff;
+  opacity: 18%;
 }
 
 body>footer {
@@ -102,8 +103,8 @@ body>footer p {
 }
 
 main {
-  background-color: #fffa;
-  background: linear-gradient(#fff0, #ffff 100px, #ffff 90%, #fff0);
+  background-color: rgba(255, 255, 255, 0.667);
+  background: linear-gradient(transparent, white 100px, white 90%, transparent);
   counter-reset: sidenote-counter;
   margin: 6px;
   padding: 2vw;
@@ -152,7 +153,7 @@ article>header time {
 
 article code,
 article pre {
-  background-color: #ccc4;
+  background-color: rgba(204, 204, 204, 0.267);
   border-radius: 0.4em;
   padding: 0.1em 0.3em;
   overflow: auto;
