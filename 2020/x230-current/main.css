@@ -26,12 +26,10 @@ html {
 
 body {
   background-color: #ddd;
-  font-family: var(--serif);
   margin: 0;
 }
 
 body>header * {
-  font-family: var(--sans);
   filter: var(--glowing-link);
 }
 
@@ -88,8 +86,7 @@ body>header>h1 {
   left: 6px;
   top: -1em;
   z-index: -4;
-  color: #fff;
-  opacity: 18%;
+  color: rgba(255, 255, 255, 0.18);
 }
 
 body>footer {
@@ -103,7 +100,8 @@ body>footer p {
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.667);
+  font-family: serif;
+  font-family: var(--serif);
   background: linear-gradient(transparent, white 100px, white 90%, transparent);
   counter-reset: sidenote-counter;
   margin: 6px;
@@ -111,8 +109,8 @@ main {
 }
 
 a,
-body>footer,
 figcaption {
+  font-family: sans-serif;
   font-family: var(--sans);
 }
 

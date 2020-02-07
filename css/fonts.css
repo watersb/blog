@@ -1,12 +1,14 @@
 body {
-  font-family: var(--sans), sans-serif;
+  font-family: sans-serif;
+  font-family: var(--sans);
 }
 
 code,
 pre,
 kbd,
 samp {
-  font-family: var(--mono), monospace;
+  font-family: monospace;
+  font-family: var(--mono);
   font-size: 1em;
 }
 
