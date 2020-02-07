@@ -1,22 +1,44 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("/img/bg/vla.jpg");
   background-color: #dbdbdb;
+}
+
+#logo {
+  background-image: url("/img/svg/logos/watersb.svg");
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  width: 30vw;
+  height: 30vw;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 1vw;
+}
+
+
+#bg {
+  background-image: url("/img/bg/vla.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: bottom center;
-  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  z-index: -1;
 }
 
+
 @media (max-width: 760px) {
-  body {
+  #bg {
     background-image: url("/img/bg/vla-480x160.jpg");
   }
 }
 
 @media (max-width: 420px) {
-  body {
+  #bg {
     background-image: url("/img/bg/vla-480x480.jpg");
   }
 }
