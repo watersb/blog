@@ -15,8 +15,9 @@ samp {
 
 
 :root {
-  font-size: calc(9.8px + 1vw);
-  line-height: 1.575;
+  font-size: calc(11px + 0.6vw);
+  line-height: 1.5;
+  -webkit-text-size-adjust: 125%;
 
   --serif:
     var(--apple-serif),
