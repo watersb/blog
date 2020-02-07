@@ -1,6 +1,5 @@
-# LICENSE
-# Boyd Waters
-# 2018 August
+2020-02-07 01:05:47
+LICENSE
 
 This web site is a blog, where I write things. Unless otherwise specified, I am the sole creator of the text and images served by this web site.
 
@@ -11,30 +10,3 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 A link to the CC-BY-SA-4.0 license is provided in the web pages of this site.
 http://creativecommons.org/licenses/by-sa/4.0/
 
-
-In developing the HTML code of this site, I started with the HTML5 Boilerplate framework.
-https://html5boilerplate.com/ 
-
-I probably removed a good bit of it, as I chose to avoid most automated-build tools. But anyway, the HTML5 Boilerplate license, included in this LICENSE.txt file of their original distribution, looks like this:
-
----- 
-
-Copyright (c) HTML5 Boilerplate
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
