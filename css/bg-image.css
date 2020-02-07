@@ -6,12 +6,11 @@ body {
 
 #logo {
   background-image: url("/img/svg/logos/watersb.svg");
-  background-blend-mode: lighten;
   background-repeat: no-repeat;
   opacity: 0.1;
-  width: 30vw;
+  width:  30vw;
   height: 30vw;
-  position: fixed;
+  position: absolute;
   z-index: -1;
   top: 0;
   right: 1vw;
