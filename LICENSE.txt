@@ -1,12 +1,15 @@
 2020-02-07 01:05:47
 LICENSE
 
-This web site is a blog, where I write things. Unless otherwise specified, I am the sole creator of the text and images served by this web site.
+This web site is a blog, where I write things. Unless otherwise specified, I am
+the sole creator of the text and images.
 
-I could not have created this site without a multitude of other people who have licensed their work for my use. So I would like you to be free to re-use the words and images you encounter on this web site.
+I could not have created this site without a multitude of other people who have
+licensed their work for my use. So I would like you to be free to re-use the
+words and images you encounter on this web site.
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA-4.0).
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC-BY-SA-4.0).
 
 A link to the CC-BY-SA-4.0 license is provided in the web pages of this site.
 http://creativecommons.org/licenses/by-sa/4.0/
-
