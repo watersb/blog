@@ -90,7 +90,7 @@ body>footer p {
 main {
   font-family: serif;
   font-family: var(--serif);
-  background: linear-gradient(transparent, white 100px, white 90%, transparent);
+  background: linear-gradient(rgba(255,255,255,0), white 100px, white 90%, rgba(255,255,255,0));
   counter-reset: sidenote-counter;
   margin: 6px;
   padding: 2vw;
