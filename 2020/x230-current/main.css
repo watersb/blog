@@ -47,6 +47,7 @@ body>header nav>a {
   body>header details summary {
     background-color: green;
     font-size: 1.8rem;
+    right: 1rem;
 
     /*
      firefox gives a false positive here
