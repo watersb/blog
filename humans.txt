@@ -19,6 +19,39 @@
 
 # TECHNOLOGY COLOPHON
 
-    See the About Page of this web site for more information on the
-    technology that I used to develop this web site.
+    I use this blog as an excuse to learn some new things, and find that I mostly
+    hang on to old ways, too. Much work from first principles, writing the HTML
+    and CSS without any frameworks besides the stuff I cook up myself. That's
+    not something that should be done in the real world, but I assume that a
+    workflow will precipitate out of all this eventually.
+
+        * SVGOMG                https://jakearchibald.github.io/svgomg/
+        * Coda                  https://www.panic.com/coda/
+        * Emacs                 https://www.gnu.org/software/emacs/
+        * Fedora Silverblue     https://silverblue.fedoraproject.org/
+        * Funtoo Linux          https://funtoo.org
+        * Git                   https://git-scm.com/
+        * GitHub                https://github.org
+        * Google Chrome         https://www.google.com/chrome/
+        * macOS                 https://apple.com
+        * Microsoft Edge        https://microsoftedgewelcome.microsoft.com/
+        * Mozilla Firefox       https://www.mozilla.org/en-US/firefox/
+        * nginx                 https://nginx.org/
+        * TextMate              https://macromates.com/
+        * the Internet Archive  https://archive.org
+        * Visual Studio Code    https://code.visualstudio.com/
+        * Wikipedia             https://en.wikipedia.org
+        * Windows WSL           https://docs.microsoft.com/en-us/windows/wsl/about
+
+    These services are available for generally no money as of 2020 February.
+    The closed-source platforms, macOS and Windows, each have their ways of
+    turning your usage into dollars. Google is an advertising and media company.
+    Even so, I find it remarkable how rich our tools have become, available
+    for free or for a nominal charge. Panic Coda is a paid iOS and macOS app
+    that is a fantastic value. Funtoo is a great web host.
+
+    Much of what I write about concerns the particular techniques that I
+    use to get the words onto the screens into which we gaze.
+
+    Be excellent to one another.
 

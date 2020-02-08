@@ -1,6 +1,9 @@
 {
 	"name": "watersb.org",
 	"display": "standalone",
+	"theme_color": "#eeeeee",
+	"background_color": "#eeeeee",
+
 	"icons": [
 		{
 			"src": "/img/favicons/favicon-32x32.png",
