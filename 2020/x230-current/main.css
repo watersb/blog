@@ -48,23 +48,13 @@ body>header nav>a {
     background-color: green;
     font-size: 1.8rem;
     right: 1rem;
-
-    /*
-     firefox gives a false positive here
-     and I have yet to understand how to
-     structure the media query to work
-     around that.
-     
-     and yet firefox *also* applies
-     CSS Transforms to elements that are
-     not positioned by the CSS Box Model.
-     Which is also counter to the spec.
-
-     so maybe we can use that to correct
-     the weirdness. except that there is a
-     firefox mobile app. crikey...
-    */
-    /* scale: 0.55555; */
+  }
+}
+@-moz-document url-prefix() {
+  body>header details,
+  body>header details summary {
+    background-color: inherit;
+    font-size: inherit;
   }
 }
 
@@ -90,7 +80,7 @@ body>footer p {
 main {
   font-family: serif;
   font-family: var(--serif);
-  background: linear-gradient(rgba(255,255,255,0), white 100px, white 90%, rgba(255,255,255,0));
+  background: linear-gradient(rgba(255, 255, 255, 0), white 100px, white 90%, rgba(255, 255, 255, 0));
   counter-reset: sidenote-counter;
   margin: 6px;
   padding: 2vw;
@@ -202,7 +192,6 @@ details[open] summary~* {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
