@@ -43,168 +43,176 @@ body>header nav>a {
 }
 
 @media (pointer: coarse) {
-
   body>header details,
   body>header details summary {
     background-color: green;
     font-size: 1.8rem;
     right: 1rem;
+
+    /*
+     firefox gives a false positive here
+     and I have yet to understand how to
+     structure the media query to work
+     around that.
+     
+     and yet firefox *also* applies
+     CSS Transforms to elements that are
+     not positioned by the CSS Box Model.
+     Which is also counter to the spec.
+
+     so maybe we can use that to correct
+     the weirdness. except that there is a
+     firefox mobile app. crikey...
+    */
+    /* scale: 0.55555; */
   }
-  @-moz-document url-prefix() {
+}
 
-    body>header details,
-    body>header details summary {
-      background-color: inherit;
-      font-size: inherit;
-    }
+body>header>h1 {
+  font-size: 16vw;
+  position: fixed;
+  left: 6px;
+  top: -1em;
+  z-index: -4;
+  color: rgba(255, 255, 255, 0.18);
+}
+
+body>footer {
+  font-stretch: condensed;
+  text-align: right;
+  padding: 0.8rem;
+}
+
+body>footer p {
+  margin-top: 0;
+}
+
+main {
+  font-family: serif;
+  font-family: var(--serif);
+  background: linear-gradient(rgba(255,255,255,0), white 100px, white 90%, rgba(255,255,255,0));
+  counter-reset: sidenote-counter;
+  margin: 6px;
+  padding: 2vw;
+}
+
+a,
+figcaption {
+  font-family: sans-serif;
+  font-family: var(--sans);
+}
+
+a:visited {
+  color: var(--visited-link);
+}
+
+a {
+  font-weight: 420;
+  opacity: 1;
+  color: var(--default-link);
+  text-decoration-style: dotted;
+  text-decoration-color: #ccc;
+}
+
+article {
+  color: #444;
+}
+
+article>* {
+  box-sizing: border-box;
+}
+
+article h1 {
+  color: #777;
+  font-size: 2.8em;
+}
+
+article p {
+  margin-top: 6px;
+}
+
+article>header time {
+  font-size: 1.4em;
+  font-weight: 300;
+  font-variant: all-small-caps;
+}
+
+article code,
+article pre {
+  background-color: rgba(204, 204, 204, 0.267);
+  border-radius: 0.4em;
+  padding: 0.1em 0.3em;
+  overflow: auto;
+  white-space: pre;
+}
+
+figure {
+  font-size: 0.845em;
+  margin: 6px;
+  padding: 4px;
+}
+
+figure * {
+  line-height: 1.2;
+}
+
+figure details p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+figure img {
+  width: 100%;
+  box-shadow: #999 4px 4px 9px;
+}
+
+figure.thumb>img {
+  width: 13vw;
+}
+
+figcaption {
+  font-weight: 340;
+  padding: 0 .6em;
+  line-height: 1.33;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+figcaption summary {
+  font-size: 0.92rem;
+  font-weight: 480;
+  font-variant: all-small-caps;
+  color: #555;
+  cursor: pointer;
+  margin-bottom: 0.25em;
+  text-decoration: #444 dotted underline;
+}
+
+details[open] summary {
+  text-decoration: none;
+}
+
+details[open] summary~* {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
   }
 
-
-  body>header>h1 {
-    font-size: 16vw;
-    position: fixed;
-    left: 6px;
-    top: -1em;
-    z-index: -4;
-    color: rgba(255, 255, 255, 0.18);
-  }
-
-  body>footer {
-    font-stretch: condensed;
-    text-align: right;
-    padding: 0.8rem;
-  }
-
-  body>footer p {
-    margin-top: 0;
-  }
-
-  main {
-    font-family: serif;
-    font-family: var(--serif);
-    background: linear-gradient(rgba(255, 255, 255, 0), white 100px, white 90%, rgba(255, 255, 255, 0));
-    counter-reset: sidenote-counter;
-    margin: 6px;
-    padding: 2vw;
-  }
-
-  a,
-  figcaption {
-    font-family: sans-serif;
-    font-family: var(--sans);
-  }
-
-  a:visited {
-    color: var(--visited-link);
-  }
-
-  a {
-    font-weight: 420;
+  100% {
     opacity: 1;
-    color: var(--default-link);
-    text-decoration-style: dotted;
-    text-decoration-color: #ccc;
   }
+}
 
-  article {
-    color: #444;
-  }
+span.newthought {
+  font-variant: all-small-caps;
+  font-size: 1.2em;
+}
 
-  article>* {
-    box-sizing: border-box;
-  }
-
-  article h1 {
-    color: #777;
-    font-size: 2.8em;
-  }
-
-  article p {
-    margin-top: 6px;
-  }
-
-  article>header time {
-    font-size: 1.4em;
-    font-weight: 300;
-    font-variant: all-small-caps;
-  }
-
-  article code,
-  article pre {
-    background-color: rgba(204, 204, 204, 0.267);
-    border-radius: 0.4em;
-    padding: 0.1em 0.3em;
-    overflow: auto;
-    white-space: pre;
-  }
-
-  figure {
-    font-size: 0.845em;
-    margin: 6px;
-    padding: 4px;
-  }
-
-  figure * {
-    line-height: 1.2;
-  }
-
-  figure details p {
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-
-  figure img {
-    width: 100%;
-    box-shadow: #999 4px 4px 9px;
-  }
-
-  figure.thumb>img {
-    width: 13vw;
-  }
-
-  figcaption {
-    font-weight: 340;
-    padding: 0 .6em;
-    line-height: 1.33;
-  }
-
-  summary::-webkit-details-marker {
-    display: none;
-  }
-
-  figcaption summary {
-    font-size: 0.92rem;
-    font-weight: 480;
-    font-variant: all-small-caps;
-    color: #555;
-    cursor: pointer;
-    margin-bottom: 0.25em;
-    text-decoration: #444 dotted underline;
-  }
-
-  details[open] summary {
-    text-decoration: none;
-  }
-
-  details[open] summary~* {
-    animation: sweep 0.5s ease-in-out;
-  }
-
-  @keyframes sweep {
-    0% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
-  }
-
-  span.newthought {
-    font-variant: all-small-caps;
-    font-size: 1.2em;
-  }
-
-  label.sidenote-number {
-    display: inline;
-  }
+label.sidenote-number {
+  display: inline;
+}
