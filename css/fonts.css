@@ -13,9 +13,13 @@ samp {
 }
 
 
+@media (pointer: coarse) {
+  :root{
+      font-size: calc(1em + 0.5vw);
+  }
+}
 
 :root {
-  font-size: calc(1em + 0.5vw);
   font-size-adjust: 0.545;		/* Normalize fonts with smaller x-height */
   line-height: 1.5;
 
