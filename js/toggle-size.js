@@ -5,10 +5,11 @@ window.addEventListener("load",
 
   const bigWidth = "83vw";
   const topWidth = "85vw";
+  const minWidth = 480;
 
   const toggleWidth = t => {
 
-    if (window.innerWidth < 480)
+    if (window.innerWidth < minWidth)
       return;
     // else
 
