@@ -15,9 +15,17 @@ samp {
 
 @media (pointer: coarse) {
   :root{
-      font-size: calc(1em + 0.5vw);
+    font-size: calc(1em + 0.5vw);
   }
 }
+@-moz-document url-prefix() {
+  /* hack firefox pointer media query */ 
+  :root {
+    font-size: 1em;
+  }
+}
+
+
 
 :root {
   font-size-adjust: 0.545;		/* Normalize fonts with smaller x-height */
