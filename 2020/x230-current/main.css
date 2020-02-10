@@ -80,9 +80,9 @@ body>footer p {
 main {
   font-family: serif;
   font-family: var(--serif);
-  background: linear-gradient(rgba(255, 255, 255, 0), white 100px, white 90%, rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0), white 200px, white 90%, rgba(255, 255, 255, 0));
   counter-reset: sidenote-counter;
-  margin: 6px;
+  margin: 3em 6px;
   padding: 2vw;
 }
 
@@ -113,17 +113,24 @@ article>* {
 }
 
 article h1 {
-  color: #777;
-  font-size: 2.8em;
+  color: #666;
+  font-size: 2.4em;
+  margin-top: -0.3em;
 }
 
 article p {
   margin-top: 6px;
 }
+article > p:first-of-type {
+  font-size: 1.2em;
+  text-align: right;
+  font-family: var(--sans);
+    color: var( --contra-color);
+}
 
 article>header time {
-  font-size: 1.4em;
-  font-weight: 300;
+  font-size: 1.2em;
+  font-weight: 200;
   font-variant: all-small-caps;
 }
 
