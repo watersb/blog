@@ -84,6 +84,9 @@ main {
   counter-reset: sidenote-counter;
   margin: 3em 6px;
   padding: 2vw;
+
+  overflow: hidden;
+  position: relative;
 }
 
 a,
