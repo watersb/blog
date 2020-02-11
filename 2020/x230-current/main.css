@@ -36,6 +36,7 @@ body>header details {
   right: 6px;
   font-size: 1rem;
   text-align: right;
+  z-index: 6;
 }
 
 body>header details>summary {
@@ -98,7 +99,7 @@ main {
   font-family: var(--serif);
   background: linear-gradient(rgba(255, 255, 255, 0), white 200px, white 90%, rgba(255, 255, 255, 0));
   counter-reset: sidenote-counter;
-  margin: 3em 6px;
+  margin: 6px;
   padding: 2vw;
 
   overflow: hidden;
