@@ -79,7 +79,8 @@ body>header>h1 {
 }
 
 body>footer {
-  font-stretch: condensed;
+  /* font-stretch: condensed; */
+  font-weight: 300;
   text-align: right;
   padding: 0.8rem;
 }
@@ -92,7 +93,9 @@ img#cc-by-sa {
   width: 120px;
 }
 
-
+body>footer>time {
+  color: #555;
+}
 
 main {
   font-family: serif;
