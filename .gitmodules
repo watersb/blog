@@ -7,3 +7,12 @@
 [submodule "css/_scrapbook/normalize.css"]
 	path = css/_scrapbook/normalize.css
 	url = https://github.com/necolas/normalize.css.git
+[submodule "css/_fonts/_vendor/adobe/source-serif-pro"]
+	path = css/_fonts/_vendor/adobe/source-serif-pro
+	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-serif-pro
+[submodule "css/_fonts/_vendor/adobe/source-sans-pro"]
+	path = css/_fonts/_vendor/adobe/source-sans-pro
+	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-sans-pro
+[submodule "css/_fonts/_vendor/adobe/source-code-pro"]
+	path = css/_fonts/_vendor/adobe/source-code-pro
+	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-code-pro
