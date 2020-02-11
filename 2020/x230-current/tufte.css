@@ -1,7 +1,8 @@
 @media (min-width: 440px) {
   article > p {
     width: 60vw;
-    text-align: justify;
+/* text-align: justify;
+*/
   }
 
   .margin {
