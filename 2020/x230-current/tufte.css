@@ -1,5 +1,4 @@
 @media (min-width: 440px) {
-
   article > p {
     width: 60vw;
     text-align: justify;
@@ -17,7 +16,7 @@
     max-width: 33%;
     padding: 0 2ch;
   }
-  
+
   figure:not(.margin) {
     display: flex;
     align-items: flex-start;
@@ -29,7 +28,6 @@
     margin: 0 0.6em;
   }
   figure figcaption details {
-
     /* I am running into weirdness on Windows
       if I don't set this font size. If I explicitly
       set it to one em, that's the same weird as
@@ -45,10 +43,16 @@
     align-items: flex-start;
   }
   figure.thumb figcaption {
-    width: 100%
+    width: 100%;
   }
   figure.thumb img {
     width: 64px;
     max-width: 40vw;
+  }
+}
+
+@media (min-width: 680px) {
+  article > p {
+    text-align: initial;
   }
 }
