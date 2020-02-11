@@ -1,7 +1,17 @@
 @charset "utf-8";
 @import url("/css/fonts.css");
-@import url("tufte.css");
 @import url("/css/bg-image.css");
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
 
 
 html {
@@ -32,7 +42,7 @@ body>header details>summary {
   cursor: pointer;
 }
 
-body>header details>summary::marker {
+details>summary::marker {
   display: none;
   content: "";
 }
@@ -77,6 +87,12 @@ body>footer p {
   margin-top: 0;
 }
 
+img#cc-by-sa {
+  width: 120px;
+}
+
+
+
 main {
   font-family: serif;
   font-family: var(--serif);
@@ -87,6 +103,7 @@ main {
 
   overflow: hidden;
   position: relative;
+  contain: content;
 }
 
 a,

@@ -14,8 +14,8 @@
   }
 
   figure:not(.margin) figcaption {
-    margin: 0 2ch;
-    max-width: 30%;
+    max-width: 33%;
+    padding: 0 2ch;
   }
   
   figure:not(.margin) {
@@ -25,11 +25,30 @@
     margin: 3em 0;
   }
 
+  figure img {
+    margin: 0 0.6em;
+  }
+  figure figcaption details {
+
+    /* I am running into weirdness on Windows
+      if I don't set this font size. If I explicitly
+      set it to one em, that's the same weird as
+      leaving it out.
+    */
+    font-size: 0.99em;
+  }
 }
 
 @media (max-width: 439px) {
   figure.thumb {
     display: flex;
     align-items: flex-start;
+  }
+  figure.thumb figcaption {
+    width: 100%
+  }
+  figure.thumb img {
+    width: 64px;
+    max-width: 40vw;
   }
 }

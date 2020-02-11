@@ -20,6 +20,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="tufte.css"/>
   <script>
     function getsize(event) {
     var p = document.getElementById('dbg_size');
@@ -68,7 +69,9 @@
         and we know we will all be some place beyond imagination. So fast!
       </p>
       <figure id="rtb" class="margin thumb">
-        <img src="/2018/10/2018-10-05/9780262012577-lo.jpg" alt="Book Cover for Racing the Beam.
+        <img width="240" height="360"
+           src="/2018/10/2018-10-05/9780262012577-lo.jpg"
+           alt="Book Cover for Racing the Beam.
                 Stylized, glowing blocks, representing the pixels
                 of a cathode ray tube television display." aria-describedby="rtb_cap" />
         <figcaption>
@@ -129,7 +132,8 @@
         tag, as seen to the right of this paragraph.
       </p>
       <figure class="margin">
-        <img src="marginfigure.jpg" alt="an example graph of scatterplot from R Studio" />
+        <img src="marginfigure.jpg" width="288" height="288"
+        alt="an example graph of scatterplot from R Studio" />
         <figcaption class="">
           <details>
             <summary>This is a Margin Figure</summary>
@@ -178,7 +182,9 @@
 
   <footer>
     <a href="http://creativecommons.org/licenses/by-sa/4.0/">
-      <img width="120" src="/img/svg/logos/cc-by-sa.svg" alt="Creative Commons Attribution-ShareAlike 4.0 Logo" />
+      <img id="cc-by-sa"
+       width="120" height="48" src="/img/svg/logos/cc-by-sa.svg"
+       alt="Creative Commons Attribution-ShareAlike 4.0 Logo" />
     </a>
     <p>
       This work is licensed under the
