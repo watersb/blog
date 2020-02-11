@@ -128,10 +128,6 @@ article {
   color: #444;
 }
 
-article>* {
-  box-sizing: border-box;
-}
-
 article h1 {
   color: #666;
   font-size: 2.4em;
