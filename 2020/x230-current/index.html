@@ -21,21 +21,7 @@
 
   <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="tufte.css"/>
-  <script>
-    function getsize(event) {
-    var p = document.getElementById('dbg_size');
-    var s = window.getComputedStyle(p);
 
-    p.innerHTML =
-      "  font-size:   " + s.fontSize   + "\n" +
-      "  font-family: " + s.fontFamily + "\n" +
-      "  screen:      " + window.innerWidth +" x " + window.innerHeight
-    ;
-  }
-
-  window.addEventListener("resize", getsize);
-  window.addEventListener("load", getsize);
-</script>
 </head>
 
 <!-- - - - - - - - -->
@@ -89,9 +75,6 @@
           </details>
         </figcaption>
       </figure>
-
-	<pre id="dbg_size"></pre>
-
 
       <h2 id="figures">Figures</h2>
       <p>
