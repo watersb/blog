@@ -2,7 +2,8 @@
   article > p,
   article > section > p {
     width: 60vw;
-    text-align: justify;
+/* text-align: justify;
+*/
   }
 
   .margin {
