@@ -141,7 +141,7 @@ article h1 {
 article p {
   margin-top: 6px;
 }
-article > p:first-of-type {
+article > section:first-of-type > p:first-of-type {
   font-size: 1.2em;
   text-align: right;
   font-family: var(--sans);

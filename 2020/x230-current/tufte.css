@@ -1,5 +1,6 @@
 @media (min-width: 440px) {
-  article > p {
+  article > p,
+  article > section > p {
     width: 60vw;
     text-align: justify;
   }
@@ -52,7 +53,8 @@
 }
 
 @media (min-width: 680px) {
-  article > p {
+  article > p,
+  article > section > p {
     text-align: initial;
   }
 }
