@@ -6,6 +6,13 @@
 */
   }
 
+  article > section:first-of-type {
+    display: flex;
+  }
+  article > section:first-of-type > figure {
+    margin-top: 0.6em;
+  }
+
   .margin {
     width: 28vw;
     float: right;
