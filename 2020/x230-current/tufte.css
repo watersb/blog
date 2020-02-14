@@ -16,7 +16,6 @@
   .margin {
     width: 28vw;
     float: right;
-    margin-top: -14em;
     margin-right: 1em;
     display: initial;
   }
@@ -47,11 +46,11 @@
 }
 
 @media (max-width: 439px) {
-  figure.thumb {
+  figure.margin {
     display: flex;
     align-items: flex-start;
   }
-  figure.thumb figcaption {
+  figure.margin figcaption {
     width: 100%;
   }
   figure.thumb img {
