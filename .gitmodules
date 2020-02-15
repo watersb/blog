@@ -16,6 +16,3 @@
 [submodule "css/_fonts/_vendor/adobe/source-code-pro"]
 	path = css/_fonts/_vendor/adobe/source-code-pro
 	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-code-pro
-[submodule "css/_fonts/_vendor/ibm/plex"]
-	path = css/_fonts/_vendor/ibm/plex
-	url = https://github.com/IBM/plex.git
