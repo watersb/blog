@@ -17,7 +17,9 @@ samp {
   :root{
     font-size: calc(1em + 0.5vw);
   }
-}
+}@-moz-document url-prefix() {:root {font-size: 1em;}}
+/* HACK firefox pointer media query false positive */ 
+
 @media (min-width: 760px) {
   :root{
     font-size: calc(1em + ((100vw - 760px)/76));
