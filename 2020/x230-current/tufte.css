@@ -1,13 +1,21 @@
 @media (min-width: 440px) {
-  article > p {
+  article > p,
+  article > section > p {
     width: 60vw;
-    text-align: justify;
+/* text-align: justify;
+*/
+  }
+
+  article > section:first-of-type {
+    display: flex;
+  }
+  article > section:first-of-type > figure {
+    margin-top: 0.6em;
   }
 
   .margin {
     width: 28vw;
     float: right;
-    margin-top: -14em;
     margin-right: 1em;
     display: initial;
   }
@@ -39,11 +47,11 @@
 }
 
 @media (max-width: 439px) {
-  figure.thumb {
+  figure.margin {
     display: flex;
     align-items: flex-start;
   }
-  figure.thumb figcaption {
+  figure.margin figcaption {
     width: 100%;
   }
   figure.thumb img {
@@ -53,7 +61,8 @@
 }
 
 @media (min-width: 680px) {
-  article > p {
+  article > p,
+  article > section > p {
     text-align: initial;
   }
 }
