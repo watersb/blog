@@ -9,13 +9,13 @@
 	url = https://github.com/necolas/normalize.css.git
 [submodule "css/_fonts/_vendor/adobe/source-serif-pro"]
 	path = css/_fonts/_vendor/adobe/source-serif-pro
-	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-serif-pro
+	url = https://github.com/adobe-fonts/source-serif-pro.git
 [submodule "css/_fonts/_vendor/adobe/source-sans-pro"]
 	path = css/_fonts/_vendor/adobe/source-sans-pro
-	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-sans-pro
+	url = https://github.com/adobe-fonts/source-sans-pro.git
 [submodule "css/_fonts/_vendor/adobe/source-code-pro"]
 	path = css/_fonts/_vendor/adobe/source-code-pro
-	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/Adobe/Source Font Family/_adobe-git/source-code-pro
+	url = https://github.com/adobe-fonts/source-code-pro.git
 [submodule "css/_fonts/_vendor/ibm/plex"]
 	path = css/_fonts/_vendor/ibm/plex
-	url = file:///Users/bwaters/Documents/Scrapbook/Fonts/_vendor/IBM/plex
+	url = https://github.com/IBM/plex.git
