@@ -2,8 +2,6 @@
   article > p,
   article > section > p {
     width: 60vw;
-/* text-align: justify;
-*/
   }
 
   article > section:first-of-type {
@@ -12,10 +10,14 @@
   article > section:first-of-type > figure {
     margin-top: 0.6em;
   }
+  article > section:nth-of-type(2) {
+    margin-top: calc(-30vw + 9em);
+  }
 
   .margin {
     width: 28vw;
     float: right;
+    margin-top: -10em;
     margin-right: 1em;
     display: initial;
   }
@@ -36,22 +38,14 @@
   figure img {
     margin: 0 0.6em;
   }
-  figure figcaption details {
-    /* I am running into weirdness on Windows
-      if I don't set this font size. If I explicitly
-      set it to one em, that's the same weird as
-      leaving it out.
-    */
-    font-size: 0.99em;
-  }
 }
 
 @media (max-width: 439px) {
-  figure.margin {
+  figure.thumb {
     display: flex;
     align-items: flex-start;
   }
-  figure.margin figcaption {
+  figure.thumb figcaption {
     width: 100%;
   }
   figure.thumb img {
