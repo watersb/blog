@@ -19,3 +19,6 @@
 [submodule "css/_fonts/_vendor/ibm/plex"]
 	path = css/_fonts/_vendor/ibm/plex
 	url = https://github.com/IBM/plex.git
+[submodule "2018/10/2018-10-26/microprocessor-trend-data"]
+	path = 2018/10/2018-10-26/microprocessor-trend-data
+	url = https://github.com/karlrupp/microprocessor-trend-data.git
