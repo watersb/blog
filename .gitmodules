@@ -19,3 +19,6 @@
 [submodule "2018/10/2018-10-26/microprocessor-trend-data"]
 	path = 2018/10/2018-10-26/microprocessor-trend-data
 	url = https://github.com/karlrupp/microprocessor-trend-data.git
+[submodule "2018/08/2018-08-23/tufte-css"]
+	path = 2018/08/2018-08-23/tufte-css
+	url = https://github.com/edwardtufte/tufte-css.git
