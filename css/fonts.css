@@ -29,7 +29,7 @@ samp {
 
 :root {
   font-size-adjust: 0.545;		/* Normalize fonts with smaller x-height */
-  line-height: 1.5;
+  line-height: 1.625;
 
   --serif:
     var(--apple-serif),
