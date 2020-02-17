@@ -1,3 +1,5 @@
+/* 2020-02-15 16:35:27 */
+
 function getsize(event) {
 var p = document.getElementById('dbg_size');
 var s = window.getComputedStyle(p);
