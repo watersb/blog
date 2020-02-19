@@ -1,0 +1,65 @@
+@charset "UTF-8";
+:root {
+     --mono: 'Source Code Variable';
+     --sans: 'Source Sans Variable';
+    --serif: 'Source Serif Variable';
+}
+
+
+@font-face{
+ font-family: 'Source Sans Variable';
+ font-weight: 200 900;
+ font-style: normal;
+ font-stretch: normal;
+ src: url('source-sans-pro/WOFF2/VAR/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
+      url('source-sans-pro/WOFF/VAR/SourceSansVariable-Roman.ttf.woff') format('woff'),
+      url('source-sans-pro/VAR/SourceSansVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+ font-family: 'Source Sans Variable';
+ font-weight: 200 900;
+ font-style: italic;
+ font-stretch: normal;
+ src: url('source-sans-pro/WOFF2/VAR/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
+      url('source-sans-pro/WOFF/VAR/SourceSansVariable-Italic.ttf.woff') format('woff'),
+      url('source-sans-pro/VAR/SourceSansVariable-Italic.ttf') format('truetype');
+}
+@font-face{
+ font-family: 'Source Serif Variable';
+ font-weight: 200 900;
+ font-style: normal;
+ font-stretch: normal;
+ src: url('source-serif-pro/WOFF2/VAR/SourceSerifVariable-Roman.ttf.woff2') format('woff2'),
+      url('source-serif-pro/WOFF/VAR/SourceSerifVariable-Roman.ttf.woff') format('woff'),
+      url('source-serif-pro/VAR/SourceSerifVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+ font-family: 'Source Serif Variable';
+ font-weight: 200 900;
+ font-style: italic;
+ font-stretch: normal;
+ src: url('source-serif-pro/WOFF2/VAR/SourceSerifVariable-Italic.ttf.woff2') format('woff2'),
+      url('source-serif-pro/WOFF/VAR/SourceSerifVariable-Italic.ttf.woff') format('woff'),
+      url('source-serif-pro/VAR/SourceSerifVariable-Italic.ttf') format('truetype');
+}
+@font-face{
+ font-family: 'Source Code Variable';
+ font-weight: 200 900;
+ font-style: normal;
+ font-stretch: normal;
+ src: url('source-code-pro/WOFF2/VAR/SourceCodeVariable-Roman.ttf.woff2') format('woff2'),
+      url('source-code-pro/WOFF/VAR/SourceCodeVariable-Roman.ttf.woff') format('woff'),
+      url('source-code-pro/VAR/SourceCodeVariable-Roman.ttf') format('truetype');
+}
+
+@font-face{
+ font-family: 'Source Code Variable';
+ font-weight: 200 900;
+ font-style: italic;
+ font-stretch: normal;
+ src: url('source-code-pro/WOFF2/VAR/SourceCodeVariable-Italic.ttf.woff2') format('woff2'),
+      url('source-code-pro/WOFF/VAR/SourceCodeVariable-Italic.ttf.woff') format('woff'),
+      url('source-code-pro/VAR/SourceCodeVariable-Italic.ttf') format('truetype');
+}
