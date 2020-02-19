@@ -7,6 +7,13 @@
   box-sizing: border-box;
 }
 
+main,
+article,
+footer {
+  contain: content;
+}
+
+
 img {
   height: auto;
   width: auto;

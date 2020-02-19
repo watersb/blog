@@ -16,20 +16,21 @@ samp {
 @media (pointer: coarse) {
   :root{
     font-size: calc(1em + 0.5vw);
+    -webkit-text-size-adjust: 110%;
   }
 }@-moz-document url-prefix() {:root {font-size: 1em;}}
 /* HACK firefox pointer media query false positive */ 
 
 @media (min-width: 760px) {
   :root{
-    font-size: calc(1em + ((100vw - 760px)/76));
+    font-size: calc(1rem + ((100vw - 760px)/76));
   }
 }
 
 
 :root {
   font-size-adjust: 0.545;		/* Normalize fonts with smaller x-height */
-  line-height: 1.625;
+  line-height: 1.5;
 
   --serif:
     var(--apple-serif),
