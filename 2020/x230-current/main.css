@@ -30,17 +30,20 @@ body>header * {
   filter: var(--glowing-link);
 }
 
-body>header details {
+#site-nav {
   position: absolute;
   top: 6px;
   right: 6px;
   font-size: 1rem;
   text-align: right;
   z-index: 6;
+  animation: 1s ease-out 0s 1 navAppear;
 }
 
-body>header details>summary {
+#site-nav>summary {
   cursor: pointer;
+  color: var(--contra-color);
+  font-size: 1.8rem;
 }
 
 details>summary::marker {
@@ -48,22 +51,22 @@ details>summary::marker {
   content: "";
 }
 
-body>header nav>a {
+#site-nav a {
   display: list-item;
+  list-style: none;
   color: var(--contra-color);
 }
 
 @media (pointer: coarse) {
-  body>header details,
-  body>header details summary {
-    background-color: green;
-    font-size: 1.8rem;
+  #site-nav {
+    font-size: 1.3rem;
     right: 1rem;
   }
 }
+/* mozilla false-positive coarse pointer hack */
 @-moz-document url-prefix() {
-  body>header details,
-  body>header details summary {
+  #site-nav,
+  #site-nav summary {
     background-color: inherit;
     font-size: inherit;
   }
@@ -237,4 +240,13 @@ span.newthought {
 
 label.sidenote-number {
   display: inline;
+}
+
+@keyframes navAppear {
+  0% {
+      transform: scale(2);
+  }
+  100% {
+      transform: scale(1);
+  }
 }

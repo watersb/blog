@@ -38,4 +38,17 @@ The rest of the bunch each require 3 bytes in UTF-8:
 ☰		Hamburger Menu – three horizontal lines
 ⓘ		Circled Information mark
 ℹ		Information mark
+✉  envelope
+☁  cloud
 
+
+
+These may be four byte symbols:
+🌎  earth globe americas
+⌂ house
+🕶  dark sunglasses
+🔍  magnifying glass
+🌤  sun behind cloud
+☉  sun
+
+🏷  label
