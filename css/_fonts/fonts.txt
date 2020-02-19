@@ -213,3 +213,8 @@ URW Gothic
 
 Z003	Chancery
 
+
+## 2020-02-17 19:42:13 -0700
+
+https://www.reddit.com/r/Fedora/comments/5nfenw/better_looking_fonts_for_fedora/
+
