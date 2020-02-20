@@ -14,7 +14,7 @@
 	path = css/_fonts/_vendor/adobe/source-code-pro
 	url = https://github.com/adobe-fonts/source-code-pro.git
 [submodule "css/_fonts/_vendor/ibm/plex"]
-	path = css/_fonts/_vendor/ibm/plex
+	path = css/_fonts/_vendor/ibm/_plex_submodule
 	url = https://github.com/IBM/plex.git
 [submodule "2018/10/2018-10-26/microprocessor-trend-data"]
 	path = 2018/10/2018-10-26/microprocessor-trend-data
