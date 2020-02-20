@@ -1,0 +1,28 @@
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body > header > nav {
+  animation: 1s ease-out 0s 1 navAppear;
+}
+@keyframes navAppear {
+  0% {
+    transform: scale(2);
+    opacity: 100%;
+  }
+  90% {
+    opacity: 10%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 20%;
+  }
+}

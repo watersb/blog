@@ -7,7 +7,7 @@ body {
 #logo {
   background-image: url("/img/svg/logos/watersb.svg");
   background-repeat: no-repeat;
-  opacity: 0.1;
+  opacity: 0.035;
   width:  30vw;
   height: 30vw;
   position: absolute;

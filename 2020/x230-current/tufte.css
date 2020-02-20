@@ -1,4 +1,4 @@
-@media (min-width: 440px) {
+@media (min-width: 40rem) {
   article > p,
   article > section > p {
     width: 60vw;
@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 439px) {
+@media (max-width: 27rem) {
   figure.thumb {
     display: flex;
     align-items: flex-start;
@@ -54,9 +54,24 @@
   }
 }
 
-@media (min-width: 680px) {
+@media (min-width: 45.5rem) {
   article > p,
   article > section > p {
-    text-align: initial;
+    text-align: justify;
   }
+}
+
+
+@media (min-width: 30rem)
+   and (max-width: 40rem) {
+     figure {
+       display: flex;
+       margin: 1.75em 0;
+       align-items: flex-start;
+      }
+     figcaption {
+       margin-left: 1em;
+       width: 80vw;
+       font-size: 0.92rem;
+      }
 }
