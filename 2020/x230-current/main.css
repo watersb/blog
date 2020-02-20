@@ -103,6 +103,10 @@ body>footer p {
   line-height: initial;
   color: #777;
 }
+@media (min-width: 600px){
+#attributionNote > span {
+  display: inline-block;
+}}
 
 img#cc-by-sa {
   width: 120px;
