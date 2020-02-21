@@ -41,14 +41,13 @@ The rest of the bunch each require 3 bytes in UTF-8:
 ✉  envelope
 ☁  cloud
 
-
-
 These may be four byte symbols:
+=======
 🌎  earth globe americas
 ⌂ house
 🕶  dark sunglasses
 🔍  magnifying glass
 🌤  sun behind cloud
 ☉  sun
-
+☁  cloud
 🏷  label
