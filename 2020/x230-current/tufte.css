@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 27rem) {
+@media (max-width: 30rem) {
   figure.thumb {
     display: flex;
     align-items: flex-start;
@@ -62,7 +62,7 @@
 }
 
 
-@media (min-width: 30rem)
+@media (min-width: 27rem)
    and (max-width: 40rem) {
      figure {
        display: flex;
