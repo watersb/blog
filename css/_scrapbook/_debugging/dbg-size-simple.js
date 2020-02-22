@@ -7,7 +7,8 @@ var s = window.getComputedStyle(p);
 p.innerHTML =
   "  font-size:   " + s.fontSize   + "\n" +
   "  font-family: " + s.fontFamily + "\n" +
-  "  screen:      " + window.innerWidth +" x " + window.innerHeight
+  "  screen:      " + window.innerWidth +" x " + window.innerHeight + "\n" +
+  "  screen:      " + window.innerWidth/parseFloat(s.fontSize) + "rems of width."
 ;
 }
 
