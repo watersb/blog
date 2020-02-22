@@ -47,21 +47,24 @@ body>header>nav {
   opacity: 20%;
 }
 
-body>header>nav>summary {
+body>header>nav>details>summary {
   cursor: pointer;
   color: var(--contra-color);
   font-size: 1.8rem;
 }
-
+body>header>nav>details~a {display: none;}
+body>header>nav>details[open]~a {display: initial;}
 details>summary::marker {
   display: none;
   content: "";
 }
 
-body>header>nav a {
+body>header>nav>details>a {
   display: list-item;
   list-style: none;
   color: var(--contra-color);
+  text-decoration: none;
+  font-weight: 300;
 }
 
 @media (pointer: coarse) {
