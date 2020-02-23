@@ -39,12 +39,12 @@ body>header * {
 
 body>header>nav {
   position: absolute;
-  top: 6px;
-  right: 6px;
+  z-index: 2;
+  top: 0.2rem;
+  right: 0.75rem;
   font-size: 1rem;
   text-align: right;
-  z-index: 6;
-  opacity: 20%;
+  opacity: 40%;
 }
 
 body>header>nav>details>summary {
@@ -52,8 +52,6 @@ body>header>nav>details>summary {
   color: var(--contra-color);
   font-size: 1.8rem;
 }
-body>header>nav>details~a {display: none;}
-body>header>nav>details[open]~a {display: initial;}
 details>summary::marker {
   display: none;
   content: "";
@@ -65,6 +63,7 @@ body>header>nav>details>a {
   color: var(--contra-color);
   text-decoration: none;
   font-weight: 300;
+  text-align: center;
 }
 
 @media (pointer: coarse) {
@@ -157,7 +156,10 @@ article {
 article h1 {
   color: #666;
   font-size: 2.4em;
-  margin-top: -0.3em;
+  margin-top: -0.1em;
+  line-height: 1.1;
+  margin-left:  0.6em;
+  text-indent: -0.6em;
 }
 
 article p {
@@ -186,6 +188,8 @@ article pre {
 }
 
 figure {
+  background-color: #ddd2;
+  border-radius: 6px;
   font-size: 0.845em;
   margin: 6px;
   padding: 4px;
@@ -241,4 +245,21 @@ span.newthought {
 
 label.sidenote-number {
   display: inline;
+}
+
+@media (max-width: 40rem) {
+/* TODO: this hack should be flex-axis
+ * or something but hey it works:
+ * 1. Pivot the whole list 90deg clockwise
+ * 2. Turn each individual list item back 
+ *    around its center to an upright orientation.
+ */
+  body > header > nav {
+    transform: rotate(90deg);
+    right: -1em;
+    transform-origin: top left;
+  }
+  body > header > nav details * {
+    transform: rotate(-90deg);
+  }
 }
