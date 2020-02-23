@@ -51,3 +51,16 @@ These may be four byte symbols:
 ☉  sun
 ☁  cloud
 🏷  label
+🔗  link
+⌖ Target
+🗣  speaking
+🡅 heavy up arrow
+🗿  easter island
+📡
+🛰
+
+🙨
+☢
+
+
+
