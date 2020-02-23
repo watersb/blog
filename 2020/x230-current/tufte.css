@@ -74,4 +74,7 @@
        width: 80vw;
        font-size: 0.8rem;
       }
+      figure:not(.fullwidth) img {
+        max-width: 50vw;
+      }
 }
