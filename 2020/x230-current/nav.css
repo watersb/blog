@@ -1,27 +1,84 @@
-body>header nav>a {
-/*	display: inline-block; */
+
+body>header>nav {
+  position: absolute;
+  z-index: 2;
+  top: 0.2em;
+  right: 1em;
+  text-align: right;
 }
 
-body>header>details[open] > nav > a {
-  transition-timing-function: cubic-bezier(.165, .84, .44, 1);
-  opacity: 1;
-}
-body>header>details[open] > nav > a:nth-child(2) {
-  color: green;
-  transition-duration: 190ms;
-  /* tramsform: translate(-20vw, 0);  */
-}
-body>header>details[open] > nav > a:nth-child(3) {
-  color: blue;
-  transition-duration: 290ms;
-  /* tramsform: translate(-40vw, 0);  */
-}
-body>header>details[open] > nav > a:nth-child(4) {
-  color: red;
-  transition-duration: 390ms;
-  /* tramsform: translate(-60vw, 0);  */
+body>header>nav>details> * {
+  cursor: pointer;
+  color: var(--contra-color);
+  font-size: 1.3rem;
+  font-weight:bold;
 }
 
+body>header>nav>details>a {
+  display: list-item;
+  list-style: none;
+  color: var(--contra-color);
+  opacity: 0.4;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: right;
+  line-height: 2.5;
+}
+body>header>nav>details>a:hover {
+  opacity: initial;
+}
+body>header>nav>details>a:hover::before {
+  content: attr(title) " ";
+}
+body>header>nav>details>a:visited {
+  color: var( --contra-color);
+}
 
+@media (pointer: coarse) {
+  body>header>nav {
+    font-size: 2rem;
+    opacity: initial;
+/*     right: 1rem; */
+  }
+}
+/* mozilla false-positive coarse pointer hack */
+@-moz-document url-prefix() {
+  body>header>nav,
+  body>header>nav summary {
+    background-color: inherit;
+    font-size: inherit;
+  }
+}
 
-/* media only screen */
+@media (max-width: 40rem) {
+  /* TODO: this hack should be flex-axis
+   * or something but hey it works:
+   * 1. Pivot the whole list 90deg clockwise
+   * 2. Turn each individual list item back 
+   *    around its center to an upright orientation.
+   *
+   * However, it becomes more difficult to reason
+   * about the location of the menu relative to the
+   * top and right. And alignment.
+   */
+    body > header > nav {
+      transform: rotate(90deg);
+      right: -1rem;
+      top: 0.75rem;
+      transform-origin: top left;
+    }
+    body > header > nav details * {
+      transform: rotate(-90deg);
+    }
+    body>header>nav>details>a:hover::before {
+      content: none;
+    }
+  }
+@media (max-width: 25rem) {
+  /* move the content out of the way of
+    * the rotated menu
+    */
+    main {
+    margin-top: 1.5rem;
+  }
+}
