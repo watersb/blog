@@ -125,7 +125,6 @@ main {
   counter-reset: sidenote-counter;
   margin: 6px;
   padding: 2vw;
-
   overflow: hidden;
   position: relative;
   contain: content;
@@ -189,10 +188,10 @@ article pre {
 
 figure {
   background-color: #ddd2;
-  border-radius: 6px;
-  font-size: 0.845em;
-  margin: 6px;
-  padding: 4px;
+  border-radius: 0.4rem;
+  font-size: 0.825rem;
+  margin: 0.4rem;
+  padding: 0.4rem;
 }
 
 figure * {
@@ -200,8 +199,8 @@ figure * {
 }
 
 figure details p {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 figure img {
@@ -211,6 +210,7 @@ figure img {
 
 figure.thumb>img {
   width: 13vw;
+  margin-left: 0.4rem;
 }
 
 figcaption {
