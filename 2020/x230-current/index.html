@@ -53,13 +53,12 @@
       <h1>@watersb</h1>
 
       <nav>
-        <details>
+        <details open>
           <summary>☰</summary>
-          <a href="/index.html">☗</a>
-          <a href="/about.html">ⓘ</a>
-          <a href="/about.html">#</a>
-          <a href="/about.html">…</a>
-          <a href="/about.html">§</a>
+          <a title="home"    id="navHome"    href="/index.html">☗</a>
+          <a title="topics"  id="navTopic"   href="/topic.html">§</a>
+          <a title="contact" id="navContact" href="/contact.html">@</a>
+          <a title="about"   id="navAbout"   href="/about.html">ⓘ</a>
         </details>
       </nav>
     </header>
@@ -77,7 +76,7 @@
             just getting started. They were full of promise, it was going to be
             insanely great. Just keep the cursor moving,
             <a href="#rtb">racing the beam,</a>
-            and we know we will all be some place beyond imagination. So fast!
+            and we know we will all be some place beyond imagination. So&nbsp;fast!
           </p>
           <figure id="rtb" class="margin thumb">
             <img
@@ -170,7 +169,7 @@
               alt="an example graph of scatterplot from R Studio"
             />
             <figcaption class="">
-              <details>
+              <details open>
                 <summary>This is a Margin Figure</summary>
                 <p>
                   The R package provides two custom hooks for figure placement.

@@ -1,5 +1,6 @@
 2020-02-01 01:54:14
 interesting icon-like characters
+2020-02-24 17:40:58
 
 Here are some Unicode glyphs that might be useful for icons.
 NOTE: Of course, these will not be rendered in all fonts, platforms.
@@ -11,6 +12,7 @@ http://www.amp-what.com
 
 
 #		Simply a hash (shift-3) character, just ONE byte
+@       at-sign
 
 
 These are two-byte pairs in UTF-8:
@@ -40,14 +42,16 @@ The rest of the bunch each require 3 bytes in UTF-8:
 ℹ		Information mark
 ✉  envelope
 ☁  cloud
+⚙  gear
+⌂ house
+☉  sun
+﬷﬿
 
-These may be four byte symbols:
+
+Four byte symbols:
 =======
 🌎  earth globe americas
-⌂ house
 🕶  dark sunglasses
 🔍  magnifying glass
 🌤  sun behind cloud
-☉  sun
-☁  cloud
 🏷  label
