@@ -1,5 +1,0 @@
-main > figure details:not([open]) {
-  display: inline-block;
-  transform: rotate(90deg);
-  transform-origin: top left;
-}

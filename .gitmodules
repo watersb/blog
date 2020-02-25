@@ -2,19 +2,19 @@
 	path = js/_available/screenfull.js
 	url = https://github.com/sindresorhus/screenfull.js
 [submodule "css/_scrapbook/normalize.css"]
-	path = css/_scrapbook/normalize.css
+	path = css/normalize.css
 	url = https://github.com/necolas/normalize.css.git
 [submodule "css/_fonts/_vendor/adobe/source-serif-pro"]
-	path = css/_fonts/_vendor/adobe/source-serif-pro
+	path = css/_lib/_fonts/_vendor/adobe/source-serif-pro
 	url = https://github.com/adobe-fonts/source-serif-pro.git
 [submodule "css/_fonts/_vendor/adobe/source-sans-pro"]
-	path = css/_fonts/_vendor/adobe/source-sans-pro
+	path = css/_lib/_fonts/_vendor/adobe/source-sans-pro
 	url = https://github.com/adobe-fonts/source-sans-pro.git
 [submodule "css/_fonts/_vendor/adobe/source-code-pro"]
-	path = css/_fonts/_vendor/adobe/source-code-pro
+	path = css/_lib/_fonts/_vendor/adobe/source-code-pro
 	url = https://github.com/adobe-fonts/source-code-pro.git
 [submodule "css/_fonts/_vendor/ibm/plex"]
-	path = css/_fonts/_vendor/ibm/_plex_submodule
+	path = css/_lib/_fonts/_vendor/ibm/_plex_submodule
 	url = https://github.com/IBM/plex.git
 [submodule "2018/10/2018-10-26/microprocessor-trend-data"]
 	path = 2018/10/2018-10-26/microprocessor-trend-data
