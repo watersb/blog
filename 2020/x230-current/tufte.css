@@ -1,6 +1,7 @@
 @media (min-width: 40rem) {
   article > p,
-  article > section > p {
+  article > section > p,
+  figure:not([class]) img {
     width: 60vw;
   }
 
@@ -31,12 +32,7 @@
   figure:not(.margin) {
     display: flex;
     align-items: flex-start;
-    width: 100%;
     margin: 3em 0;
-  }
-
-  figure img {
-    margin: 0 0.6em;
   }
 }
 
@@ -63,7 +59,7 @@
 
 
 @media (min-width: 27rem)
-   and (max-width: 40rem) {
+   and (max-width: 39.99rem) {
      figure {
        display: flex;
        margin: 1.75em 0;
@@ -73,5 +69,8 @@
        margin-left: 1em;
        width: 80vw;
        font-size: 0.8rem;
+      }
+      .fullwidth img {
+        width: 90vw;
       }
 }
