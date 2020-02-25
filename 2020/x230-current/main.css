@@ -88,7 +88,7 @@ body>footer>time {
 main {
   font-family: serif;
   font-family: var(--serif);
-  background: linear-gradient(rgba(255, 255, 255, 0), white 200px, white 90%, rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0), white 12.5rem, white 90%, rgba(255, 255, 255, 0));
   counter-reset: sidenote-counter;
   margin: 6px;
   padding: 2vw;
