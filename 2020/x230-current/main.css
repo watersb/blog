@@ -38,7 +38,10 @@ details>summary::marker {
   content: "";
 }
 
-
+details>summary:focus {
+  outline: none;
+  background: transparent;
+}
 
 
 body>header * {
