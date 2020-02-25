@@ -217,6 +217,7 @@ figcaption {
   font-weight: 340;
   padding: 0 .6em;
   line-height: 1.33;
+  word-wrap: break-word;
 }
 
 summary::-webkit-details-marker {
