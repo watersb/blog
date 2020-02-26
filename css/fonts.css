@@ -23,7 +23,7 @@ samp {
 
 @media (min-width: 760px) {
   :root{
-    font-size: calc(1rem + ((100vw - 760px)/76));
+    font-size: calc(1em + ((100vw - 760px)/76));
   }
 }
 
