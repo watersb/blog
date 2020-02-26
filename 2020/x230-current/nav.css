@@ -36,9 +36,8 @@ body>header>nav>details>a:visited {
 
 @media (pointer: coarse) {
   body>header>nav {
-    font-size: 2rem;
+    font-size: 2em;
     opacity: initial;
-/*     right: 1rem; */
   }
 }
 /* mozilla false-positive coarse pointer hack */

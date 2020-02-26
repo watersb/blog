@@ -62,8 +62,7 @@ body>header>h1 {
 }
 
 body>footer {
-  /* font-stretch: condensed; */
-  font-weight: 300;
+  font-weight: 400;
   text-align: right;
   padding: 0.8rem;
 }
@@ -72,7 +71,6 @@ body>footer p {
   margin-top: 0;
 }
 #attributionNote {
-  font-size: 0.8em;
   line-height: initial;
   color: #777;
 }
@@ -160,7 +158,7 @@ article pre {
 figure {
   background-color: #ddd2;
   border-radius: 0.4rem;
-  font-size: 0.825rem;
+  font-size: 0.86em;
   margin: 0.4rem;
   padding: 0.4rem;
 }
@@ -196,7 +194,7 @@ summary::-webkit-details-marker {
 }
 
 figcaption summary {
-  font-size: 0.92rem;
+  font-size: 1.12em;
   font-weight: 480;
   font-variant: all-small-caps;
   color: #555;
