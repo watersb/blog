@@ -16,7 +16,7 @@ samp {
 @media (pointer: coarse) {
   :root{
     font-size: calc(1em + 0.5vw);
-    /* -webkit-text-size-adjust: 110%; */
+    -webkit-text-size-adjust: 110%;
   }
 }@-moz-document url-prefix() {:root {font-size: 1em;}}
 /* HACK firefox pointer media query false positive */ 
