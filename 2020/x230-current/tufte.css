@@ -58,7 +58,7 @@
 }
 
 
-@media (min-width: 27.5rem)
+@media (min-width: 27.25rem)
    and (max-width: 39.99rem) {
      figure {
        display: flex;
