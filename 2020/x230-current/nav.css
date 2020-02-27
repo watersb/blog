@@ -23,6 +23,7 @@ body>header>nav>details>a {
   font-weight: 300;
   text-align: right;
   line-height: 2.5;
+  animation: fade 30s;
 }
 body>header>nav>details>a:hover {
   opacity: initial;
@@ -36,9 +37,8 @@ body>header>nav>details>a:visited {
 
 @media (pointer: coarse) {
   body>header>nav {
-    font-size: 2rem;
+    font-size: 2em;
     opacity: initial;
-/*     right: 1rem; */
   }
 }
 /* mozilla false-positive coarse pointer hack */
@@ -80,5 +80,15 @@ body>header>nav>details>a:visited {
     */
     main {
     margin-top: 1.5rem;
+  }
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
   }
 }
