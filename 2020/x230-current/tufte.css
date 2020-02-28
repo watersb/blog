@@ -59,6 +59,7 @@
 
 
 @media (min-width: 27.25rem)
+   and (min-width: 480px)
    and (max-width: 39.99rem) {
      figure {
        display: flex;
@@ -72,4 +73,14 @@
       figure:not(.fullwidth) img {
         max-width: 50vw;
       }
+}
+
+
+@media (min-width: 27.25rem)
+   and (max-width: 479px)
+{
+  figure.margin img {
+    width:40vw;
+    float: left;
+  }
 }
