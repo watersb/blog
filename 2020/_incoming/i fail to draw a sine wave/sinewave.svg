@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     >
+    <title>sine</title>
+  <defs>
+    <path stroke="#000" d="M0,0 C36.42,0,70.58,100,100,100" />
+  </defs>
+
+  <use xlink:href="#double-wave" x="0" y="0">
+    <!-- <animate attributeName="x" from="0" to="-200" dur="3s"
+             repeatCount="indefinite"/> -->
+  </use>
+</svg>

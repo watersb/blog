@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SVG</title>
+      <meta charset = "utf-8" />
+   </head>
+   <body>
+      <h2 align = "center">HTML5 SVG Sine Waves</h2>
+      <svg width = "100%" height = "200px">
+            <defs>
+         <path id="wave" fill="none" d="M0,0 C36.42,0,70.58,100,100,100" />
+            </defs>
+            <g stroke-width="2">
+                    <!-- <use xlink:href="#wave" stroke="green" /> -->
+                    <use xlink:href="#wave" stroke="red" />
+                    <use xlink:href="#wave" stroke="red" transform="translate(100,100),scale(1,-1)"/>
+            </g>
+            <rect x="0" y="0" width="10" height="10" fill="green" transform="rotate(100,10,10)" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="20%" height="400" viewBox="-7.5 -1.5 15 3">
+            <path d="M-6.283185307179586,0 C-5.770898683922994,0.5122866232565925 -5.280871621411688,1 -4.71238898038469,1 S-3.6538792768463857,0.5122866232565925 -3.141592653589793,0 S-2.1392789678218946,-1 -1.5707963267948966,-1 S-0.5122866232565925,-0.5122866232565925 0,0 S1.0023136857678987,1 1.5707963267948966,1 S2.6293060303332005,0.5122866232565925 3.141592653589793,0 S4.143906339357692,-1 4.71238898038469,-1 S5.770898683922994,-0.5122866232565925 6.283185307179586,0"/>
+        </svg>
+
+
+      <hr>
+
+      <svg viewBox="0 -70 700 110" width="100%" height="110" preserveAspectRatio="none">
+            <g >
+            <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#CEB964" />
+             <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#00273F" />
+             </g>
+           </svg>
+         
+   </body>
+</html>

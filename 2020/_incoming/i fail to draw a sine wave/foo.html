@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github Badges Style for Blog Category Labels</title>
+
+    <style>
+
+        #main-title {
+            font-family: sans-serif;
+            font-size: 3em;
+            margin: 0.1em;
+        }
+
+        .double-val-label {
+            display: table;
+            font-family: sans-serif;
+            margin: 0.4em;
+        }
+
+        .double-val-label>span {
+            background-color: #656565;
+            color: #ffffff;
+            display: table-cell;
+            font-size: 0.9em;
+            font-weight: 400;
+            line-height: 1;
+            padding: .3em .6em;
+            text-align: center;
+            vertical-align: baseline;
+            white-space: nowrap;
+        }
+
+        .double-val-label>span:first-child {
+            border-bottom-left-radius: 0.25em;
+            border-top-left-radius: .25em;
+        }
+
+        .double-val-label>span:nth-child(2) {
+            border-bottom-right-radius: 0.25em;
+            border-top-right-radius: .25em;
+        }
+
+        .double-val-label>span.primary {
+            background-color: #337ab7;
+        }
+
+        .double-val-label>span.success {
+            background-color: #5cb85c;
+        }
+
+        .double-val-label>span.info {
+            background-color: #5bc0de;
+        }
+
+        .double-val-label>span.warning {
+            background-color: #f0ad4e;
+        }
+
+        .double-val-label>span.danger {
+            background-color: #d9534f;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="main-title">Github Badges</p>
+
+    <div class="double-val-label">
+        <span class="primary">Primary</span>
+        <span>Badge</span>
+    </div>
+    <div class="double-val-label">
+        <span class="success">Success</span>
+        <span>Badge</span>
+    </div>
+    <div class="double-val-label">
+        <span class="warning">Warning</span>
+        <span>Badge</span>
+    </div>
+    <div class="double-val-label">
+        <span class="danger">Danger</span>
+        <span>Badge</span>
+    </div>
+
+    <div class="double-val-label">
+        <span class="danger">Primary</span>
+        <span><i class="fa fa-heart" aria-hidden="true"></i> Badge</span>
+    </div>
+</body>
+
+</html>
