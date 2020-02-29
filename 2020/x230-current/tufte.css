@@ -59,18 +59,17 @@
 
 
 @media (min-width: 27.25rem)
-   and (min-width: 480px)
    and (max-width: 39.99rem) {
-     figure {
+     figure.margin {
        display: flex;
        margin: 1.75em 0;
        align-items: flex-start;
       }
-     figcaption {
+     figure.margin figcaption {
        margin-left: 1em;
        width: 80vw;
       }
-      figure:not(.fullwidth) img {
+      figure.margin img {
         max-width: 50vw;
       }
 }
@@ -81,6 +80,5 @@
 {
   figure.margin img {
     width:40vw;
-    float: left;
   }
 }
