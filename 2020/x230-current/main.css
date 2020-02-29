@@ -30,6 +30,8 @@ html {
   --visited-link: #204;
   --glowing-link: drop-shadow(0 0 3px white);
   --contra-color: #622;
+  --credit-color: #777;
+  --footer-color: #555;
 }
 
 body {
@@ -84,7 +86,13 @@ img#cc-by-sa {
 }
 
 body>footer>time {
-  color: #555;
+  color: var(--footer-color);
+}
+#contact svg {
+  fill: var(--footer-color);
+}
+#contact svg:hover {
+  fill: var(--contra-color);
 }
 
 main {
