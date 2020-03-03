@@ -69,17 +69,25 @@ body>footer {
   padding: 0.8rem;
 }
 
-body>footer p {
+body>footer > * {
   margin-top: 0;
+  margin-bottom: 0.5em;
 }
-#attributionNote {
+.attribution {
   line-height: initial;
-  color: #777;
+  font-weight: 300;
 }
-@media (min-width: 600px){
-#attributionNote > span {
-  display: inline-block;
-}}
+p.attribution {
+  color: #777;
+margin-bottom: 0;
+}
+cite.attribution {
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: all-small-caps;
+  font-weight: 400;
+  display: block;
+}
 
 img#cc-by-sa {
   width: 120px;
@@ -87,6 +95,9 @@ img#cc-by-sa {
 
 body>footer>time {
   color: var(--footer-color);
+}
+#contact {
+  margin: 1em 0;
 }
 #contact svg {
   fill: var(--footer-color);
